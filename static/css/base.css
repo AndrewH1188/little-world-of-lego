@@ -4,7 +4,21 @@ html {
     height:100%
 }
 
+.border-black {
+    border: 1px solid black !important;
+}
 
+.btn-black {
+    background: black;
+    color: #fff;
+}
+
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: #fff;
+}
 
 /* from Bulma */
 /*
@@ -17,8 +31,11 @@ html {
 }
 */
 
-/* ------------------------------- Home Page */
 
+
+
+/* ------------------------------- Home Page */
+/* --------------- Nav icons */
 .my-account { 
     color: #e28913;
 }
@@ -34,13 +51,11 @@ html {
 }
 
 
-
-
+/* --------------------- Shop Now Buttons */
 .home-section-heading {
     font-size: 60px;
     font-weight: 400;
 }
-
 
 .homewear-shop-now {
     background-color: #1aa9e2;
@@ -49,13 +64,13 @@ html {
     text-align: center;
     width: 30%;
     height: 15%;
+  
 }
 
 .homewear-shop-now:hover {
     background-color: #189ace;
     border-color: #189ace;
 }
-
 
 .stationary-shop-now {
     background-color: #e28913;
@@ -70,8 +85,6 @@ html {
     background-color: #d17f14;
     border-color: #d17f14;
 }
-
-
 
 .gifts-shop-now {
     background-color: #1a67d8;
@@ -88,7 +101,6 @@ html {
     border-color: #134999;
 }
 
-
 .offers-shop-now {
     background-color: #e62d24;
     border-color: #e62d24;
@@ -103,12 +115,13 @@ html {
     border-color: #b9221a;
 }
 
-
+/* ------------- Dividing rules */
 .home-hr {
     border-top: 2px solid rgb(223, 223, 223);
     width: 90%;
 }
 
+/* ------------- Product home page section */
 .product-section-home-page{
     padding-top: 35px;
     padding-bottom: 35px;
