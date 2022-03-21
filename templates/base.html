@@ -1,5 +1,7 @@
 {% load static %}
 
+<!-- Code has been used from the Code Institute Boutique Ado Walkthrough project -->
+
 <!doctype html>
 <html lang="en">
 
@@ -40,11 +42,28 @@
     {% endblock %}
 
 
-    <title>Little World of Lego | Home</title>
+    <title>Little World of Lego {% block extra_title %}{% endblock %} </title>
 </head>
 
 <body>
+    <header class="container-fluid fixed-top"></header>
 
+    {% if messages %}
+    <div class="message-container">
+
+    </div>
+    {% endif %}
+
+
+{% block page_header %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+
+{% block postloadjs %}
+{% endblock %}
 </body>
 
 </html>
