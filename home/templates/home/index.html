@@ -3,9 +3,131 @@
 
 <title>{% block extra_title %}| Home{% endblock %}</title>
 
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
 <!-- Hero Image -->
 {% block content %}
 <div>
-<img class="home-hero" src="{{MEDIA_URL}}home-page-hero-image.jpg" alt="Lego Star Wars characters riding Lego bikes" width="100%">
+<img class="home-hero" src="{{MEDIA_URL}}home-page-hero.jpg" alt="Lego Star Wars characters riding Lego bikes" width="100%">
 </div>
+
+
+
+
+        <!-- Taken from my Go Tennis System MS1 and altered for my project -->
+
+  <!-- Homewear -->
+  <section class="product-section-home-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <img class="products-home" src="{{MEDIA_URL}}hiker-cushion-home-page.jpg" alt="" width="270em" height="270em">
+                </div>
+
+                <div class="col-12 col-sm-6">
+                    <h4 class="home-section-heading text-center"><strong>Homewear</strong></h4>
+                    <p class="section-text text-center">
+                        Shop our complete collection of <br>
+                        Cushions, Canvases and Framed Prints
+                    </p>
+                    <a href="">
+                    <button class="homewear-shop-now">Shop now ></button>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="home-hr">
+
+
+<!-- Stationary -->
+<section class="product-section-home-page">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <h4 class="home-section-heading text-center"><strong>Stationary</strong></h4>
+            <p class="section-text text-center">
+                Shop our complete collection of <br>
+                Notebooks, Wall and Desktop Calendars
+
+            </p>
+            <a href="">
+            <button class="stationary-shop-now">Shop now ></button>
+        </a>
+        
+        </div>
+
+        <div class="col-12 col-sm-6">
+            
+            <img class="products-home" src="{{MEDIA_URL}}sand-surfer-desktop-calendar.jpg" alt="" width="270em" height="270em">
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<hr class="home-hr">
+
+
+<!-- Gifts -->
+<section class="product-section-home-page">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <img class="products-home" src="{{MEDIA_URL}}segway-agent-fridge-magnet-small.jpg" alt="" width="270em" height="270em">
+        </div>
+
+        <div class="col-12 col-sm-6">
+            <h4 class="home-section-heading text-center"><strong>Gifts</strong></h4>
+            <p class="section-text text-center">
+                Shop our complete collection of <br>
+                of Cards and Fridge Magnets
+            </p>
+            <a href="">
+            <button class="gifts-shop-now">Shop now ></button>
+        </a>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<hr class="home-hr">
+
+
+<!-- Offers -->
+<section class="product-section-home-page">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6">
+            <h4 class="home-section-heading text-center"><strong>Offers</strong></h4>
+            <p class="section-text text-center">
+                Shop our complete collection of <br>
+                Deals and Special Offers
+
+            </p>
+            <a href="">
+            <button class="offers-shop-now">Shop now ></button>
+        </a>
+        
+        </div>
+
+        <div class="col-12 col-sm-6">
+            
+            <img class="products-home" src="{{MEDIA_URL}}santa-framed-home-page.jpg" alt="" width="270em" height="270em">
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
 {% endblock %}
