@@ -27,12 +27,16 @@
 
 
     {% block corejs %}
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
@@ -41,13 +45,83 @@
     {% block extra_js %}
     {% endblock %}
 
-
+    <link rel="icon" href="{{MEDIA_URL}}lwol-favicon.jpg">
     <title>Little World of Lego {% block extra_title %}{% endblock %} </title>
 </head>
 
 <body>
-    <header class="container-fluid fixed-top"></header>
+    <header class="container-fluid fixed-top">
+        <div class="row">
+            <div class="col-12 col-lg-4 my-auto py-lg-3">
+                <a href="{% url 'home' %}">
+                    <img class="lwol-logo-nav" src="{{MEDIA_URL}}lwol-logo.jpg" alt="Little World of Lego Logo"
+                        width="150rem">
+                </a>
+            </div>
+            <!-- Search -->
+            <div class="col-12 col-lg-4 my-auto py-lg-3">
+                <form method="GET" action="#####">
+                    <div class="input-group w-100">
+                        <input type="text" class="form-control border border-black rounded-0" name="q"
+                            placeholder="Save time, Search here">
+                        <div class="input-group-append">
+                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                                <span class="magnifying glass icon">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Account, Wishlist and Basket -->
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    <!-- Account -->
+                    <li class="list-inline-item dropdown">
+                        <a class="text-black nav-link" href="#####" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center">
+                                <span class="user icon">
+                                <div><i class="fa-solid fa-user fa-lg"></i></div>
+                                </span>
+                                <p class="my-0">My Account</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                <a href="" class="dropdown-item">Product Management</a>
+                                {% endif %}
+                                <a href="" class="dropdown-item">My Profile</a>
+                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            {% else %}
+                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                {% endif %}
+                        </div>
+                    </li>
 
+                    <!-- Wishlist -->
+                    <li class="list-inline-item">
+                    <span class="heart icon"></span>
+                        <i class=”fa-solid fa-heart fa-lg”></i>
+                    </span>
+                    <p class="my-0">Wish List</p>
+                    </li>
+
+                    <!-- Basket -->
+                    <li class="list-inline-item dropdown">
+                        <span class="basket icon">
+                        <i class="fa-solid fa-basket-shopping fa-lg"></i>
+                    </span>
+                        <p class="my-0">£</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Toasts -->
     {% if messages %}
     <div class="message-container">
 
@@ -55,15 +129,15 @@
     {% endif %}
 
 
-{% block page_header %}
-{% endblock %}
+    {% block page_header %}
+    {% endblock %}
 
-{% block content %}
-{% endblock %}
+    {% block content %}
+    {% endblock %}
 
 
-{% block postloadjs %}
-{% endblock %}
+    {% block postloadjs %}
+    {% endblock %}
 </body>
 
 </html>

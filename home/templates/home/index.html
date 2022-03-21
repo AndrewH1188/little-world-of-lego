@@ -1,12 +1,11 @@
 {% extends "base.html" %}
 {% load static %}
 
+<title>{% block extra_title %}| Home{% endblock %}</title>
+
+<!-- Hero Image -->
 {% block content %}
 <div>
-<img class="home-hero" src="{{MEDIA_URL}}home-page-hero-image.jpg" alt="Lego Star Wars characters riding Lego bikes">
+<img class="home-hero" src="{{MEDIA_URL}}home-page-hero-image.jpg" alt="Lego Star Wars characters riding Lego bikes" width="100%">
 </div>
-
-
-
-
 {% endblock %}
