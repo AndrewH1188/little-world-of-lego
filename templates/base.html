@@ -19,7 +19,7 @@
 
     {% block corecss %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
     {% endblock %}
 
     {% block extra_css %}
@@ -28,7 +28,7 @@
 
     {% block corejs %}
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/14fbbe1178.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -103,22 +103,40 @@
 
                     <!-- Wishlist -->
                     <li class="list-inline-item">
-                    <span class="heart icon"></span>
+                        <a class="wish-list nav-link" href="#####">
+                            <div class="text-center">
+                    <span class="heart icon">
                         <i class=”fa-solid fa-heart fa-lg”></i>
                     </span>
                     <p class="my-0">Wish List</p>
+                </div>
+            </a>
                     </li>
 
                     <!-- Basket -->
-                    <li class="list-inline-item dropdown">
-                        <span class="basket icon">
+                    <li class="list-inline-item">
+                        <a class="{% if grand_total%}text-info foont-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <div class="text-center">
+                            <span class="basket icon">
                         <i class="fa-solid fa-basket-shopping fa-lg"></i>
                     </span>
-                        <p class="my-0">£</p>
+                        <p class="my-0">
+                            {% if grand_total %}
+                            £{{ grand_total|floatformat:2 }}
+                            {% else %}
+                            £0.00
+                            {% endif %}
+                        </p>
+                    </div>
+                </a>
                     </li>
                 </ul>
             </div>
         </div>
+
+
+
+
     </header>
 
     <!-- Toasts -->
