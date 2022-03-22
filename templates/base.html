@@ -86,7 +86,7 @@
                         <a class="text-black nav-link" href="#####" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <span class="user icon">
+                                <span class="user-icon">
                                     <div><i class="fas fa-user fa-lg my-account"></i></div>
                                 </span>
                                 <p class="my-0">My Account</p>
@@ -107,7 +107,7 @@
                     </li>
                     <!-- Wishlist -->
                     <li class="list-inline-item">
-                        <a class="wish-list nav-link" href="">
+                        <a class="nav-link" href="">
                             <div class="text-center">
                                 <span class="heart-icon">
                                     <div><i class="fas fa-heart fa-lg wish-list"></i></div>
@@ -121,7 +121,7 @@
                         <a class="{% if grand_total%}text-info foont-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="">
                             <div class="text-center">
-                                <span class="basket icon">
+                                <span class="basket-icon">
                                     <div><i class="fa fa-shopping-basket fa-lg my-basket"></i></div>
                                 </span>
                                 <p class="my-0">
@@ -173,73 +173,7 @@
     {% endblock %}
 
 
-<!-- Taken from my Go Tennis System MS1 and altered for my project -->
-
-    <section class="footer">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start">
-                        <p class="email-sign-up footer-heading">Subscribe to our newsletters:</p>
-                        
-
-
-
-                    </div>
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4 text-md-start social">
-                        <p class="follow-us footer-heading">Connect with us socially:</p>
-                        <ul class="social-media">
-                            <li class="list-inline-item social-media">
-                                <a href="https://www.facebook.com/groups/4103083309803153/" target="_blank">
-                                    <i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-
-                            <li class="list-inline-item social-media">
-                                <a href="https://twitter.com/LittleLegoWorld" target="_blank">
-                                    <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-                                    <span class="sr-only">Twitter</span>
-                                </a>
-                            </li>
-
-                            <li class="list-inline-item social-media">
-                                <a href="https://www.instagram.com/little_world_of_lego/" target="_blank">
-                                    <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-
-                            <li class="list-inline-item social-media">
-                                <a href="https://www.linkedin.com/groups/9163847" target="_blank">
-                                    <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
-                                    <span class="sr-only">Linkedin</span>
-                                </a>
-                            </li>
-                        </ul>
-
-
-                    </div>
-                    <hr class="w-100 clearfix d-md-none" />
-                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4">
-                        <p class="footer-heading">T&Cs</p>
-                        <p class="footer-heading">privacy</p> 
-
-                    </div>
-                </div>
-            </div>
-            <hr class="w-100 clearfix d-md-none" />
-
-            <p class="footer-credit"><em>This site has been designed by Andrew Harding and made for educational purposes only.
-                Unfortunately no orders can or will be fulfilled.</em></p>
-            <p class="lego-tm">The name Lego is copyright and a trademark of the Lego Group</p>
-        </footer>
-    </section>
-
-
-
+    {% include 'includes/footer.html' %}
 
 </body>
 
