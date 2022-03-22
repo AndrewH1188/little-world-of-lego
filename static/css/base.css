@@ -163,6 +163,7 @@ button.offers-shop-now.btn.rounded-0:hover {
     background: #fece2f;
     padding-bottom: 10px;
     padding-top: 10px;
+    width: 100vw;
 }
 
 .footer-heading {

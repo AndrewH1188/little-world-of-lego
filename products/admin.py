@@ -15,6 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
         'image',
     )
 
+    """Sorts products by sku"""
     ordering = ('sku',)
 
 class CategoryAdmin(admin.ModelAdmin):
