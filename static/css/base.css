@@ -50,7 +50,6 @@ html {
     color: #1aa9e3;
 }
 
-
 /* --------------------- Shop Now Buttons */
 .home-section-heading {
     font-size: 60px;
@@ -127,6 +126,46 @@ button.offers-shop-now.btn.rounded-0:hover {
 }
 
 
+/* -------------------------------------------- Footer */
+.footer {
+    background: #fece2f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer-heading {
+    text-align: center;
+    color: #1a67d8;
+}
+
+
+/* ------ Social Media styling used from my Go Tennis MS1 but colours amended */
+.social-media {
+    font-size: 20px;
+    padding-right: 16px;
+    text-align: center;
+  }
+  
+  .social-media a {
+    color: #1a67d8;
+  }
+  
+  .social-media a:hover {
+    color: #6e97af;
+  }
+
+
+.footer-credit {
+    text-align: center;
+    font-size: small;
+}
+
+.lego-tm {
+    font-size: x-small;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
