@@ -50,6 +50,14 @@ html {
     color: #1aa9e3;
 }
 
+/* --------------- Delivery Banner */
+.delivery-bg {
+    background: #fece2f;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
 /* --------------------- Shop Now Buttons */
 .home-section-heading {
     font-size: 60px;
@@ -58,62 +66,57 @@ html {
 
 button.homewear-shop-now.btn.rounded-0 {
     background-color: #1aa9e2;
-    border-color: #1aa9e2;
     color: #fff;
     text-align: center;
-    width: 30%;
-    height: 15%;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 button.homewear-shop-now.btn.rounded-0:hover {
     background-color: #1482ad;
-    border-color: #1482ad;
 }
 
 button.stationary-shop-now.btn.rounded-0 {
     background-color: #e28913;
-    border-color: #e28913;
     color: #fff;
     text-align: center;
-    width: 30%;
-    height: 15%;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 button.stationary-shop-now.btn.rounded-0:hover {
     background-color: #c77100;
-    border-color: #c77100;
 }
 
 button.gifts-shop-now.btn.rounded-0 {
     background-color: #1a67d8;
-    border-color: #1a67d8;
     color: #fff;
     text-align: center;
-    width: 30%;
-    height: 15%;
-    justify-items: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 button.gifts-shop-now.btn.rounded-0:hover {
     background-color: #134999;
-    border-color: #134999;
 }
 
 button.offers-shop-now.btn.rounded-0 {
     background-color: #e62d24;
-    border-color: #e62d24;
     color: #fff;
     text-align: center;
-    width: 30%;
-    height: 15%;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    display: block;
 }
 
 button.offers-shop-now.btn.rounded-0:hover {
     background-color: #a3150d;
-    border-color: #a3150d;
 }
 
-/* ------------- Dividing rules */
+/* ------------- Dividing rules on home page */
 .home-hr {
     border-top: 2px solid rgb(223, 223, 223);
     width: 90%;
@@ -123,6 +126,35 @@ button.offers-shop-now.btn.rounded-0:hover {
 .product-section-home-page{
     padding-top: 35px;
     padding-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- error page */
+/* Code used from Code Institute Boutique Ado walkthrough project */
+.error-page-bg {
+        background: url('/media/error-page-image.jpg') no-repeat center center fixed;
+        background-size: cover;
+    height: calc(100vh - 164px);
 }
 
 
@@ -137,7 +169,6 @@ button.offers-shop-now.btn.rounded-0:hover {
     text-align: center;
     color: #1a67d8;
 }
-
 
 /* ------ Social Media styling used from my Go Tennis MS1 but colours amended */
 .social-media {
