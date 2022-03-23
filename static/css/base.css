@@ -228,3 +228,19 @@ button.offers-shop-now.btn.rounded-0:hover {
     }
 }
 
+
+
+
+/* ------------------------------- Mobile Screens */
+@media (max-width: 376px) {
+    .home-hero {
+        padding-top: 16em;
+    }
+
+    /* ------------------------------- NOT WORKING AND NEEDS ATTENTION - 
+    THIS IS TO TRY AND PUSH PRODUCTS DOWN SO THAT THE FREE DELIVERY ISN'T HIDING THEM ON MOBILES */
+    .product-details {
+        margin-top: 151em;
+    }
+
+}
