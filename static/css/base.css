@@ -20,17 +20,9 @@ html {
     color: #fff;
 }
 
-/* from Bulma */
-/*
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+.text-black {
+    color: #000 !important;
 }
-*/
-
 
 
 
@@ -40,12 +32,24 @@ html {
     color: #e28913;
 }
 
+.my-account:hover { 
+    color: #be700a;
+}
+
 .wish-list { 
     color: #e52d23;
 }
 
+.wish-list:hover { 
+    color: #b92e27;
+}
+
 .my-basket {
     color: #1aa9e3;
+}
+
+.my-basket:hover  {
+    color: #1a8ab6;
 }
 
 .search-icon {
@@ -137,16 +141,22 @@ button.offers-shop-now.btn.rounded-0:hover {
 
 
 
+/* ------------- Product page */
+
+.badge-category {
+    background: #1a67d8;
+    color: #fff;
+}
+
+.badge-category:hover {
+    background: #1150ad;
+    color: #fff;
+}
 
 
-
-
-
-
-
-
-
-
+div.row.product-detail {
+    padding-top: 9%;
+}
 
 
 
@@ -244,10 +254,7 @@ button.offers-shop-now.btn.rounded-0:hover {
         padding-top: 16em;
     }
 
-    /* ------------------------------- NOT WORKING AND NEEDS ATTENTION - 
-    THIS IS TO TRY AND PUSH PRODUCTS DOWN SO THAT THE FREE DELIVERY ISN'T HIDING THEM ON MOBILES */
-    .product-details {
-        margin-top: 151em;
+    div.row.product-detail {
+        padding-top: 80%;
     }
-
 }
