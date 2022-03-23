@@ -64,7 +64,7 @@
             </div>
             <!-- Search -->
             <div class="col-12 col-lg-4 my-auto py-lg-3">
-                <form method="GET" action="#####">
+                <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input type="text" class="form-control border border-black rounded-0" name="q"
                             placeholder="Save time, Search here">
@@ -89,7 +89,7 @@
                                 <span class="user-icon">
                                     <div><i class="fas fa-user fa-lg my-account"></i></div>
                                 </span>
-                                <p class="my-0">My Account</p>
+                                <p class="my-0 nav-home-icon-text">My Account</p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -112,7 +112,7 @@
                                 <span class="heart-icon">
                                     <div><i class="fas fa-heart fa-lg wish-list"></i></div>
                                 </span>
-                                <p class="my-0">Wish List</p>
+                                <p class="my-0 nav-home-icon-text">Wish List</p>
                             </div>
                         </a>
                     </li>
@@ -124,7 +124,7 @@
                                 <span class="basket-icon">
                                     <div><i class="fa fa-shopping-basket fa-lg my-basket"></i></div>
                                 </span>
-                                <p class="my-0">
+                                <p class="my-0 my-basket">
                                     {% if grand_total %}
                                     £{{ grand_total|floatformat:2 }}
                                     {% else %}

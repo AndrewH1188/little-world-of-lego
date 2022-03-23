@@ -40,15 +40,22 @@ html {
     color: #e28913;
 }
 
-
 .wish-list { 
     color: #e52d23;
 }
 
-
 .my-basket {
     color: #1aa9e3;
 }
+
+.search-icon {
+    color: #000;
+}
+
+.nav-home-icon-text {
+    color: #000;
+}
+
 
 /* --------------- Delivery Banner */
 .delivery-bg {
