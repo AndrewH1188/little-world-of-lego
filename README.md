@@ -269,14 +269,14 @@ By BioSteak
 File #: 6599840
 
 
-** Bricks used in the logo **
+### Bricks used in the logo
 [Set of building bricks in red color](https://stock.adobe.com/uk/images/set-of-building-bricks-in-red-color/422371679?asset_id=422371679)
 By giadophoto
 File #: 422371679
 
 
 ##### Homewear Products Page:
-** Canvasses **
+### Canvasses
 [Canvas for painting, close-up](https://stock.adobe.com/uk/images/canvas-for-painting-close-up/295267084)
 By Allusioni
 File #: 295267084
@@ -317,7 +317,7 @@ By Superbelfrzy
 File #: 1506521
 
 
-** Cushions **
+### Cushions
 [cushion on a white background](https://stock.adobe.com/uk/images/cushion-on-a-white-background/137455749)
 By bennnn
 File #: 137455749
@@ -362,7 +362,7 @@ By ejaugsburg
 File #: 352113
 
 
-** Framed Photos **
+### Framed Photos
 [blank black horizontal picture frame on the white concrete wall](https://stock.adobe.com/uk/images/blank-black-horizontal-picture-frame-on-the-white-concrete-wall/69991288)
 By mtlapcevic
 File #: 69991288
@@ -405,7 +405,7 @@ File #: 281935
 
 
 ### Stationary Products Page:
-** Desktop Calendar **
+### Desktop Calendar
 White blank paper desk spiral calendar on white background.
 https://stock.adobe.com/uk/images/white-blank-paper-desk-spiral-calendar-on-white-background/181879946
 By resul
@@ -431,7 +431,7 @@ By BioSteak
 File #: 6607553
 
 
-** Wall Calendar **
+### Wall Calendar
 [2022 Calendar](https://stock.adobe.com/uk/templates/2022-calendar/461579195)
 By Iunewind
 File #: 461579195
@@ -452,7 +452,7 @@ By 501stCommanderMax
 File #: 4793257
 
 
-** Notebooks **
+### Notebooks
 [White book mockup with a dried grass in a vase on the beige table](https://stock.adobe.com/uk/images/white-book-mockup-with-a-dried-grass-in-a-vase-on-the-beige-table/405793350)
 By Snoflinga
 File #: 405793350
@@ -498,7 +498,7 @@ File #: 4773016
 
 
 ### Gifts Products Page:
-** Fridge Magnets **
+### Fridge Magnets
 [Flexible vinyl souvenir fridge magnet](https://stock.adobe.com/uk/images/flexible-vinyl-souvenir-fridge-magnet/480869428)
 By Kuzmick
 File #:  480869428
@@ -542,7 +542,7 @@ By BioSteak
 File #: 6599840
 
 
-** Cards **
+### Cards 
 [3d white blank paper card](https://stock.adobe.com/uk/images/3d-white-blank-paper-card/98956136)
 By sveta
 File #: 98956136
