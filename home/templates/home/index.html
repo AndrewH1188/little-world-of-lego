@@ -12,7 +12,6 @@
 </div>
 {% endblock %}
 
-
 {% block content %}
 <!-- Hero Image -->
 <div>
@@ -26,22 +25,20 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6">
-                <img class="products-home" src="{{MEDIA_URL}}hiker-cushion-home-page.jpg" alt="" width="270em"
-                    height="270em">
+                <img class="products-home" src="{{MEDIA_URL}}hiker-cushion-home-page.jpg" alt="Lego hiker on cushion"
+                    width="270em" height="270em">
             </div>
-
             <div class="col-12 col-sm-6">
                 <h4 class="home-section-heading text-center"><strong>Homewear</strong></h4>
                 <p class="section-text text-center">
                     Shop our complete collection of <br>
                     Cushions, Canvases and Framed Prints
                 </p>
-                <a href="">
+                <a href="{% url 'products' %}?category=cushions,canvasses,framed_prints">
                     <button class="homewear-shop-now btn rounded-0">Shop now ></button>
                 </a>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -56,21 +53,16 @@
                 <p class="section-text text-center">
                     Shop our complete collection of <br>
                     Notebooks, Wall and Desktop Calendars
-
                 </p>
-                <a href="">
+                <a href="{% url 'products' %}?category=notebooks,wall_calendars,desktop_calendars">
                     <button class="stationary-shop-now btn rounded-0">Shop now ></button>
                 </a>
-
             </div>
-
             <div class="col-12 col-sm-6">
-
-                <img class="products-home" src="{{MEDIA_URL}}sand-surfer-desktop-calendar.jpg" alt="" width="270em"
-                    height="270em">
+                <img class="products-home" src="{{MEDIA_URL}}sand-surfer-desktop-calendar.jpg"
+                    alt=" Desktop calendar with Lego sand surfer picture" width="270em" height="270em">
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -81,22 +73,20 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6">
-                <img class="products-home" src="{{MEDIA_URL}}segway-agent-fridge-magnet-small.jpg" alt="" width="270em"
-                    height="270em">
+                <img class="products-home" src="{{MEDIA_URL}}segway-agent-fridge-magnet-small.jpg"
+                    alt="Magnet with Lego agent on segway" width="270em" height="270em">
             </div>
-
             <div class="col-12 col-sm-6">
                 <h4 class="home-section-heading text-center"><strong>Gifts</strong></h4>
                 <p class="section-text text-center">
                     Shop our complete collection of <br>
                     of Cards and Fridge Magnets
                 </p>
-                <a href="">
+                <a href="{% url 'products' %}?category=cards,magnets">
                     <button class="gifts-shop-now btn rounded-0">Shop now ></button>
                 </a>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -111,21 +101,16 @@
                 <p class="section-text text-center">
                     Shop our complete collection of <br>
                     Deals and Special Offers
-
                 </p>
-                <a href="">
+                <a href="{% url 'products' %}?category=new_arrivals,deals,sale">
                     <button class="offers-shop-now btn rounded-0">Shop now ></button>
                 </a>
-
             </div>
-
             <div class="col-12 col-sm-6">
-
-                <img class="products-home" src="{{MEDIA_URL}}santa-framed-home-page.jpg" alt="" width="270em"
-                    height="270em">
+                <img class="products-home" src="{{MEDIA_URL}}santa-framed-home-page.jpg"
+                    alt="Print of Lego Santa in a frame" width="270em" height="270em">
             </div>
         </div>
-    </div>
     </div>
 </section>
 
