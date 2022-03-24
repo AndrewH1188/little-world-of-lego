@@ -84,7 +84,7 @@
                     <!-- Account -->
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#####" id="user-options" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                            aria-haspopup="true" aria-expanded="false"> <!-- NEED TO ADD LINK HERE-->
                             <div class="text-center">
                                 <span class="user-icon">
                                     <div><i class="fas fa-user fa-lg my-account"></i></div>
@@ -95,7 +95,7 @@
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item">Product Management</a>
+                            <a href="" class="dropdown-item">Product Management</a> <!-- NEED TO ADD LINK HERE-->
                             {% endif %}
                             <a href="" class="dropdown-item">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -107,7 +107,7 @@
                     </li>
                     <!-- Wishlist -->
                     <li class="list-inline-item">
-                        <a class="nav-link" href="">
+                        <a class="nav-link" href=""> <!-- NEED TO ADD LINK HERE-->
                             <div class="text-center">
                                 <span class="heart-icon">
                                     <div><i class="fas fa-heart fa-lg wish-list"></i></div>
@@ -119,7 +119,7 @@
                     <!-- Basket -->
                     <li class="list-inline-item">
                         <a class="{% if grand_total%}text-info foont-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="">
+                            href="{% url 'view_basket' %}">
                             <div class="text-center">
                                 <span class="basket-icon">
                                     <div><i class="fa fa-shopping-basket fa-lg my-basket"></i></div>

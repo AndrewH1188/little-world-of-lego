@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+<title>{% block extra_title %}| Basket{% endblock %}</title>
+
+<!-- Taken from my Code Institute Boutique Ado walkthrough project -->
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container mb-2">
+    <div class="row">
+        <div class="col text-center">
+            <h2 class="h2-page-header">My Basket</h2>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col">
+        {% if basket_items %}
+        <div class="table-responsive rounded"></div>
+        {% else %}
+        <p class="lead mb-5">Your basket is empty.</p>
+        <a href="{% url 'products' %}" class="btn rounded-0 btn-lg keep-shopping-button">
+            <span class="icon">
+                <i class="fas fa-angle-left"></i>
+            </span>
+            <span>Keep Shopping</span>
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+
+</div>
+{% endblock %}

@@ -36,9 +36,9 @@
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
         {% if request.user.is_authenticated %}
         {% if request.user.is_superuser %}
-        <a href="" class="dropdown-item">Product Management</a>
+        <a href="" class="dropdown-item">Product Management</a> <!-- NEED TO ADD LINK HERE-->
         {% endif %}
-        <a href="" class="dropdown-item">My Profile</a>
+        <a href="" class="dropdown-item">My Profile</a> <!-- NEED TO ADD LINK HERE-->
         <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
         {% else %}
         <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -50,7 +50,7 @@
 <!-- Wish List -->
 <li class="list-inline-item dropdown">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="user.options" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
+        aria-haspopup="true" aria-expanded="false"> <!-- NEED TO ADD LINK HERE-->
         <div class="text-center">
             <div><i class="fas fa-heart fa-lg wish-list"></i></div>
             <p class="my-0 nav-home-icon-text">Wish List</p>
@@ -61,7 +61,7 @@
 <!-- My Basket-->
 <li class="list-inline-item">
     <a class="{% if grand_total %} font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
-        href="">
+        href="{% url 'view_basket' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-bag fa-lg my-basket"></i></div>
             <p class="my-0 my-basket">

@@ -161,6 +161,25 @@ div.row.product-detail {
 
 
 
+
+/* ------------- Basket page */
+.h2-page-header {
+    padding-top: 3em;
+}
+
+.keep-shopping-button {
+    background-color: #1a67d8;
+    color: #fff;
+}
+
+.keep-shopping-button:hover {
+    border-color: #1a67d8;
+    background-color: #fff;
+    color: #1a67d8;
+}
+
+
+
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
 /* back to top button */
@@ -177,8 +196,6 @@ div.row.product-detail {
 .remove-item {
     cursor: pointer;
 }
-
-
 
 
 /* ------------------------------------- error page */
