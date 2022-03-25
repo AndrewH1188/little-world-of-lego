@@ -180,7 +180,19 @@ div.row.product-detail {
     background-color: #fff;
     color: #1a67d8;
 }
+.add-review-button,
+.wish-list-button {
+    border-color: #1a67d8;
+    font-size: x-small;
+}
 
+.wish-list-button:hover {
+    color: #e62d24;
+}
+
+.add-review-button:hover {
+    color: #1a67d8;
+}
 
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
