@@ -87,6 +87,7 @@
                             aria-haspopup="true" aria-expanded="false"> <!-- NEED TO ADD LINK HERE-->
                             <div class="text-center">
                                 <span class="user-icon">
+                                    <span class="sr-only">User icon</span>
                                     <div><i class="fas fa-user fa-lg my-account"></i></div>
                                 </span>
                                 <p class="my-0 nav-home-icon-text">My Account</p>
@@ -110,6 +111,7 @@
                         <a class="nav-link" href=""> <!-- NEED TO ADD LINK HERE-->
                             <div class="text-center">
                                 <span class="heart-icon">
+                                    <span class="sr-only">Heart icon</span>
                                     <div><i class="fas fa-heart fa-lg wish-list"></i></div>
                                 </span>
                                 <p class="my-0 nav-home-icon-text">Wish List</p>
@@ -122,6 +124,7 @@
                             href="{% url 'view_basket' %}">
                             <div class="text-center">
                                 <span class="basket-icon">
+                                    <span class="sr-only">Basket icon</span>
                                     <div><i class="fa fa-shopping-basket fa-lg my-basket"></i></div>
                                 </span>
                                 <p class="my-0 my-basket">
@@ -142,6 +145,7 @@
             <nav class="navbar navbar-expand-lg navbar-light w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                    <span class="sr-only">Toggler icon</span>
                 </button>
                 {% include 'includes/mobile-top-header.html' %}
                 {% include 'includes/main-nav.html' %}
