@@ -128,6 +128,8 @@ button.offers-shop-now.btn.rounded-0:hover {
     background-color: #a3150d;
 }
 
+
+
 /* ------------- Dividing rules on home page */
 .home-hr {
     border-top: 2px solid rgb(223, 223, 223);
@@ -167,12 +169,14 @@ div.row.product-detail {
     padding-top: 3em;
 }
 
-.keep-shopping-button {
+.keep-shopping-button,
+.add-to-basket-button {
     background-color: #1a67d8;
     color: #fff;
 }
 
-.keep-shopping-button:hover {
+.keep-shopping-button:hover,
+.add-to-basket-button:hover {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
@@ -275,6 +279,7 @@ div.row.product-detail {
     .header-container {
         padding-top: 164px;
     }
+
 }
 
 
@@ -286,7 +291,22 @@ div.row.product-detail {
         padding-top: 16em;
     }
 
-    div.row.product-detail {
-        padding-top: 80%;
+    .home-section-heading {
+        font-size: xx-large;
     }
+
+    .free-del-text {
+        font-size: medium;
+    }
+
+
+    div.row.product-detail {
+        padding-top: 100%;
+    }
+
+    .products-home {
+        width: 100%; 
+        height: 100%;
+    }
+
 }
