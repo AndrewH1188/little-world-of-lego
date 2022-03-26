@@ -46,7 +46,7 @@
                             <p class="my-0">£{{ item.product.price }}</p>
                         </td>
                         <td class="py-3 w-25">
-                            <form method="POST" action="">
+                            <form class="form update-form" method="POST" action="{% url 'adjust_basket' item.item_id %}">
                                 {% csrf_token %}
                                 <div class="form-group">
                                     <div class="input-group">
@@ -92,7 +92,7 @@
                     </tr>
                     <tr>
                         <td colspan="5" class="text-right">
-                            <a href="{% url 'products' %}" class="btn rounded-0 btn-lg keep-shopping-button">
+                            <a href="{% url 'products' %}" class="btn rounded-0 btn-lg secure-checkout-button">
                                 <span>Secure Checkout</span>
                                     <i class="fas fa-lock"></i>
                                     <span class="sr-only">Lock icon</span>
@@ -122,15 +122,15 @@
 <script type="text/javascript">
     // Update qty on click
     $('.update-link').click(function(e) {
-        var form = $(this).prev('update-form');
+        var form = $(this).prev('.update-form');
         form.submit();
     })
 
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
-        var csrf_Token = "{{csrf_token}}";
-        var itemId = $(this).attr('id').split('remove')[1];
-        var url = `basket/remove/${itemId}`;
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/basket/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken};
 
         $.post(url, data)
@@ -139,5 +139,4 @@
         });
     })
 </script>
-
 {% endblock %}

@@ -169,13 +169,15 @@ div.row.product-detail {
 }
 
 .keep-shopping-button,
-.add-to-basket-button {
+.add-to-basket-button,
+.secure-checkout-button {
     background-color: #1a67d8;
     color: #fff;
 }
 
 .keep-shopping-button:hover,
-.add-to-basket-button:hover {
+.add-to-basket-button:hover,
+.secure-checkout-button:hover {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
