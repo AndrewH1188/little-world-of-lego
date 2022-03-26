@@ -196,6 +196,25 @@ div.row.product-detail {
     color: #1a67d8;
 }
 
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+
+/* -------------------------------------------- Bootstrap Toasts */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
