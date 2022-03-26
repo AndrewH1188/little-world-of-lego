@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
@@ -45,16 +45,21 @@ def adjust_basket(request, item_id):
 # Not working just yet - look into this
 def remove_from_basket(request, item_id):
     """ Remove a product from our basket """
-    try:
-        if 'product' in request.POST:
-            basket=request.session.get('basket',{})
 
-        del basket[item_id]
-        basket.pop(item_id)
+    try:
+        product = None
+        if 'product' in request.POST:
+            product = request.POST['product']
+        basket = request.session.get('basket', {})
+
+        if product:
+            del basket[item_id]
+            basket.pop(item_id)
+        else:
+            basket.pop(item_id)
 
         request.session['basket'] = basket
         return HttpResponse(status=200)
+
     except Exception as e:
         return HttpResponse(status=500)
-
-
