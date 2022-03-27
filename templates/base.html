@@ -81,8 +81,8 @@
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <!-- Account -->
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#####" id="user-options" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false"> <!-- NEED TO ADD LINK HERE-->
+                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <span class="user-icon">
                                     <span class="sr-only">User icon</span>
@@ -96,7 +96,7 @@
                             {% if request.user.is_superuser %}
                             <a href="" class="dropdown-item">Product Management</a> <!-- NEED TO ADD LINK HERE-->
                             {% endif %}
-                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="" class="dropdown-item">My Profile</a> <!-- NEED TO ADD LINK HERE-->
                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                             {% else %}
                             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>

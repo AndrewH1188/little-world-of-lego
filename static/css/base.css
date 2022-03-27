@@ -311,16 +311,64 @@ div.row.product-detail {
     .header-container {
         padding-top: 164px;
     }
-
 }
 
+/* ------------------------------- Tablet Screens */
+@media (max-width: 820px) {
+    .home-hero {
+        padding-top: 7em;
+    }
+
+    .home-section-heading {
+        font-size: xx-large;
+    }
+
+    .h2-page-header {
+        padding-top: 20%;
+    }
+
+    .free-del-text {
+        font-size: medium;
+    }
+
+    div.row.product-detail {
+        padding-top: 20%;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .home-hero {
+        padding-top: 13em;
+    }
+
+    .home-section-heading {
+        font-size: xx-large;
+    }
+
+    .h2-page-header {
+        padding-top: 20%;
+    }
+
+    .free-del-text {
+        font-size: medium;
+    }
+
+    div.row.product-detail {
+        padding-top: 20%;
+    }
+}
 
 
 
 /* ------------------------------- Mobile Screens */
 @media (max-width: 376px) {
     .home-hero {
-        padding-top: 16em;
+        padding-top: 13em;
     }
 
     .home-section-heading {
@@ -331,9 +379,8 @@ div.row.product-detail {
         font-size: medium;
     }
 
-
     div.row.product-detail {
-        padding-top: 100%;
+        padding-top: 80%;
     }
 
     .products-home {
@@ -341,4 +388,19 @@ div.row.product-detail {
         height: 100%;
     }
 
+    .product-container {
+        padding-top: 5em;
+    }
+
+}
+
+/* ------------------------------- Smaller Mobile Screens like galaxy fold */
+@media (max-width: 280px) {
+    .home-hero {
+        padding-top: 17em;
+    }
+
+    .product-container {
+        padding-top: 10em;
+    }
 }
