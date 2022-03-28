@@ -4,7 +4,7 @@ from .models import Order
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
-class OrderForm(form.ModelForm):
+class OrderForm(forms.ModelForm):
     class Meta:
         model = Order
         fields = ('full_name', 'email', 'phone_number',
