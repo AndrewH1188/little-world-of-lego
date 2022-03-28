@@ -30,7 +30,6 @@
         aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
             <div><i class="fas fa-user fa-lg my-account"></i></div>
-            <!-- <p class="my-0 nav-home-icon-text">My Account</p> -->
         </div>
     </a>
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
@@ -53,7 +52,6 @@
         aria-haspopup="true" aria-expanded="false"> <!-- NEED TO ADD LINK HERE-->
         <div class="text-center">
             <div><i class="fas fa-heart fa-lg wish-list"></i></div>
-            <!-- <p class="my-0 nav-home-icon-text">Wish List</p> -->
         </div>
     </a>
 </li>
@@ -64,13 +62,6 @@
         href="{% url 'view_basket' %}">
         <div class="text-center">
             <div><i class="fas fa-shopping-basket fa-lg my-basket"></i></div>
-            <!-- <p class="my-0 my-basket">
-                {% if grand_total %}
-                £{{ grand_total|floatformat:2 }}
-                {% else %}
-                £0.00
-                {% endif %}
-            </p> -->
         </div>
     </a>
 </li>

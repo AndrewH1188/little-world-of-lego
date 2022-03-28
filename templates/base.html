@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="This is my fourth website built as part of my portfolio for Little World of Lego as part of my Code Institute Milestone 4 Project">
+    <meta name="description"
+        content="This is my fourth website built as part of my portfolio for Little World of Lego as part of my Code Institute Milestone 4 Project">
     {% endblock %}
 
     {% block extra_meta %}
@@ -106,7 +107,8 @@
                     </li>
                     <!-- Wishlist -->
                     <li class="list-inline-item">
-                        <a class="nav-link" href=""> <!-- NEED TO ADD LINK HERE-->
+                        <a class="nav-link" href="">
+                            <!-- NEED TO ADD LINK HERE-->
                             <div class="text-center">
                                 <span class="heart-icon">
                                     <span class="sr-only">Heart icon</span>
@@ -127,9 +129,9 @@
                                 </span>
                                 <p class="my-0 my-basket">
                                     {% if grand_total %}
-                                        £{{ grand_total|floatformat:2 }}
+                                    £{{ grand_total|floatformat:2 }}
                                     {% else %}
-                                        £0.00
+                                    £0.00
                                     {% endif %}
                                 </p>
                             </div>
@@ -141,7 +143,8 @@
 
         <div class="row bg-white">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <span class="sr-only">Toggler icon</span>
                 </button>
@@ -151,33 +154,26 @@
         </div>
         <div id="delivery-banner" class="row text-center">
             <div class="col delivery-bg">
-                <h4 class="my-1 free-del-text">Spend £{{ free_delivery_threshold }} or more to qualify for Free Delivery on your order!</h4>                
-            </div>            
+                <h4 class="my-1 free-del-text">Spend £{{ free_delivery_threshold }} or more to qualify for Free Delivery
+                    on your order!</h4>
+            </div>
         </div>
     </header>
-
-
-
-<!-- MAY NEED SOMETHING HERE TO PUSH THE PAGE DOWN SO THAT NOTHING HIDES -->
-
-<div class="show-page"></div>
-
-
 
     <!-- Toasts -->
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
         {% with message.level as level %}
-            {% if level == 40 %}
-                {% include 'includes/toasts/toast_error.html' %}
-            {% elif level == 30 %}
-                {% include 'includes/toasts/toast_warning.html' %}
-            {% elif level == 25 %}
-                {% include 'includes/toasts/toast_success.html' %}
-            {% else %}
-                {% include 'includes/toasts/toast_info.html' %}
-            {% endif %}
+        {% if level == 40 %}
+        {% include 'includes/toasts/toast_error.html' %}
+        {% elif level == 30 %}
+        {% include 'includes/toasts/toast_warning.html' %}
+        {% elif level == 25 %}
+        {% include 'includes/toasts/toast_success.html' %}
+        {% else %}
+        {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
         {% endwith %}
         {% endfor %}
     </div>
@@ -196,7 +192,6 @@
         $('.toast').toast('show');
     </script>
     {% endblock %}
-
 
     {% include 'includes/footer.html' %}
 

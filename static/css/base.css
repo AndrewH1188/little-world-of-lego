@@ -183,19 +183,6 @@ div.row.product-detail {
     color: #1a67d8;
 }
 
-
-.toast-checkout-button {
-    background-color: #1a67d8;
-    color: #fff;
-}
-
-.toast-checkout-button:hover {
-    border-color: #1a67d8;
-    background-color: #fff;
-    color: #1a67d8;
-}
-
-
 .add-review-button,
 .wish-list-button {
     border-color: #1a67d8;
@@ -287,6 +274,25 @@ div.row.product-detail {
 }
 
 
+
+/* ----------------------------- Terms & Conditions page */
+
+.terms-and-conditions {
+    padding-top: 11em;
+}
+
+.t-and-c-contents {
+    padding-left: 10em;
+    padding-right: 10em;
+    text-align: justify;
+}
+
+
+
+
+
+
+
 /* ------------------------------------- error page */
 /* Code used from Code Institute Boutique Ado walkthrough project */
 .error-page-bg {
@@ -308,6 +314,14 @@ div.row.product-detail {
     text-align: center;
     color: #1a67d8;
 }
+
+
+.contact-us  {
+    text-align: center;
+    font-size: medium;
+    color: #1a67d8;
+}
+
 
 /* ------ Social Media styling used from my Go Tennis MS1 but colours amended */
 .social-media {
@@ -390,10 +404,6 @@ div.row.product-detail {
 }
 
 
-
-
-
-
 @media (max-width: 768px) {
     .home-hero {
         padding-top: 13em;
@@ -445,6 +455,19 @@ div.row.product-detail {
         padding-top: 5em;
     }
 
+    .footer-credit {
+        text-align: center;
+        font-size: x-small;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .lego-tm {
+        text-align: center;
+        font-size: x-small;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* ------------------------------- Smaller Mobile Screens like galaxy fold */
@@ -455,5 +478,19 @@ div.row.product-detail {
 
     .product-container {
         padding-top: 10em;
+    }
+
+    .footer-credit {
+        text-align: center;
+        font-size: x-small;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .lego-tm {
+        text-align: center;
+        font-size: x-small;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

@@ -818,6 +818,7 @@ To build this fully functional cross platform responsive eCommerce store I have 
 * [Postgres](https://www.postgresql.org/): Used for storing product data in a database. This was used for Heroku.
 * [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/): Used to replace the Django insecure secret key in my GitPod Variables.
 * [DiffChecker](https://www.diffchecker.com/): Used to check any differences in code. This helped me to quickly see if there were any errors and get the part working as it should be and as expected.
+* [Shopify](https://www.shopify.co.uk/tools/policy-generator/terms-and-conditions#ToolContent): Used to create the text for the Terms and conditions section.
 
 
 ### Social Media:

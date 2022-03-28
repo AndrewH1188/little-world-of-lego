@@ -7,3 +7,9 @@ def index(request):
     """ A view to return the index page """
     
     return render(request, 'home/index.html')
+
+
+def terms(request):
+    """ A view to return the terms and conditions page """
+    
+    return render(request, 'home/terms.html')

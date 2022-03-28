@@ -50,51 +50,48 @@
                                 <div class="input-group-prepend">
                                     <button class="decrement-qty btn btn-black rounded-0"
                                         data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                            <i class="fas fa-minus fa-sm"></i>
-                                            <span class="sr-only">Minus icon</span>
+                                        <i class="fas fa-minus fa-sm"></i>
+                                        <span class="sr-only">Minus icon</span>
                                     </button>
                                 </div>
-                                <input class="form-control qty_input" type="number" 
-                                    name="quantity" value="1" min="1" max="99" 
-                                    data-item_id="{{ product.id }}" 
-                                    id="id_qty_{{ product.id }}">
+                                <input class="form-control qty_input" type="number" name="quantity" value="1" min="1"
+                                    max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
                                 <div class="input-group-append">
                                     <button class="increment-qty btn btn-black rounded-0"
-                                    data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                        data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
                                         <i class="fas fa-plus fa-sm"></i>
                                         <span class="sr-only">Plus icon</span>
-                                </button>
-                                </div>    
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!-- Wish List button -->
                     <div class="col-12">
-<!-- NEED TO ADD LINK --> <a href="" class="btn rounded-0 wish-list-button mb-3">
+                        <!-- NEED TO ADD LINK --> <a href="" class="btn rounded-0 wish-list-button mb-3">
                             <span class="wish-list-button-text">Add to wish list</span>
-                                <i class="fas fa-heart wish-list-heart"></i>
-                                <span class="sr-only">Heart icon</span>
+                            <i class="fas fa-heart wish-list-heart"></i>
+                            <span class="sr-only">Heart icon</span>
                         </a>
                         <!-- Add Review button -->
-<!-- NEED TO ADD LINK --> <a href="" class="btn rounded-0 add-review-button mb-3">
+                        <!-- NEED TO ADD LINK --> <a href="" class="btn rounded-0 add-review-button mb-3">
                             <span>Add a review</span>
-                                <i class="fas fa-pen"></i>
-                                <span class="sr-only">Pen icon</span>
+                            <i class="fas fa-pen"></i>
+                            <span class="sr-only">Pen icon</span>
                         </a>
                     </div>
                     <!-- Keep shopping and add to basket buttons -->
                     <div class="col-12">
                         <a href="{% url 'products' %}" class="btn rounded-0 keep-shopping-button  mb-4">
-                                <i class="fas fa-angle-left"></i>
-                                <span class="sr-only">Angle left icon</span>
+                            <i class="fas fa-angle-left"></i>
+                            <span class="sr-only">Angle left icon</span>
                             <span>Keep Shopping</span>
                         </a>
-                        <input type="submit" class="btn rounded-0 add-to-basket-button mb-4" value="Add to Basket"> 
+                        <input type="submit" class="btn rounded-0 add-to-basket-button mb-4" value="Add to Basket">
                     </div>
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
