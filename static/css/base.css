@@ -442,6 +442,12 @@ div.row.product-detail {
         font-size: medium;
     }
 
+
+    /* products-page */
+    .h2-page-header {
+        padding-top: 6em;
+    }
+
     div.row.product-detail {
         padding-top: 80%;
     }
@@ -473,13 +479,38 @@ div.row.product-detail {
 /* ------------------------------- Smaller Mobile Screens like galaxy fold */
 @media (max-width: 280px) {
     .home-hero {
-        padding-top: 17em;
-    }
-
-    .product-container {
         padding-top: 10em;
     }
 
+   /* Navbar icons */
+    /* .my-account,
+    .search-icon,
+    .wish-list,
+    .my-basket { 
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+    } */
+
+
+    /* products-page */
+    .h2-page-header {
+        padding-top: 6em;
+    }
+
+    /* t&cs page */
+    .terms-and-conditions {
+        padding-top: 8em;
+    }
+    
+    .t-and-c-contents {
+        padding-left: 2em;
+        padding-right: 2em;
+        text-align: justify;
+    }
+    
+    /* Footer */
     .footer-credit {
         text-align: center;
         font-size: x-small;
