@@ -259,40 +259,13 @@ div.row.product-detail {
 
 /* -------------------------------------------- Checkout */
 
-.checkout-details-border {
-    border: 1px solid #1a67d8 !important;
-    padding-top: 10px;
-    max-width: fit-content;
-    margin-right: 1rem;
-}
-
-.form-control  {
-    border: 1px solid #1a67d8 !important;
-    max-height: fit-content;
-}
 
 
-.fieldset-label {
-    position: relative;
-    right: .5rem;
-}
 
 
-.adjust-basket-button {
-    border-color: #1a67d8;
-}
 
-.adjust-basket-button:hover {
-    color: #1a67d8;
-}
 
-.order-col-orange-bg {
-    background: #ffc1071c;
-    height: fit-content;
-    width: fit-content;
-    padding-bottom: 10px;
 
-}
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 

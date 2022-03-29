@@ -1,0 +1,67 @@
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+
+.StripeElement,
+.stripe-style-input {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid #1a67d8 !important;
+  border-radius: 0px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus,
+.stripe-style-input:focus,
+.stripe-style-input:active {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+
+
+/* Form box boxes */
+.checkout-details-border {
+    border: 1px solid #1a67d8 !important;
+    padding-top: 10px;
+    max-width: fit-content;
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.form-control  {
+    border: 1px solid #1a67d8 !important;
+    min-width: fit-content;
+}
+
+
+.fieldset-label {
+    position: relative;
+    right: .5rem;
+}
+
+
+.order-col-orange-border {
+  border: 1px solid #ffc107 !important;
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 10px;
+  
+}
+
+.adjust-basket-button {
+    border-color: #1a67d8;
+}
+
+.adjust-basket-button:hover {
+    color: #1a67d8;
+}
+
+.checkout-horizontal-rule {
+  background-color: #ffc107 !important;
+}
