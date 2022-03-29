@@ -189,13 +189,14 @@ div.row.product-detail {
     font-size: x-small;
 }
 
+.add-review-button:hover {
+    color: #1a67d8;
+}
+
 .wish-list-button:hover {
     color: #e62d24;
 }
 
-.add-review-button:hover {
-    color: #1a67d8;
-}
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
@@ -255,6 +256,34 @@ div.row.product-detail {
 }
 
 
+
+/* -------------------------------------------- Checkout */
+
+.checkout-details-border {
+    border: 1px solid #1a67d8 !important;
+    padding-top: 10px;
+    max-width: fit-content;
+    margin-right: 1rem;
+}
+
+.form-control {
+    border: 1px solid #1a67d8 !important;
+}
+
+.adjust-basket-button {
+    border-color: #1a67d8;
+}
+
+.adjust-basket-button:hover {
+    color: #1a67d8;
+}
+
+.order-col-orange-bg {
+    background: #ffc1071c;
+    height: fit-content;
+    width: fit-content;
+
+}
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
@@ -403,10 +432,10 @@ div.row.product-detail {
     }
 }
 
-
+/* -------------------------- iPad/iPhone */
 @media (max-width: 768px) {
     .home-hero {
-        padding-top: 13em;
+        padding-top: 6em;
     }
 
     .home-section-heading {
@@ -414,7 +443,7 @@ div.row.product-detail {
     }
 
     .h2-page-header {
-        padding-top: 20%;
+        padding-top: 35%;
     }
 
     .free-del-text {
@@ -422,7 +451,13 @@ div.row.product-detail {
     }
 
     div.row.product-detail {
-        padding-top: 20%;
+        padding-top: 32%;
+    }
+
+    .checkout-details-border {
+        margin-left: 1px;
+        margin-right: 1px;
+        max-width: 100%;
     }
 }
 
@@ -461,6 +496,10 @@ div.row.product-detail {
         padding-top: 5em;
     }
 
+    .checkout-details-border {
+        margin-right: 0;
+    }
+
     .footer-credit {
         text-align: center;
         font-size: x-small;
@@ -493,10 +532,13 @@ div.row.product-detail {
         margin-right: 0;
     } */
 
-
     /* products-page */
     .h2-page-header {
         padding-top: 6em;
+    }
+
+    .checkout-details-border {
+        margin-right: 0;
     }
 
     /* t&cs page */
