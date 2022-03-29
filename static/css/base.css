@@ -266,9 +266,17 @@ div.row.product-detail {
     margin-right: 1rem;
 }
 
-.form-control {
+.form-control  {
     border: 1px solid #1a67d8 !important;
+    max-height: fit-content;
 }
+
+
+.fieldset-label {
+    position: relative;
+    right: .5rem;
+}
+
 
 .adjust-basket-button {
     border-color: #1a67d8;
@@ -282,6 +290,7 @@ div.row.product-detail {
     background: #ffc1071c;
     height: fit-content;
     width: fit-content;
+    padding-bottom: 10px;
 
 }
 
