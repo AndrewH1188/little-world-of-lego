@@ -843,14 +843,504 @@ Like my War Heroes Remembered and Talking Tinnitus (which were my own personal p
 Testing can be found [here](TESTING.md)
 
 
-
-
 ## Bugs:
+### Bugs Fixed:
+### Font awesome error
+When I copied the Font Awesome I class tags from Font Awesome the icons didn’t show. To solve this issue I changed the name of these and they worked. I have added a couple of examples below:
 
-### Bugs Fixed
+#### Basket icon
+* "fa-solid fa-basket-shopping" - Original from Font Awesome.
+* "fa fa-shopping-basket" - Changed icon name that worked.
+
+#### Magnifying Glass icon
+* "fa-solid fa-magnifying-glass" - Original from Font Awesome                             
+* "fas fa-search" - Changed icon name that worked
+
+### Footer error
+When I added the content for the products page the footer shrank in width size. To fix the issue I used 100vw in css and also added it to its own file. This meant that my base.html was freed up a bit more and allowed me to amend my footer easily when I needed too.
+
+### Basket items not displaying
+Items in My basket were not displaying because of an error in contexts.py. At first I thought it was the HTML so worked on this. When I saw there was still an error I thought I would look at the views.py and urls.py, I couldn’t see anything that was obvious so looked at the last file which was the contexts.py. I was able to get the items in my basket showing by rewriting the entire contents under the imports of the contexts.py file. Upon testing again with an item in my basket I could see that the product, text price etc was displaying and no longer was I seeing that my basket was “empty”, despite the total under the basket icon showing a total.   
+
+### Basket Remove Function
+The Remove function in the basket would not work. 
+I would like to thank Sean at Code Institute for his help when my remove in the basket would not work. Having missed the HttpResponse in the imports section, the product = None in the remove section and still having the slim version instead of the min version of jQuery this is what caused the errors. Working with Sean we were able to find and fix these errors quickly and my remove item from basket function was working again. Thank you Sean for your helping me to find and fix these errors to enable the remove item from basket function to work as expected. 
+
+### Toast Bugs
+The toasts wouldn’t work for the remove and the updated quantities in basket.
+When adding further code to the toasts to show the item image, price etc the moved from the right hand side, to the left hand side, pushed the page down, and then when closed stopped the page from being able to scroll. The reason for this was because I was missing some closing div tags which was pointed out to me by my superb Mentor Caleb. Once the closing div tags were added the toasts displayed as they should do and everything was back to normal again.
+
+### Checkout Success
+When an order was submitted the order didn’t show in the Django order section on the admin page, and also I wasn’t able to be redirected to my checkout success page. I was seeing a POST 404 error in the console but couldn’t figure out why this was being caused. With help from James at Tutor Support. With James’s help I was able to see that the error was coming from not originally having the path for /checkout/cache_checkout_data/ added in the urls.py file. Once added in I was getting a new error of 400. It turned out that as I had got ahead of myself on the stripe section that this was the reason why, because there were some bits that weren’t as far forwards than the other parts, and so the code did not behave as expected. Working with James and understanding where the error was coming. From and what was causing it I was able to proceed. Thank you for your help to enable me to resolve this issue and get the expected outcome (checkout success page) showing.
+
 ### Known Bugs
+* 
+
+
 
 
 
 ## Deployment:
 Steps taken to deploy my project can be found [here](DEPLOYMENT.md)
+
+
+
+
+
+
+## Credits:
+* A lot of the Django, Python, JavaScript, CSS and HTML was developed using the Code Institute [Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546) Walk through project. I have credited the code throughout (even if parts have amends that I have made) in comments above the code itself in the relevant files that this applies to.
+* Code Institute GitPod template that has Emmett abbreviation. Also the videos and tasks have enabled me to learn and successfully undertake another Milestone Project.
+* [Font Awesome](https://fontawesome.com/): has been used for the following icons:
+    * Social Media Icons
+    * Mobile menu bars/hamburger icon
+    * Write a review icon
+    * Home icon
+    * Search
+    * Secure checkout icon
+    * Back arrow icon
+    * Forwards arrow icon
+    * Plus icon
+    * Minus icon
+    * Spinner icon
+    * Up/top icon
+    * Heart icon
+* [101 Computing.net](https://www.101computing.net/html-how-to-add-a-favicon/) I reused this code from my first Milestone Project - Go Tennis System, my second Milestone Project - War Heroes Remembered  and my third Milestone Project - Talking Tinnitus where I added this code from 101 Computing.net to enable a favicon to display across my site on all pages.
+* [Adobe Stock](https://stock.adobe.com/uk/) for once again having superb images that I have been able to pay for and download to make my eCommerce store look amazing. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
+* [Pixabay](https://pixabay.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
+* [PXHere](https://pxhere.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned credited in both the Imagery and Media sections.
+* [Shopify](https://www.shopify.co.uk/tools/policy-generator/terms-and-conditions#ToolContent) was used to create the text for the Terms and conditions section.
+
+## Content:
+All content on my eCommerce store has been written by myself apart from the Terms and Conditions. The terms and conditions was created using [Shopify](https://www.shopify.co.uk/tools/policy-generator/terms-and-conditions#ToolContent).
+There is a large amount of code in the majority of my files that I have reused from the Code Institute Boutique Ado Walkthrough Project. All of this code has been credited throughout, but I thought I would also mention this in the Credits part of my README.md as well as it is the right thing to do. Thank you to Chris at Code Institute for the Walkthrough Project which has helped me to complete this Milestone Project.
+
+
+## Media:
+All images were purchased and downloaded from [Adobe Stock](https://stock.adobe.com/uk/). Other images were downloaded from [Pixabay](https://pixabay.com/) and [PXHere](https://pxhere.com/)
+
+##### Favicon:
+[Alphabet letters from colorful plastic toy blocks isolated to solid background](https://stock.adobe.com/uk/Library/urn:aaid:sc:EU:d9f0dfe8-b7b1-4b60-a004-4812543af956?asset_id=378503200)
+By Anton
+File #: 378503200
+
+
+##### Home Page:
+[Dark side bike ride](https://pixabay.com/photos/lego-star-wars-toy-darth-vader-6599840/)
+By BioSteak
+File #: 6599840
+
+
+### Bricks used in the logo 
+[Set of building bricks in red color](https://stock.adobe.com/uk/images/set-of-building-bricks-in-red-color/422371679?asset_id=422371679)
+By giadophoto
+File #: 422371679
+
+
+##### Homewear Products Page:
+### Canvasses
+[Canvas for painting, close-up](https://stock.adobe.com/uk/images/canvas-for-painting-close-up/295267084)
+By Allusioni
+File #: 295267084
+
+[Beach Girl and dog](https://pixabay.com/photos/lego-minifigures-minifigure-sea-5974050/)
+By CudrigoSteineSpaß
+File #: 5974050
+
+[Cleaner scouts](https://pixabay.com/photos/lego-miniatures-figurines-toys-5693138/)
+By firdaus_ansori
+File #: 5693138
+
+[Beach Diver](https://pixabay.com/photos/lego-diving-sea-diver-toy-5597550/)
+By thuanvo
+File #: 5693138
+
+[Bride and Groom](https://pxhere.com/en/photo/1347065)
+File #: 1347065
+
+[Minecraft](https://pixabay.com/photos/toy-lego-plastic-toy-children-5518501/)
+By thuanvo
+File #: 5518501
+
+[Ski Lady](https://pixabay.com/photos/lego-ceramic-art-4188659/)
+By Jaejene
+File #: 4188659
+
+[Pest Police](https://pixabay.com/photos/slug-policeman-lego-garden-pest-1535140/)
+By aitoff
+File #: 1535140
+
+[Troopers holding hands](https://pixabay.com/photos/romance-relationship-love-lego-2004799/)
+By aitoff
+File #: 2004799
+
+[Witches](https://pixabay.com/photos/lego-campfire-forest-wood-flame-1506521/)
+By Superbelfrzy
+File #: 1506521
+
+
+### Cushions
+[cushion on a white background](https://stock.adobe.com/uk/images/cushion-on-a-white-background/137455749)
+By bennnn
+File #: 137455749
+
+[Bohemian Stormtroopers](https://pixabay.com/photos/stormtrooper-bohemian-rhapsody-1433772/)
+By aitoff
+File #: 1433772
+
+[Desert Troopers](https://pixabay.com/photos/storm-troops-starwars-lego-4584285/)
+By 501stCommanderMax
+File #: 4584285
+
+[Elf](https://pixabay.com/photos/lego-lego-christmas-elf-6764357/)
+By BCStirke
+File #: 6764357
+
+[Hiker](https://pixabay.com/photos/lego-mini-figure-walker-6571821/)
+By Ralf1403
+File #: 6571821
+
+[Gandalph](https://pxhere.com/en/photo/1193558)
+File #: 1193558
+
+[Fun Guy](https://pixabay.com/photos/nature-outdoors-small-lego-3091155/)
+By nxmsophia
+File #: 3091155
+
+[Sand Biker](https://pixabay.com/photos/motorcycle-dirt-bike-off-road-lego-1975858/)
+By mvarouhas
+File #: 1975858
+
+[Sand surfer](https://pixabay.com/photos/lego-surfer-sand-macro-6607553/)
+By BioSteak
+File #: 6607553
+
+[Santa](https://pixabay.com/photos/lego-lego-santa-christmas-6764356/)
+By BCStirke
+File #: 6764356
+
+[Black and white water with colour Diver](https://pixabay.com/photos/lego-water-splash-blow-immersion-352113/)
+By ejaugsburg
+File #: 352113
+
+
+### Framed Photos
+[blank black horizontal picture frame on the white concrete wall](https://stock.adobe.com/uk/images/blank-black-horizontal-picture-frame-on-the-white-concrete-wall/69991288)
+By mtlapcevic
+File #: 69991288
+
+[Beach Biker](https://pixabay.com/photos/lego-bike-toy-lego-toy-lego-bike-5597548/)
+File #: 5597548
+
+[Bohemian Stormtroopers](https://pixabay.com/photos/stormtrooper-bohemian-rhapsody-1433772/)
+By aitoff
+File #: 1433772
+
+[Clone Trooper Drive Fix](https://pixabay.com/photos/toy-lego-technology-device-931951/)
+By tookapic
+File #: 931951
+
+[Ctrl](https://pxhere.com/en/photo/914354)
+File #: 914354
+
+[Construction Workers](https://pixabay.com/photos/constructions-building-work-lego-3572863/) 
+By yshoshan
+File #: 3572863
+
+[Flower man](https://pixabay.com/photos/lego-daisy-toy-figure-flower-6539234/0
+By albarus
+File #: 6539234
+
+[Fun Guy](https://pixabay.com/photos/nature-outdoors-small-lego-3091155/)
+By nxmsophia
+File #: 3091155
+
+[Ninjago](https://pxhere.com/en/photo/741576)
+File #: 741576
+
+[Love](https://pixabay.com/photos/lego-pair-love-valentine-s-day-4850732/)
+By kueckhovener
+File #: 4850732
+
+[Fencing](https://pxhere.com/en/photo/281935)
+File #: 281935
+
+
+### Stationary Products Page:
+### Desktop Calendar
+White blank paper desk spiral calendar on white background.
+https://stock.adobe.com/uk/images/white-blank-paper-desk-spiral-calendar-on-white-background/181879946
+By resul
+FILE #:  181879946
+
+[Ctrl](https://pxhere.com/en/photo/914354)
+File #: 914354
+
+[Fisherman on lego pier](https://pixabay.com/photos/lego-lake-stream-park-fishing-6845890/)
+By BCStirke
+File #: 6845890
+
+[Flower man](https://pixabay.com/photos/lego-daisy-toy-figure-flower-6539234/0
+By albarus
+File #: 6539234
+
+[Hiker](https://pixabay.com/photos/lego-mini-figure-walker-6571821/)
+By Ralf1403
+File #: 6571821
+
+[Sand surfer](https://pixabay.com/photos/lego-surfer-sand-macro-6607553/)
+By BioSteak
+File #: 6607553
+
+
+### Wall Calendar
+[2022 Calendar](https://stock.adobe.com/uk/templates/2022-calendar/461579195)
+By Iunewind
+File #: 461579195
+
+[Fisherman on lego pier](https://pixabay.com/photos/lego-lake-stream-park-fishing-6845890/)
+By BCStirke
+File #: 6845890
+
+[Hiker](https://pixabay.com/photos/lego-mini-figure-walker-6571821/)
+By Ralf1403
+File #: 6571821
+
+[Ninjago](https://pxhere.com/en/photo/741576)
+File #: 741576
+
+[Starwars Arrest](https://pixabay.com/photos/starwars-kriegder-star-jedi-4793257/)
+By 501stCommanderMax
+File #: 4793257
+
+
+### Notebooks
+[White book mockup with a dried grass in a vase on the beige table](https://stock.adobe.com/uk/images/white-book-mockup-with-a-dried-grass-in-a-vase-on-the-beige-table/405793350)
+By Snoflinga
+File #: 405793350
+
+[Biker](https://pixabay.com/photos/motorcycle-dirt-bike-off-road-lego-1975858/)
+By mvarouhas
+File #: 1975858
+
+[Black and white water with colour Diver](https://pixabay.com/photos/lego-water-splash-blow-immersion-352113/)
+By ejaugsburg
+File #: 352113
+
+[Droids](https://pixabay.com/photos/lego-snow-drift-star-wars-robot-2646527/)
+By cherebus0
+File #: 2646527
+
+[Elf](https://pixabay.com/photos/lego-lego-christmas-elf-6764357/)
+By BCStirke
+File #: 6764357
+
+[Fisherman on lego pier](https://pixabay.com/photos/lego-lake-stream-park-fishing-6845890/)
+By BCStirke
+File #: 6845890
+
+[Hiker](https://pixabay.com/photos/lego-mini-figure-walker-6571821/)
+By Ralf1403
+File #: 6571821
+
+[Rebel Trooper Starwars](https://pxhere.com/en/photo/641313)
+File #: 641313
+
+[Sand surfer](https://pixabay.com/photos/lego-surfer-sand-macro-6607553/)
+By BioSteak
+File #: 6607553
+
+[Santa](https://pixabay.com/photos/lego-lego-santa-christmas-6764356/)
+By BCStirke
+File #: 6764356
+
+[Storm Troopers amongst saplings](https://pixabay.com/photos/clone-war-grass-green-forest-4773016/)
+By 501stCommanderMax
+File #: 4773016
+
+
+### Gifts Products Page:
+### Fridge Magnets
+[Flexible vinyl souvenir fridge magnet](https://stock.adobe.com/uk/images/flexible-vinyl-souvenir-fridge-magnet/480869428)
+By Kuzmick
+File #:  480869428
+
+[Clone Trooper Drive Fix](https://pixabay.com/photos/toy-lego-technology-device-931951/)
+By tookapic
+File #: 931951
+
+[Elf](https://pixabay.com/photos/lego-lego-christmas-elf-6764357/)
+By BCStirke
+File #: 6764357
+
+[Fire fighters](https://pixabay.com/photos/outdoors-flower-wood-park-3377711/)
+By kirkpatrickting
+File #: 3377711
+
+[Obi wan and Darth Maul](https://pixabay.com/photos/lego-star-wars-star-wars-lego-jedi-6750578/)
+By matyasvargaphoto
+File #: 6750578
+
+[Painter Storm Trooper](https://pxhere.com/en/photo/1174464)
+File #: 1174464
+
+[Santa](https://pixabay.com/photos/lego-lego-santa-christmas-6764356/)
+By BCStirke
+File #: 6764356
+
+[Segway Secret Agent](https://pxhere.com/en/photo/1288871)
+File #: 1288871
+
+[Sand surfer](https://pixabay.com/photos/lego-surfer-sand-macro-6607553/)
+By BioSteak
+File #: 6607553
+
+[Troopers holding hands](https://pixabay.com/photos/romance-relationship-love-lego-2004799/)
+By aitoff
+File #: 2004799
+
+[Dark side bike ride](https://pixabay.com/photos/lego-star-wars-toy-darth-vader-6599840/)
+By BioSteak
+File #: 6599840
+
+
+### Cards
+[3d white blank paper card](https://stock.adobe.com/uk/images/3d-white-blank-paper-card/98956136)
+By sveta
+File #: 98956136
+
+[Elf](https://pixabay.com/photos/lego-lego-christmas-elf-6764357/)
+By BCStirke
+File #: 6764357
+
+[Santa](https://pixabay.com/photos/lego-lego-santa-christmas-6764356/)
+By BCStirke
+File #: 6764356
+
+[Coffee Astronought](https://pixabay.com/photos/lego-coffee-wawerska-astronaut-5132610/)
+By Diabiator
+File #: 5132610
+
+[Bride and Groom](https://pxhere.com/en/photo/1347065)
+File #: 1347065
+
+[Luke Skywalker Jedi Hut](https://pixabay.com/photos/starwars-lego-building-blocks-4584270/ )
+By 501stCommanderMax
+File #: 4584270
+
+[Stunt Trooper](https://pixabay.com/photos/starwars-clone-motorcycle-lego-4584281/)
+By 501stCommanderMax
+File #: 4584281
+
+[Christmas Scene](https://pixabay.com/photos/lego-coffee-shop-lego-7021506/)
+By CudrigoSteineSpaß
+File #: 7021506
+
+[Skeleton Beach scene](https://pixabay.com/photos/lego-halloween-mini-figures-7006818/)
+By CudrigoSteineSpaß
+File #: 7006818
+
+[Girl and dog on the beach](https://pixabay.com/photos/lego-toy-mini-figures-nature-water-7006819/)
+By CudrigoSteineSpaß
+File #: 7006819
+
+[Storm Trooper on the beach](https://pixabay.com/photos/lego-stormtrooper-lego-beach-7021564/)
+By CudrigoSteineSpaß
+File #: 7021564
+
+[Hiker](https://pixabay.com/photos/hiker-walker-rambler-lego-walk-1984421/)
+By aitoff
+File #: 1984421
+
+[Troopers in the snow](https://pixabay.com/photos/lego-starwars-toy-snow-forest-6018655/)
+By joergkessler1967
+File #: 6018655
+
+
+### Offers Products Page:
+[Elf](https://pixabay.com/photos/lego-lego-christmas-elf-6764357/)
+By BCStirke
+File #: 6764357
+
+[Santa](https://pixabay.com/photos/lego-lego-santa-christmas-6764356/)
+By BCStirke
+File #: 6764356
+
+[Fisherman on lego pier](https://pixabay.com/photos/lego-lake-stream-park-fishing-6845890/)
+By BCStirke
+File #: 6845890
+
+[Hiker](https://pixabay.com/photos/lego-mini-figure-walker-6571821/)
+By Ralf1403
+File #: 6571821
+
+[Ninjago](https://pixabay.com/photos/still-life-toys-war-fight-battle-4687373/)
+By muhammadriz
+File #: 4687373
+
+[Star Wars Arrest](https://pixabay.com/photos/starwars-kriegder-star-jedi-4793257/)
+By 501stCommanderMax
+File #: 4793257
+
+[Ctrl](https://pxhere.com/en/photo/914354)
+File #: 914354
+
+[Flower man](https://pixabay.com/photos/lego-daisy-toy-figure-flower-6539234/0
+By albarus
+File #: 6539234
+
+[Sand surfer](https://pixabay.com/photos/lego-surfer-sand-macro-6607553/)
+By BioSteak
+File #: 6607553
+
+[Witches](https://pixabay.com/photos/lego-campfire-forest-wood-flame-1506521/)
+File #: 1506521
+
+
+### Error Page:
+[Roman Soldier](https://pxhere.com/en/photo/653186)
+File #: 653186
+
+
+### No Image:
+[Photo coming soon image icon. Vector illustration. Isolated on white background. No website photos yet logo sign symbol. Image not available yet.](https://stock.adobe.com/uk/images/photo-coming-soon-image-icon-vector-illustration-isolated-on-white-background-no-website-photos-yet-logo-sign-symbol-image-not-available-yet/308675145)
+By ville
+File #: 308675145
+
+
+## Acknowledgments:
+I would once again like to thank Code Institute and everyone there for their amazing course, course material, help and support that they have all provided to me. I wouldn’t have been able to have completed four Milestone Projects without all of this so Thank you and keep up the great work that you all do. 
+
+I would like to also thank Chris at Code Institute for the Boutique Ado Walkthrough project, without this I wouldn’t have been able to have undertaken this project. Thank you for the great video tutorials that you have put together to enable me to learn as well as complete this Milestone Project.
+
+I would like to thank my superb Mentor Caleb Mbakwe. Your help, support, feedback, guidance, and expertise has helped me complete my fourth and final Milestone project. Without all of this I honestly wouldn’t have been able to have completed and achieved this final outcome, and so I again would like to again say a massive Thank you.
+
+I would like to thank Ed at Code Institute for helping me by answering my question posted on Slack before starting this mammoth project and during this as well.
+
+I would like to thank Sean at Code Institute for his help when my remove in the basket would not work. This issue was because I had missed the HttpResponse in the imports section and the product = None in the remove section. I also had the slim version instead of the min version of jQuery, all of these stopped the remove working and the slim version of jQuery caused the console to error. Working with Sean we were able to quickly find and fix these errors to enable my remove item from basket function to work. Thank you Sean for your helping me to find and fix these errors to enable the remove item from basket function to work as expected, your help in helping me find and fix these issues is very much appreciated.
+
+I would also like to thank James at Code Institute for his help when I ran into an error with the checkout success page not being returned. It turned out that as I had got ahead of myself on the stripe section that this was the reason why, because there were some bits that weren’t as far forwards than the other parts, and so the code did not behave as expected. Working with James and understanding where the error was coming. From and what was causing it I was able to proceed. Thank you for your help enabling me to resolve this issue and get the expected outcome (checkout success page) showing.
+
+I would like to thank Suzy Bennett, Leah Fisher and Shellie Downie for their good wishes and support on Linkedin. This hasn’t been an easy project to complete, but has in ways been very rewarding. Your support and well wishes are much appreciated and I wish you all good luck on your coding journeys. You’ve got this : )
+
+One of my many returning thank yous goes to Stuart Crang at The Learning People Global for his ongoing support. I can’t believe this is my final project and it feels like yesterday that our paths crossed (in a good way) and my journey began in coding. Without your help, encouragement and support I wouldn’t have managed it and all are very much appreciated, as always.
+
+Another returning Thank you goes to my Mum. You have helped me to believe in myself as well as given me strength, encouragement and support to continue to do the best that I can. Your belief in me has also spurred me on even when things have been difficult, or have even not worked and I have managed to fix them, you turn to me and say “I told you that you would work it out”. Thank you again for your help and support throughout not only this Milestone project but the whole of this course too. It’s not been easy, but it has and is worth it and your endless help and support throughout are very much appreciated as always.
+
+I would also like to thank Jim and Susie Jenner for their continuing support and encouragement even though they still after all this time don’t really know what it is that I am doing as they say “its all a bit too technical for us.” It is great to have you as support and willing me on to do well, as well as someone else to talk to about this journey. 
+
+Adam Jameel, The man, not quite the “myth” but most defiantly the absolute Legend of a friend that I am so fortunate to have. Your phone calls have helped me to take some time away from the screen which has helped me to refocus and solve some issues that I had, as well as continue on with my journey of coding for this project. Your endless support is very much appreciated. Thank you mate and as promised in my last README I’ll be back at tennis again soon where I’ll let you win a game or two as my way of saying thank you.
+
+I would also like to thank my Auntie Julie and Uncle Danny for their interest and continued encouragement. Your help and support and encouragement is very much appreciated.
+
+Planet Rock deserve a reoccurring thank you for keeping me going with the fantastic music playing in the background, and also their great DJs who come out with some bits that give me a laugh. The music and the laughs help me through this and give me the motivation and energy to continue.
+
+Thank you to Olivia and Sue at the British Tinnitus Association for their good wishes and support.
+
+I have to also thank Lego for their continually awesome products and creating something for everyone. Lego you are Awesome.
+
+
+Little World of Lego was designed by Andrew Harding
+The name Lego is copyright and a trademark of the Lego Group
+
+[Back to Table of Contents](#table-of-contents)

@@ -5,12 +5,12 @@ Back to [README.md](README.md) file
 ## Table of Contents
 1. [Cloning or running my project](#cloning-or-running-my-project)
 2. [Deploying to Heroku](#deploying-to-heroku)
-3. [AWS - Amazon Web Services](#aws)
+3. [AWS - Amazon Web Services](#aws-amazon-web-services)
 4. [Connecting Django to S3](#connecting-django-to-s3)
 5. [Caching Media Files and Stripe](#caching-media-files-and-stripe)
-6. [Other Processes](other-processes)
+6. [Other Processes](#other-processes)
 7. [Stripe Processes](#stripe-processes)
-8. [Gmail Emails](gmail-emails)
+8. [Gmail Emails](#gmail-emails)
 
 
 #### Cloning or running my project:
@@ -30,29 +30,54 @@ If you would like to run my project locally you are more than welcome to do so. 
 web: gunicorn YOUR-PROJECT-NAME.wsgi:application
 
 
+#### Deploying to Heroku:
+To deploy to Heroku please follow these steps:
+1. Head over to [Heroku](https://www.heroku.com/) and sign up if you don’t already have an account.
+2. Once you have signed up or logged in then you will be able to see the dashboard with the New button up the top.
+3. Click the New button and select Create new app.
+4. Once the Create new app section has been selected you will be brought to the page that will ask you to put in your App name (which should be ideally the same name as your repository name to reduce complexity) and select your region. Once these details have been added click Create app button.
+5. Navigate to the Resources tab in Heroku and under the Add-ons in the search field type Postgres. This will show Heroku Postgres. Click this and click Hobby Dev Free Plan.
+6. Once you have set up your app head over to the deploy section that is shown on the top menu. Select the GitHub logo with Connect to GitHub beneath this.
+7. You will be prompted to find your GitHub repository to connect to. 
+8. Enter your repository name for your GitHub project and click on the search button.
+9. Once your GitHub repository has been found click the connect button.
+10. Before enabling the automatic deploy you will need to head over to the Settings part of Heroku and scroll down to the Config Vars section.
+11. In the Config Vars section select Reveal Config Vars. In here I added the following values:
+* AWS_ACCESS_KEY_ID
+    * YOUR_AWS_ACCESS_KEY_ID
+	* The value that you need for this can be found in the CSV that you download having created a user and S3 in AWS. 
+	* Please see below for [instructions](#aws-amazon-web-services) on how to find this.
+* AWS_SECRET_ACCESS_KEY
+	* YOUR_AWS_SECRET_ACCESS_KEY
+	* The value that you need for this can be found in the CSV that you download having created a user and S3 in AWS.
+	* Please see below for [instructions](#aws-amazon-web-services) on how to find this.
+* DATABASE_URL
+	* YOUR_POSTGRES_URL
+* EMAIL_HOST_PASS
+	* YOUR_EMAIL_HOST_PASS
+	* Please see below for [instructions](#gmail-emails) on how to find this.
+* EMAIL_HOST_USER
+	* YOUR_EMAIL_HOST_USER
+	* Please see below for [instructions](#gmail-emails) on how to find this.
+* SECRET_KEY
+	* YOUR_SECRET_KEY
+	* This can be created by going to [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) and copying the key generated from there. 
+* STRIPE_PUBLIC_KEY
+	* YOUR_STRIPE_PUBLIC_KEY
+* STRIPE_SECRET_KEY
+	* YOUR_STRIPE_SECRET_KEY
+* STRIPE_WH_SECRET
+	* YOUR_STRIPE_WH_SECRET
+  * This is used to set up the web hooks so that Django knows that the payment action has been passed.
+* USE_AWS
+	* TRUE
+  	* This is so that you use the ASW Bucket images over your own images in your project, even though these images are the same.
+* All the values for these keys are secret hence the values being YOUR_KEY. The only exception to this is the USE_AWS TRUE as this isn’t a secret value, but for those that are you will need to get your keys from the sites that you are using like Stripe, Amazon and Google as well as a new one for Django from [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) as the one that comes when Django is installed says insecure, so it is best to get a new one just in case. This will also provide you with an element of extra security. 
+12. You are now able to go back to the Deployment section and scroll down to the Automatic Deploy section. Select the Automatic Deploy button. The main branch will be the default setting and this is absolutely fine to use.
+13. You can now head on down to the Manual Deploy which will be automatically set to main. Select Deploy Branch button and you will be able to see that your project has been successfully deployed and the link to your site.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Amazon Web Services - AWS:
+#### AWS Amazon Web Services:
 1. Head to [Amazon Web Services](aws.amazon.com) click create an account.
 2. Select the radio button for Personal Account and fill in your details. 
 3. You will need to put in a credit card. You will see a $1 amount on your card, but this won’t be taken. This is just to verify your card. You will not be billed if you don’t go over the usage limit.
@@ -175,4 +200,6 @@ To send real emails with Django you will need to do the following:
 11. In Heroku we will need to add the following:
 * EMAIL_HOST_PASS (Gmail generated password)
 * EMAIL_HOST_USER (Your Gmail email address)
-12. We will need to add some settings to our settings.py so that we are able to communicate with Heroku and so that Heroku can see what it needs from the code that we have written too.
+12. We will need to add some settings to our settings.py so that we are able to communicate with Heroku and so that Heroku can see what it needs from the code that we have written to.
+
+[Back to Table of Contents](#table-of-contents)
