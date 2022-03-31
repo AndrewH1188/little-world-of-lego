@@ -2,17 +2,16 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
+
 from .forms import OrderForm
 from .models import Order, OrderLineItem
-
+from products.models import Product
 from basket.contexts import basket_contents
-
-import stripe
-import json
-
 
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
+import stripe
+import json
 
 @require_POST
 def cache_checkout_data(request):
@@ -69,7 +68,7 @@ def checkout(request):
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your basket wasn't found in our database. "
-                        "Please call us on 01938401188 for assistance!")
+                        "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_basket'))
@@ -154,6 +153,7 @@ def checkout_success(request, order_number):
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
                 user_profile_form.save()
+
 
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
