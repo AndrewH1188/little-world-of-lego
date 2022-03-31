@@ -61,6 +61,10 @@ html {
     color: #000;
 }
 
+.home-hero {
+    padding-bottom: 5%;
+}
+
 
 /* --------------- Delivery Banner */
 .delivery-bg {
@@ -136,11 +140,7 @@ button.offers-shop-now.btn.rounded-0:hover {
     width: 90%;
 }
 
-/* ------------- Product home page section */
-.product-section-home-page{
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
+
 
 
 
@@ -156,17 +156,13 @@ button.offers-shop-now.btn.rounded-0:hover {
     color: #fff;
 }
 
-div.row.product-detail {
-    padding-top: 9%;
-}
+
 
 
 
 
 /* ------------- Basket page */
-.h2-page-header {
-    padding-top: 3em;
-}
+
 
 .keep-shopping-button,
 .add-to-basket-button,
@@ -229,8 +225,6 @@ div.row.product-detail {
     right: 36px;
 }
 
-
-
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-success {
     border-bottom-color: #28a745 !important ;
@@ -248,7 +242,6 @@ div.row.product-detail {
     border-bottom-color: #17a2b8 !important ;
 }
 
-
 .basket-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
@@ -258,7 +251,6 @@ div.row.product-detail {
 
 
 /* -------------------------------------------- Checkout */
-
 
 
 
@@ -362,6 +354,21 @@ div.row.product-detail {
     margin-top: 0;
 }
 
+
+
+
+/* ---------------------------------------------- Generic Page Contents */
+
+/* ----------------- All page h2 headers */
+.h2-page-header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
 
 
@@ -386,55 +393,38 @@ div.row.product-detail {
         z-index: 1030;
     }
 
-    .header-container {
-        padding-top: 164px;
-    }
+
 }
 
 /* ------------------------------- Tablet Screens */
 @media (max-width: 820px) {
-    .home-hero {
-        padding-top: 7em;
-    }
+
 
     .home-section-heading {
         font-size: xx-large;
     }
 
-    .h2-page-header {
-        padding-top: 20%;
-    }
 
     .free-del-text {
         font-size: medium;
     }
 
-    div.row.product-detail {
-        padding-top: 20%;
-    }
 }
 
 /* -------------------------- iPad/iPhone */
 @media (max-width: 768px) {
-    .home-hero {
-        padding-top: 6em;
-    }
+
 
     .home-section-heading {
         font-size: xx-large;
     }
 
-    .h2-page-header {
-        padding-top: 35%;
-    }
 
     .free-del-text {
         font-size: medium;
     }
 
-    div.row.product-detail {
-        padding-top: 32%;
-    }
+ 
 
     .checkout-details-border {
         margin-left: 1px;
@@ -447,9 +437,7 @@ div.row.product-detail {
 
 /* ------------------------------- Mobile Screens */
 @media (max-width: 376px) {
-    .home-hero {
-        padding-top: 13em;
-    }
+
 
     .home-section-heading {
         font-size: xx-large;
@@ -460,14 +448,7 @@ div.row.product-detail {
     }
 
 
-    /* products-page */
-    .h2-page-header {
-        padding-top: 6em;
-    }
-
-    div.row.product-detail {
-        padding-top: 80%;
-    }
+    /* products-page */  
 
     .products-home {
         width: 100%; 
@@ -499,25 +480,6 @@ div.row.product-detail {
 
 /* ------------------------------- Smaller Mobile Screens like galaxy fold */
 @media (max-width: 280px) {
-    .home-hero {
-        padding-top: 10em;
-    }
-
-   /* Navbar icons */
-    /* .my-account,
-    .search-icon,
-    .wish-list,
-    .my-basket { 
-        padding-right: 0;
-        padding-left: 0;
-        margin-left: 0;
-        margin-right: 0;
-    } */
-
-    /* products-page */
-    .h2-page-header {
-        padding-top: 6em;
-    }
 
     .checkout-details-border {
         margin-right: 0;

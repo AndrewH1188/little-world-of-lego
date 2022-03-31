@@ -129,23 +129,16 @@
     </a>
 </div>
 {% endblock %}
-
-
-
-
    
 {% block postloadjs %}
-{{ block.super }}
-
-<script type="text/javascript">
-    // Back to top button
-    $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-
-</script>
-
-
+    {{ block.super }}
+    <script type="text/javascript">
+        // Back to top button
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
+{% endblock %}
 
 <script type="text/javascript">
     // Selector JavaScript functionality

@@ -24,7 +24,7 @@
 }
 
 /* Form boxes */
-.form-control  {
+.form-control {
     border: 1px solid #1a67d8 !important;
     min-width: fit-content;
 }
@@ -68,10 +68,15 @@
 }
 
 
+
 /* ------------------------------------- Checkout success */
 
 .order_email_confirmation {
   color: #1a67d8;
+}
+
+.checkout-success-border {
+  border: 1px solid #1a67d8 !important;
 }
 
 /* Code below taken from Code Institute Boutique Ado Walkthrough Project*/

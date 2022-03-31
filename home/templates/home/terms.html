@@ -3,10 +3,20 @@
 
 <title>{% block extra_title %}| Terms and Conditions{% endblock %}</title>
 
+<!-- Taken from my Code Institute Boutique Ado walkthrough project -->
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+
 <!-- Created using Shopify's Terms and Conditions generator here: https://www.shopify.co.uk/tools/policy-generator/terms-and-conditions#ToolContent -->
 {% block content %}
 <section class="t-and-c-contents">
-    <h4 class="terms-and-conditions">TERMS OF SERVICE</h4>
+    <h4 class="mt-5">TERMS OF SERVICE</h4>
     <p>
         ----
     </p>
@@ -151,7 +161,7 @@
     <br>
 
     <h5>SECTION 10 - PERSONAL INFORMATION</h5>
-    <p>Your submission of personal information through the store is governed by our Privacy Policy. Please email us 
+    <p>Your submission of personal information through the store is governed by our Privacy Policy. Please email us
         <a href="mailto:lwol-enquiries@little-world-of-lego.com">here</a>
         to request a copy of our Privacy Policy. Thank you.</p>
     <br>
@@ -281,19 +291,25 @@
     <br>
 
     <h5>SECTION 20 - CONTACT INFORMATION</h5>
-    <p class="mb-4">Questions about the Terms of Service should be sent to us <a
+    <p class="mb-5">Questions about the Terms of Service should be sent to us <a
             href="mailto:lwol-enquiries@little-world-of-lego.com">here</a></p>
 </section>
+
+<!-- Taken from my Code Institute Boutique Ado walkthrough project -->
+<!--Back to top button -->
+<div class="btt-button shadow-sm rounded-0 border border-block">
+    <a class="btt-link d-flex h-100">
+        <i class="fas fa-angle-up text-black mx-auto my-auto"></i>
+    </a>
+</div>
 {% endblock %}
 
 {% block postloadjs %}
-{{ block.super }}
-
-<script type="text/javascript">
-    // Back to top button
-    $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-
-</script>
+    {{ block.super }}
+    <script type="text/javascript">
+        // Back to top button
+		$('.btt-link').click(function(e) {
+			window.scrollTo(0,0)
+		})
+	</script>
 {% endblock %}
