@@ -74,6 +74,18 @@
   color: #1a67d8;
 }
 
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+
+select,
+select option {
+  color: #000;
+}
+
+select:invalid,
+select option[value=""] {
+  color: #747575 !important;
+}
+
 #loading-overlay {
 	      display: none;
         position: fixed;
