@@ -273,36 +273,43 @@ button.offers-shop-now.btn.rounded-0:hover {
 
 
 
-/* ------------------------------------- Profile buttons */
+/* ------------------------------------- Allauth Profile */
 
 .sign-in-button,
 .sign-up-button,
-.sign-out-button {
+.sign-out-button,
+.add-email-button,
+.new-password-reset,
+.back-to-login {
     background-color: #1a67d8;
     color: #fff;
 }
 
 .sign-in-button:hover,
 .sign-up-button:hover,
-.sign-out-button:hover {
+.sign-out-button:hover,
+.add-email-button:hover,
+.new-password-reset:hover,
+.back-to-login:hover {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
 }
 
 .return-to-home-page,
-.back-to-login {
+.back-to-login,
+.cancel-button {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
 }
 
 .return-to-home-page:hover,
-.back-to-login:hover {
+.back-to-login:hover,
+.cancel-button:hover {
     background-color: #1a67d8;
     color: #fff;
 }
-
 
 .reset-password-button {
     border-color: #e28913;
@@ -315,7 +322,7 @@ button.offers-shop-now.btn.rounded-0:hover {
     color: #fff;
 }
 
-
+/* Links */
 a {
     color: #0166a0;
     text-decoration: none;
@@ -325,9 +332,6 @@ a:hover {
     color: #6e97af;
     text-decoration: none;
 }
-
-
-
 
 /* links to sign up or sign in */
 .sign-up,
@@ -342,6 +346,18 @@ a:hover {
     color: #1a67d8;
 }
 
+/* Password change email field */
+.email-field {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* Allauth form formatting */
+.allauth-form-inner-content input,
+.textinput {
+    border: 1px solid #1a67d8 !important;
+    border-radius: 0;
+}
 
 /* -------------------------------------------- Footer */
 .footer {

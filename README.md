@@ -848,11 +848,11 @@ Testing can be found [here](TESTING.md)
 ### Font awesome error
 When I copied the Font Awesome I class tags from Font Awesome the icons didn’t show. To solve this issue I changed the name of these and they worked. I have added a couple of examples below:
 
-#### Basket icon
+### Basket icon
 * "fa-solid fa-basket-shopping" - Original from Font Awesome.
 * "fa fa-shopping-basket" - Changed icon name that worked.
 
-#### Magnifying Glass icon
+### Magnifying Glass icon
 * "fa-solid fa-magnifying-glass" - Original from Font Awesome                             
 * "fas fa-search" - Changed icon name that worked
 
@@ -875,7 +875,8 @@ When an order was submitted the order didn’t show in the Django order section 
 
 After going through the whole of the Stripe and Webhooks process the Checkout Success page was still not showing and was erroring. Oisin helped me to get this working and the issue was that the client_secret was passing the client secret in one part, but wasn’t in another, when I added stripe_ to client_secret this allowed the checkout success page to show and I could see that my test purchase had worked.
 
-
+### Allauth bugs
+I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too. 
 
 ### Known Bugs
 * 
@@ -1326,6 +1327,8 @@ I would like to thank Sean at Code Institute for his help when my remove in the 
 I would also like to thank James at Code Institute for his help when I ran into an error with the checkout success page not being returned. It turned out that as I had got ahead of myself on the stripe section that this was the reason why, because there were some bits that weren’t as far forwards than the other parts, and so the code did not behave as expected. Working with James and understanding where the error was coming. From and what was causing it I was able to proceed. 
 
 I would like to thank Oisin at Code Institute for his help when my Checkout Success page was not showing and erroring. Oisin helped me to get this working and the issue was that the client_secret was passing the client secret in one part, but wasn’t in another, when I added stripe_ to client_secret this allowed the checkout success page to show and I could see that my test purchase had worked. Thank you Oisin for your expertise and helping so that this worked as expected, I really appreciate it.
+
+I would like to thank Franciska at Code Institute for her help when I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too.
 
 I would like to thank Suzy Bennett, Leah Fisher and Shellie Downie for their good wishes and support on Linkedin. This hasn’t been an easy project to complete, but has in ways been very rewarding. Your support and well wishes are much appreciated and I wish you all good luck on your coding journeys. You’ve got this : )
 
