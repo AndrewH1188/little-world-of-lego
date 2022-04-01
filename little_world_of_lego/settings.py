@@ -80,9 +80,11 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required for allauth
+                # required for allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # if product has no image
                 'django.template.context_processors.media',
                 'basket.contexts.basket_contents',
             ],
