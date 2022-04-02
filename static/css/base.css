@@ -362,6 +362,26 @@ a:hover {
 }
 
 
+/* -------------------------------------------- Product Management page */
+.add-product-button,
+.cancel-product-button:hover {
+  background-color: #1a67d8;
+  color: #fff;
+}
+
+.add-product-button:hover,
+.cancel-product-button {
+    border-color: #1a67d8;
+    background-color: #fff;
+    color: #1a67d8;
+}
+
+.form-control  {
+    border-color: #1a67d8;
+}
+
+
+
 /* -------------------------------------------- Footer */
 .footer {
     background: #fece2f;
