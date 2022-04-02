@@ -1,0 +1,32 @@
+Hello {{ order.full_name }},
+
+Thank you for shopping with us here at Little World of Lego.
+
+Please see below your order information:
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.date }}
+
+Products ordered:
+{{ order.order_items }}
+
+Order Total: £{{ order.order_total }}
+Delivery: £{{ order.delivery_cost }}
+Grand Total: £{{ order.grand_total }}
+
+Your items from your order will be delivered to: 
+{{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}
+
+We have your phone number on file as: {{ order.phone_number }} and will only be used in case of any delivery problems.
+
+If you have any questions relating to this order please contact us at {{ contact_email }}.
+
+Stay Awesome and enjoy your purchase. 
+
+Thank you again for your order.
+
+Best Regards
+
+Little World of Lego
+
+<a> Facebook </a> <a> Twitter</a>
