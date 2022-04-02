@@ -5,7 +5,10 @@ from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
+
 from products.models import Product
+from profiles.models import UserProfile
+from profiles.forms import UserProfileForm
 from basket.contexts import basket_contents
 
 # Code has been used from the Code Institute Boutique Ado
@@ -153,7 +156,6 @@ def checkout_success(request, order_number):
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
                 user_profile_form.save()
-
 
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \

@@ -1,4 +1,4 @@
-/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project */
 
 html {
     height:100%;
@@ -182,7 +182,7 @@ button.offers-shop-now.btn.rounded-0:hover {
 }
 
 
-/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project */
 
 /* -------------------------------------------- Bootstrap Toasts */
 .message-container {
@@ -237,7 +237,7 @@ button.offers-shop-now.btn.rounded-0:hover {
 
 
 
-/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project */
 
 /* back to top button */
 .btt-button {
@@ -362,21 +362,6 @@ a:hover {
 }
 
 
-/* ------------------------------------- User Profile */
-
-.update-info-button {
-    background-color: #1a67d8;
-    color: #fff;
-}
-
-.update-info-button:hover {
-    border-color: #1a67d8;
-    background-color: #fff;
-    color: #1a67d8;
-}
-
-
-
 /* -------------------------------------------- Footer */
 .footer {
     background: #fece2f;
@@ -435,7 +420,7 @@ a:hover {
 }
 
 
-/* Code below taken from Code Institute Boutique Ado Walkthrough Project*/
+/* Code below taken from Code Institute Boutique Ado Walkthrough Project */
 
 /* ---------------------------------------------- Media Queries */
 
