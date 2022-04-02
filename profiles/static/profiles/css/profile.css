@@ -1,3 +1,21 @@
+/* Border boxes for form and order summary */
+.profile-details-border {
+    border: 1px solid #1a67d8 !important;
+    padding-top: 10px;
+    max-width: fit-content;
+    height: fit-content;
+    margin-right: 1rem;
+}
+
+.order-history-orange-border {
+  border: 1px solid #ffc107 !important;
+  height: fit-content;
+  width: fit-content;
+  padding-bottom: 10px;
+}
+
+
+
 .update-info-button {
     background-color: #1a67d8;
     color: #fff;
