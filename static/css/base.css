@@ -298,7 +298,8 @@ button.offers-shop-now.btn.rounded-0:hover {
 
 .return-to-home-page,
 .back-to-login,
-.cancel-button {
+.cancel-button,
+.confirm-email-button {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
@@ -306,7 +307,8 @@ button.offers-shop-now.btn.rounded-0:hover {
 
 .return-to-home-page:hover,
 .back-to-login:hover,
-.cancel-button:hover {
+.cancel-button:hover,
+.confirm-email-button:hover {
     background-color: #1a67d8;
     color: #fff;
 }
@@ -358,6 +360,22 @@ a:hover {
     border: 1px solid #1a67d8 !important;
     border-radius: 0;
 }
+
+
+/* ------------------------------------- User Profile */
+
+.update-info-button {
+    background-color: #1a67d8;
+    color: #fff;
+}
+
+.update-info-button:hover {
+    border-color: #1a67d8;
+    background-color: #fff;
+    color: #1a67d8;
+}
+
+
 
 /* -------------------------------------------- Footer */
 .footer {
