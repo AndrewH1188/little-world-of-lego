@@ -363,13 +363,13 @@ a:hover {
 
 
 /* -------------------------------------------- Product Management page */
-.add-product-button,
+.product-management-button,
 .cancel-product-button:hover {
   background-color: #1a67d8;
   color: #fff;
 }
 
-.add-product-button:hover,
+.product-management-button:hover,
 .cancel-product-button {
     border-color: #1a67d8;
     background-color: #fff;
