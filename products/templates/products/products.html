@@ -69,7 +69,7 @@
                     <div class="card h-100 border-0">
 
                         {% if product.image %}
-                        <a href="{{ product.image.url }}" target="_blank">
+                        <a href="{% url 'product_detail' product.id %}">
                             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
@@ -96,7 +96,7 @@
 
                                     {% if request.user.is_superuser %}
                                     <small class="ml-3">
-                                        <a href="">Edit</a>
+                                        <a href="{% url 'edit_product' product.id %}">Edit</a>
                                         <a class="text-danger" href="">Delete</a>
                                     </small>
                                     {% endif %}
