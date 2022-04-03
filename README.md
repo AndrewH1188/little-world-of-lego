@@ -878,19 +878,29 @@ After going through the whole of the Stripe and Webhooks process the Checkout Su
 ### Allauth bugs
 I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too. 
 
+### Profile page footer  
+Having set up my profile page I took a look to see what parts needed styling. Upon looking at this it was clear to see that the footer for some reason was behaving in a way unlike my other pages. On my other pages my footer was full width along the bottom of the page, however this was being pushed over showing extra white space to the left and adding extra space to the right of the other items on the page. I did a test where I took the last closing div tag off and this resulted in the footer having equal white space each side. This told me that it wasn’t that I had too many closing div tags, rather that I was one short. So I added in the one I removed as well as an extra one and this fixed the problem. My footer was now like the other pages and was full width across the page as it should have been.
+
+### Edit products
+When clicking on the Edit link to edit the product this was refreshing the product page. Having looked through I could see that the reason I was unable to edit the products on the page was because I had forgotten to add the link in the href on the products page, and therefore this was the reason it didn’t work. Having added the link to this it worked as expected, and I was able to edit the products as expected.
+
+### Click product to see details
+When a product image was clicked the product image displayed fully in a new page. I had tried to figure out why this was happening with no luck. With help from Christine at Tutor Support I was able to see that the reason this was happening. This was because where I had copied and pasted the code for the if product image href was pointing to the wrong location, and therefore opened the product image only and not the product detail page as before. Upon changing the link back I was able to see the product details as expected.
+
+### Super User profile
+As experienced with the Boutique Ado Walkthrough project I had an issue when I tried to view the profile for the super user. This was because the super user was created before the if super user code was added, and therefore returned the error. Once a new super user was created this was fixed, and I was able to view the super user profile without any error.
+
+### Widgets
+When I first added the custom_widget_templates folder I had this in the products/templates folder. When I came to checking that the changes that I had made were taking affect I had a Django error. Looking into the error I thought it was something wrong with the code in on of the files. I checked using [DiffChecker](https://www.diffchecker.com/) to see if there were any code issues. Other than the styling that was different I could see no obvious errors. I went back to the Django error notification and looked again at this. Reading quite a few lines of the error suddenly the thought was could it be the folder location which it appears to mention on the error page. Looking at the link in the widgets.py file I could see that although I had the folder in the right location of templates, it wasn’t inside the products folder within the templates folder. Moving this inside the products folder of the templates folder the error was soon cleared up, as reloading the page showed me what I had expected to see.
+
+
 ### Known Bugs
 * 
 
 
 
-
-
 ## Deployment:
 Steps taken to deploy my project can be found [here](DEPLOYMENT.md)
-
-
-
-
 
 
 ## Credits:
@@ -1329,6 +1339,8 @@ I would also like to thank James at Code Institute for his help when I ran into 
 I would like to thank Oisin at Code Institute for his help when my Checkout Success page was not showing and erroring. Oisin helped me to get this working and the issue was that the client_secret was passing the client secret in one part, but wasn’t in another, when I added stripe_ to client_secret this allowed the checkout success page to show and I could see that my test purchase had worked. Thank you Oisin for your expertise and helping so that this worked as expected, I really appreciate it.
 
 I would like to thank Franciska at Code Institute for her help when I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too.
+
+Thank you to Christine at Tutor Support for your help when I had an issue with the product image displaying in a separate tab, instead of showing the product details page. With help from Christine I was able to correct my error and see the product details page again as expected. Many thanks for your help regarding this it is much appreciated.
 
 I would like to thank Suzy Bennett, Leah Fisher and Shellie Downie for their good wishes and support on Linkedin. This hasn’t been an easy project to complete, but has in ways been very rewarding. Your support and well wishes are much appreciated and I wish you all good luck on your coding journeys. You’ve got this : )
 
