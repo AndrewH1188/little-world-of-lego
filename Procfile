@@ -1,1 +1,1 @@
-web: gunicorn get_wsgi_application
+web: gunicorn get_wsgi:application
