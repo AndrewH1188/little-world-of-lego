@@ -1,1 +1,1 @@
-web: gunicorn little-world-of-lego.wsgi:application
+web: gunicorn little_world_of_lego.wsgi:application
