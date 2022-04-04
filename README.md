@@ -893,10 +893,15 @@ As experienced with the Boutique Ado Walkthrough project I had an issue when I t
 ### Widgets
 When I first added the custom_widget_templates folder I had this in the products/templates folder. When I came to checking that the changes that I had made were taking affect I had a Django error. Looking into the error I thought it was something wrong with the code in on of the files. I checked using [DiffChecker](https://www.diffchecker.com/) to see if there were any code issues. Other than the styling that was different I could see no obvious errors. I went back to the Django error notification and looked again at this. Reading quite a few lines of the error suddenly the thought was could it be the folder location which it appears to mention on the error page. Looking at the link in the widgets.py file I could see that although I had the folder in the right location of templates, it wasn’t inside the products folder within the templates folder. Moving this inside the products folder of the templates folder the error was soon cleared up, as reloading the page showed me what I had expected to see.
 
+Deploying to Heroku database issues
+When I tried to deploy you Heroku I was met with a couple of challenges. The first being that when I tried to do a json dump of my data there was an error as I couldn’t migrate. With the help from Ed at Tutor Support I was able to get this working by resetting the Postgres database in Heroku, switch back to the SQLite3 database, dumping the product and category data, switching back to the Postgres database and getting this working all ok.
+
+
+Deploying to Heroku Procfile issues
+When I created my Procfile I got the name of my project from my settings.py with the wsgi.application, I changed the last part removing the . and adding : between the wsgi and application. I set this to deploy and looked at the “live site” only to see an application error. Using the Heroku tail logs command in the terminal I was able to see the H10 error. Remembering the process I went through with Oisin when I had the same issue on the Boutique Ado walkthrough project I looked at the Procfile first. At first it seemed to be ok, so I turned my attention to other files Oisin mentioned like freezing the requirements.txt. As there was nothing to freeze I knew the error wasn’t coming from here. I checked the tail logs to see if there was anything obvious and this was saying: ModuleNotFoundError: No module named ‘little-world-of-lego’. I set about many attempts to see what the issue was. When I did a search for the project name little-world-of-lego nothing came up other than the images that had this in and the Procfile, eventually I could see that having tried out other possible solutions that the name may need changing to little_world_of_lego, when this was changed and the add, commit, push and build was completed I could see my site in its bare form, deployed at last : )
 
 ### Known Bugs
-* 
-
+At present there are no known bugs.
 
 
 ## Deployment:
@@ -1330,7 +1335,7 @@ I would like to also thank Chris at Code Institute for the Boutique Ado Walkthro
 
 I would like to thank my superb Mentor Caleb Mbakwe. Your help, support, feedback, guidance, and expertise has helped me complete my fourth and final Milestone project. Without all of this I honestly wouldn’t have been able to have completed and achieved this final outcome, and so I again would like to again say a massive Thank you.
 
-I would like to thank Ed at Code Institute for helping me by answering my question posted on Slack before starting this mammoth project and during this as well.
+I would like to thank Ed at Code Institute for helping me by answering my question posted on Slack before starting this mammoth project and during this as well. I would also like to thank Ed again for his help and understanding when I came to deploy my project and had issues with the database dump and the migrations not taking as they should. Without your support I wouldn't have been able to get through this and successfully resolve the issues that I was encountering. Thank you again Ed for all your help and support, I really do appreciate this.
 
 I would like to thank Sean at Code Institute for his help when my remove in the basket would not work. This issue was because I had missed the HttpResponse in the imports section and the product = None in the remove section. I also had the slim version instead of the min version of jQuery, all of these stopped the remove working and the slim version of jQuery caused the console to error. Working with Sean we were able to quickly find and fix these errors to enable my remove item from basket function to work. Thank you Sean for your helping me to find and fix these errors to enable the remove item from basket function to work as expected, your help in helping me find and fix these issues is very much appreciated.
 
