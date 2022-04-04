@@ -119,7 +119,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'little_world_of_lego.wsgi.application'
+WSGI_APPLICATION = 'little-world-of-lego.wsgi.application'
 
 
 # Database
