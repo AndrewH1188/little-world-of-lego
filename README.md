@@ -900,6 +900,10 @@ When I tried to deploy you Heroku I was met with a couple of challenges. The fir
 Deploying to Heroku Procfile issues
 When I created my Procfile I got the name of my project from my settings.py with the wsgi.application, I changed the last part removing the . and adding : between the wsgi and application. I set this to deploy and looked at the “live site” only to see an application error. Using the Heroku tail logs command in the terminal I was able to see the H10 error. Remembering the process I went through with Oisin when I had the same issue on the Boutique Ado walkthrough project I looked at the Procfile first. At first it seemed to be ok, so I turned my attention to other files Oisin mentioned like freezing the requirements.txt. As there was nothing to freeze I knew the error wasn’t coming from here. I checked the tail logs to see if there was anything obvious and this was saying: ModuleNotFoundError: No module named ‘little-world-of-lego’. I set about many attempts to see what the issue was. When I did a search for the project name little-world-of-lego nothing came up other than the images that had this in and the Procfile, eventually I could see that having tried out other possible solutions that the name may need changing to little_world_of_lego, when this was changed and the add, commit, push and build was completed I could see my site in its bare form, deployed at last : )
 
+
+### Email confirmation not being sent and Stripe Webhook error
+When I placed an order I was seeing a payment_intent.succeeded 500 ERR in stripe and was not receiving the confirmation email as expected. Looking on google for this I came across the same issue that Daph had submitted [here](https://github.com/Daph1986/postfly_jouw_online_drukkerij/issues/10). This got me thinking was my folder in the wrong location the same as Daph’s. I checked against the Boutique Ado and mine and this was the case. On relocating the folder, adding, committing, pushing and testing everything worked just fine as It should do and the expected email came through to confirm my order had been placed. I would like to thank Daph for sharing the problem and solution to this as it helped me to fix this.
+
 ### Known Bugs
 At present there are no known bugs.
 
@@ -1348,6 +1352,8 @@ I would like to thank Franciska at Code Institute for her help when I was having
 Thank you to Christine at Tutor Support for your help when I had an issue with the product image displaying in a separate tab, instead of showing the product details page. With help from Christine I was able to correct my error and see the product details page again as expected. Many thanks for your help regarding this it is much appreciated.
 
 I would like to thank Suzy Bennett, Leah Fisher and Shellie Downie for their good wishes and support on Linkedin. This hasn’t been an easy project to complete, but has in ways been very rewarding. Your support and well wishes are much appreciated and I wish you all good luck on your coding journeys. You’ve got this : )
+
+I would like to thank Daph for sharing the problem and solution to the email receiving and webhooks payment_intent.succeeded 500 ERR on [GitHub](https://github.com/Daph1986/postfly_jouw_online_drukkerij/issues/10). This helped me out with the error I was experiencing. Because you shared this I was able to resolve the same issue that I had. Thank you so much for sharing this again, I really appreciate this.
 
 One of my many returning thank yous goes to Stuart Crang at The Learning People Global for his ongoing support. I can’t believe this is my final project and it feels like yesterday that our paths crossed (in a good way) and my journey began in coding. Without your help, encouragement and support I wouldn’t have managed it and all are very much appreciated, as always.
 
