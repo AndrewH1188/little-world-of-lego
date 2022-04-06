@@ -28,3 +28,5 @@ Thank you again for your order.
 Best Regards
 
 Little World of Lego
+
+<a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i></a>
