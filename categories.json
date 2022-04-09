@@ -1,1 +1,114 @@
-[{"model": "products.category", "pk": 2, "fields": {"name": "cushions", "friendly_name": "Cushions"}}, {"model": "products.category", "pk": 3, "fields": {"name": "canvasses", "friendly_name": "Canvasses"}}, {"model": "products.category", "pk": 4, "fields": {"name": "framed_prints", "friendly_name": "Framed Prints"}}, {"model": "products.category", "pk": 5, "fields": {"name": "stationary", "friendly_name": "Stationary"}}, {"model": "products.category", "pk": 6, "fields": {"name": "notebooks", "friendly_name": "Notebooks"}}, {"model": "products.category", "pk": 7, "fields": {"name": "wall_calendars", "friendly_name": "Wall Calendars"}}, {"model": "products.category", "pk": 8, "fields": {"name": "desktop_calendars", "friendly_name": "Desktop Calendars"}}, {"model": "products.category", "pk": 9, "fields": {"name": "gifts", "friendly_name": "Gifts"}}, {"model": "products.category", "pk": 10, "fields": {"name": "cards", "friendly_name": "Cards"}}, {"model": "products.category", "pk": 11, "fields": {"name": "magnets", "friendly_name": "Magnets"}}, {"model": "products.category", "pk": 12, "fields": {"name": "offers", "friendly_name": "Offers"}}, {"model": "products.category", "pk": 13, "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, {"model": "products.category", "pk": 14, "fields": {"name": "deals", "friendly_name": "Deals"}}, {"model": "products.category", "pk": 15, "fields": {"name": "sale", "friendly_name": "Sale"}}]
+[
+    {
+      "model": "products.category",
+      "pk": 2,
+      "fields": {
+        "name": "cushions",
+        "friendly_name": "Cushions"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 3,
+      "fields": {
+        "name": "canvasses",
+        "friendly_name": "Canvasses"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 4,
+      "fields": {
+        "name": "framed_prints",
+        "friendly_name": "Framed Prints"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 5,
+      "fields": {
+        "name": "stationary",
+        "friendly_name": "Stationary"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 6,
+      "fields": {
+        "name": "notebooks",
+        "friendly_name": "Notebooks"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 7,
+      "fields": {
+        "name": "wall_calendars",
+        "friendly_name": "Wall Calendars"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 8,
+      "fields": {
+        "name": "desktop_calendars",
+        "friendly_name": "Desktop Calendars"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 9,
+      "fields": {
+        "name": "gifts",
+        "friendly_name": "Gifts"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 10,
+      "fields": {
+        "name": "cards",
+        "friendly_name": "Cards"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 11,
+      "fields": {
+        "name": "magnets",
+        "friendly_name": "Magnets"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 12,
+      "fields": {
+        "name": "offers",
+        "friendly_name": "Offers"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 13,
+      "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 14,
+      "fields": {
+        "name": "deals",
+        "friendly_name": "Deals"
+      }
+    },
+    {
+      "model": "products.category",
+      "pk": 15,
+      "fields": {
+        "name": "sale",
+        "friendly_name": "Sale"
+      }
+    }
+  ]
