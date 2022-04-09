@@ -325,54 +325,72 @@ The following Browsers were used to test this site on:
 
 
 ### Products Page Lighthouse results
-![Products Desktop](assets/testing/lighthouse/products-desktop-lighthouse-results.jpg)
+![Products Desktop](assets/testing/lightouse/products-desktop-lighthouse-results1.jpg)
 
-![Products Mobile](assets/testing/lighthouse/products-mobile-lighthouse-results.jpg)
-
-
+![Products Mobile](assets/testing/lightouse/products-mobile-lighthouse-results1.jpg)
+* I'm dissapointed by the score of this page on a mobile device, but have tested it on mobile for speed and I think it does very well. I will try to see if I can improve on the score for mobile and raise this to at least between 50%.
 
 
 ### Product Details Lighthouse results
-![Product Details Desktop](assets/testing/lighthouse/product-desktop-details-lighthouse-results.jpg)
+![Product Details Desktop](assets/testing/lightouse/product-detail-desktop-lighthouse-results.jpg)
 
-
-![Product Details Mobile](assets/testing/lighthouse/product-mobile-details-lighthouse-results.jpg)
-
+![Product Details Mobile](assets/testing/lightouse/product-detail-mobile-lighthouse-results.jpg)
 
 
 ### Basket Lighthouse results
-![Basket Desktop](assets/testing/lighthouse/basket-desktop-lighthouse-results.jpg)
+![Basket Desktop](assets/testing/lightouse/basket-desktop-lighthouse-results.jpg)
 
-
-![Basket Mobile](assets/testing/lighthouse/basket-mobile-lighthouse-results.jpg)
-
-
+![Basket Mobile](assets/testing/lightouse/basket-mobile-lighthouse-results.jpg)
 
 
 ### Checkout Lighthouse results
-![Checkout Desktop](assets/testing/lighthouse/checkout-desktop-lighthouse-results.jpg)
+![Checkout Desktop](assets/testing/lightouse/checkout-desktop-lighthouse-results.jpg)
 
-
-
-![Checkout Mobile](assets/testing/lighthouse/checkout-mobile-lighthouse-results.jpg)
-
-
-
+![Checkout Mobile](assets/testing/lightouse/checkout-mobile-lighthouse-results.jpg)
 
 
 ### Checkout Success Lighthouse results
-![Checkout Success Desktop](assets/testing/lighthouse/checkout-success-desktop-lighthouse-results.jpg)
+![Checkout Success Desktop](assets/testing/lightouse/checkout-success-desktop-results.jpg)
 
-
-![Checkout Success Mobile](assets/testing/lighthouse/checkout-success-mobile-lighthouse-results.jpg)
-
+![Checkout Success Mobile](assets/testing/lightouse/checkout-success-mobile-lighthouse-results.jpg)
 
 
 ### Profile Lighthouse results
-![Profile Desktop](assets/testing/lighthouse/profile-desktop-lighthouse-results.jpg)
+![Profile Desktop](assets/testing/lightouse/my-profile-desktop-lighthouse-results.jpg)
+
+![Profile Mobile](assets/testing/lightouse/my-profile-mobile-lighthouse-results.jpg)
 
 
-![Profile Mobile](assets/testing/lighthouse/profile-mobile-lighthouse-results.jpg)
+### Add a product Lighthouse results
+![Add a product Desktop](assets/testing/lightouse/add-product-desktop-lighthouse-results.jpg)
+
+![Add a product Mobile](assets/testing/lightouse/add-product-mobile-lighthouse-results.jpg)
+
+
+### Terms and Conditions Lighthouse results
+![Terms and Conditions Desktop](assets/testing/lightouse/terms-conditions-desktop-lighthouse-results.jpg)
+
+![Terms and Conditions Mobile](assets/testing/lightouse/terms-conditions-mobile-lighthouse-results.jpg)
+
+
+### Sign out Lighthouse results
+![Sign out Desktop](assets/testing/lightouse/sign-out-desktop-lighthouse-results.jpg)
+
+![Sign out Mobile](assets/testing/lightouse/sign-out-mobile-lighthouse-results.jpg)
+
+
+### Sign in Lighthouse results
+![Sign in Desktop](assets/testing/lightouse/login-desktop-lighthouse-results.jpg)
+
+![Sign in Mobile](assets/testing/lightouse/login-mobile-lighthouse-results.jpg)
+
+
+### Register Lighthouse results
+![Register Desktop](assets/testing/lightouse/register-desktop-lighthouse-results.jpg)
+
+![Register Mobile](assets/testing/lightouse/register-mobile-lighthouse-results.jpg)
+
+
 
 
 
@@ -384,20 +402,6 @@ The following Browsers were used to test this site on:
 ![Wish List Mobile](assets/testing/lighthouse/wish-list-mobile-lighthouse-results.jpg)
 
 
-
-### Add a product Lighthouse results
-![Add a product Desktop](assets/testing/lighthouse/add-product-desktop-lighthouse-results.jpg)
-
-![Add a product Mobile](assets/testing/lighthouse/add-product-mobile-lighthouse-results.jpg
-
-
-
-
-### Terms and Conditions Lighthouse results
-![Terms and Conditions](assets/testing/lighthouse/terms-conditions-desktop-lighthouse-results.jpg)
-
-
-![Terms and Conditions](assets/testing/lighthouse/terms-conditions-mobile-lighthouse-results.jpg)
 
 
 
