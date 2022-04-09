@@ -319,38 +319,87 @@ The following Browsers were used to test this site on:
 
 ## Lighthouse Results
 ### Home Lighthouse results
-![Home](assets/testing/lighthouse/home-lighthouse-results.jpg)
+![Home Desktop](assets/testing/lightouse/home-desktop-lighthouse-results.jpg)
+
+![Home Mobile](assets/testing/lightouse/home-mobile-lighthouse-results.jpg)
 
 
 ### Products Page Lighthouse results
-![Products](assets/testing/lighthouse/products-lighthouse-results.jpg)
+![Products Desktop](assets/testing/lighthouse/products-desktop-lighthouse-results.jpg)
+
+![Products Mobile](assets/testing/lighthouse/products-mobile-lighthouse-results.jpg)
+
+
+
 
 ### Product Details Lighthouse results
-![Product Details](assets/testing/lighthouse/product-details-lighthouse-results.jpg)
+![Product Details Desktop](assets/testing/lighthouse/product-desktop-details-lighthouse-results.jpg)
+
+
+![Product Details Mobile](assets/testing/lighthouse/product-mobile-details-lighthouse-results.jpg)
+
+
 
 ### Basket Lighthouse results
-![Basket](assets/testing/lighthouse/basket-lighthouse-results.jpg)
+![Basket Desktop](assets/testing/lighthouse/basket-desktop-lighthouse-results.jpg)
+
+
+![Basket Mobile](assets/testing/lighthouse/basket-mobile-lighthouse-results.jpg)
+
+
+
 
 ### Checkout Lighthouse results
-![Checkout](assets/testing/lighthouse/checkout-lighthouse-results.jpg)
+![Checkout Desktop](assets/testing/lighthouse/checkout-desktop-lighthouse-results.jpg)
+
+
+
+![Checkout Mobile](assets/testing/lighthouse/checkout-mobile-lighthouse-results.jpg)
+
+
+
+
 
 ### Checkout Success Lighthouse results
-![Checkout Success](assets/testing/lighthouse/checkout-success-lighthouse-results.jpg)
+![Checkout Success Desktop](assets/testing/lighthouse/checkout-success-desktop-lighthouse-results.jpg)
+
+
+![Checkout Success Mobile](assets/testing/lighthouse/checkout-success-mobile-lighthouse-results.jpg)
+
+
 
 ### Profile Lighthouse results
-![Profile](assets/testing/lighthouse/profile-lighthouse-results.jpg)
+![Profile Desktop](assets/testing/lighthouse/profile-desktop-lighthouse-results.jpg)
+
+
+![Profile Mobile](assets/testing/lighthouse/profile-mobile-lighthouse-results.jpg)
+
+
+
 
 ### Wish List Lighthouse results
-![Wish List](assets/testing/lighthouse/wish-list-lighthouse-results.jpg)
+![Wish List Desktop](assets/testing/lighthouse/wish-list-desktop-lighthouse-results.jpg)
+
+
+![Wish List Mobile](assets/testing/lighthouse/wish-list-mobile-lighthouse-results.jpg)
+
+
 
 ### Add a product Lighthouse results
-![Add a product](assets/testing/lighthouse/add-product-lighthouse-results.jpg)
+![Add a product Desktop](assets/testing/lighthouse/add-product-desktop-lighthouse-results.jpg)
 
-### Edit a product Lighthouse results
-![Edit a product](assets/testing/lighthouse/edit-product-lighthouse-results.jpg)
+![Add a product Mobile](assets/testing/lighthouse/add-product-mobile-lighthouse-results.jpg
 
-### Terms and COnditions Lighthouse results
-![Terms and Conditions](assets/testing/lighthouse/terms-conditions-lighthouse-results.jpg)
+
+
+
+### Terms and Conditions Lighthouse results
+![Terms and Conditions](assets/testing/lighthouse/terms-conditions-desktop-lighthouse-results.jpg)
+
+
+![Terms and Conditions](assets/testing/lighthouse/terms-conditions-mobile-lighthouse-results.jpg)
+
+
 
 
 
@@ -431,19 +480,15 @@ I ran the JavaScript that is being used in my site through the [JSHint](https://
 
 ### Stripe Elements JS Validation
 ![stripe_elements.js](assets/testing/validators/js-validator/stripe-elements-js-results.jpg)
+* I have left the missing semicolon as I was getting a console error. I'm not sure why there are the other two warningsa about the 'template literal' but these have been left.
 
 ### Quantity input JS Validation
 ![quantity_input_script.html](assets/testing/validators/js-validator/qty-input-js-results.jpg)
+* The other warnings have been left as I believe that this is because of the nature of the file, being in an html document, rather than its own JS file.
 
 ### Country Field JS Validation
 ![countryfield.js](assets/testing/validators/js-validator/countryfield-js-results.jpg)
-
-
-
-
-
-
-
+* I have removed the unnecessary semicolon, so this is now ok as per the JSHint validator. I have ignored the let warning that is there.
 
 
 ### JSONFormatter

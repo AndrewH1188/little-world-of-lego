@@ -13,8 +13,7 @@ My eCommerce site has been built for educational purposes and as great as the pr
 ![responsive-screenshot](assets/testing/little-world-of-lego-responsiveness.jpg)
 
 
-A deployed live version of my Little World of Lego eCommerce site can be found [here](URL HERE)
-This domain link will allow you to access and explore my Little World of Lego eCommerce store. My eCommerce store has been designed to be fully responsive across all devices and layouts, whilst also being simple, clean and easy to use. This makes up my fourth and final Milestone project as part of the Code Institute Full Stack Web Developer Course. 
+A deployed live version of my Little World of Lego eCommerce site can be found [here](https://little-world-of-lego.herokuapp.com). This domain link will allow you to access and explore my Little World of Lego eCommerce store. My eCommerce store has been designed to be fully responsive across all devices and layouts, whilst also being simple, clean and easy to use. This makes up my fourth and final Milestone project as part of the Code Institute Full Stack Web Developer Course. 
 
 
 ## Table of Contents
