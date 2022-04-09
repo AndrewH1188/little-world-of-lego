@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+<!-- Taken from Code Institute Boutique Ado walkthrough project -->
+
+<title>{% block extra_title %}| Wish List{% endblock %}</title>
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="h2-page-header">My Wish List</h2>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 col-lg-6 order-lg-last mb-5">
+
+            <!-- Item images-->
+            {% for item in wishlist_items %}
+            <div class="row">
+                <div class="col-2 mb-1">
+                    <!-- <a href="{% url 'product_detail' item.product.id %}"> -->
+                        
+                        {% if item.product.image %}
+                        <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                        {% else %}
+                        <img class="w-100" src="{{ MEDIA_URL }}no-photo.jpg" alt="{{ item.product.name }}">
+                        {% endif %}
+                    </a>
+                </div>
+
+                <!-- Item name and price -->
+                <div class="col-7">
+                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+               
+                </div>
+                <div class="col-3 text-right">
+                    <p class="my-0 small text-muted">£{{ item.product.price }}</p>
+                </div>
+            </div>
+            {% endfor %}
+            
+<!-- Add to basket Button -->  
+<div class="col-12">
+    <a href="" class="btn rounded-0 add-basket-button mb-4">
+        <span>Add to basket</span>
+    </a>
+<!-- Remove Button -->
+    <a href="" class="btn rounded-0 remove-wishlist-button mb-4">
+        <span>Remove from Wishlist</span>
+    </a>
+</div>
+
+<div class="mt-4"></div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+{% block postloadjs %}
+{{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
+
+<script type="text/javascript">
+    // Remove item and reload on click
+    $('.remove-item').click(function (e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/wishlist/remove/${itemId}/`;
+        var data = {
+            'csrfmiddlewaretoken': csrfToken
+        };
+
+        $.post(url, data)
+            .done(function () {
+                location.reload();
+            });
+    })
+</script>
+{% endblock %}
