@@ -1,1 +1,925 @@
-[{"model": "products.product", "pk": 1, "fields": {"category": 2, "sku": "LWOL76493555", "name": "Lego Diver Cushion", "description": "A great cushion that features a Lego diver making a splash. This is perfect for someone who is not only a Lego fan but who also likes diving. Measures 30cm width by 30cm height. Machine washable.", "price": "15.00", "image_url": null, "image": "water-diver-cushion_7VnPDkM.jpg"}}, {"model": "products.product", "pk": 2, "fields": {"category": 2, "sku": "LWOL76493556", "name": "Lego Bohemian Storm Trooper Cushion", "description": "Featuring Storm Trooper helmets laid out like the famous Queen Bohemian Rhapsody video. A must for any Lego, Queen or Star Wars fan. Measures 30cm width by 30cm height. Machine washable.", "price": "24.99", "image_url": null, "image": "bohemian-stormtrooper-cushion_eT4kbpS.jpg"}}, {"model": "products.product", "pk": 3, "fields": {"category": 15, "sku": "LWOL76493557", "name": "Lego Santa Clause Cushion", "description": "A festive favourite featuring a Lego Santa with a sack full of gifts. Measures 30cm width by 30cm height. Machine washable.", "price": "9.99", "image_url": null, "image": "santa-cushion-cushion_86jSphD.jpg"}}, {"model": "products.product", "pk": 4, "fields": {"category": 2, "sku": "LWOL76493558", "name": "Lego Storm Troopers Cushion", "description": "Featuring the baddies of Star Wars the Storm Troopers in a sand terrain. Measures 30cm width by 30cm height. Machine washable.", "price": "24.99", "image_url": null, "image": "desert-troopers-cushion_fRbKCdF.jpg"}}, {"model": "products.product", "pk": 5, "fields": {"category": 15, "sku": "LWOL76493559", "name": "Lego Elf Cushion", "description": "This cheeky little elf is enough to get you in the festive spirit, but you don’t have to put this away after Christmas as an elf is for life… Measures 30cm width by 30cm height. Machine washable.", "price": "9.99", "image_url": null, "image": "elf-cushion_OAMvMFd.jpg"}}, {"model": "products.product", "pk": 6, "fields": {"category": 2, "sku": "LWOL76493560", "name": "Lego Hiker Cushion", "description": "Bring the adventure of hiking and exploring to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.", "price": "15.00", "image_url": null, "image": "hiker-cushion_aqLChnJ.jpg"}}, {"model": "products.product", "pk": 7, "fields": {"category": 2, "sku": "LWOL76493561", "name": "Lego Gandalph Cushion", "description": "Relive the Lord of the Rings adventure by having your very own Gandalf cushion. Great for giving character to any sofa or chair. Measures 30cm width by 30cm height. Machine washable.", "price": "24.99", "image_url": null, "image": "lotr-gandalph-cushion_GM5UYvZ.jpg"}}, {"model": "products.product", "pk": 8, "fields": {"category": 2, "sku": "LWOL76493562", "name": "Lego Sand Surfer Cushion", "description": "Bring the adventure of sand surfing to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.", "price": "15.00", "image_url": null, "image": "sand-surfer-cushion_ZOiAOpy.jpg"}}, {"model": "products.product", "pk": 9, "fields": {"category": 2, "sku": "LWOL76493563", "name": "Lego Sand Biker Cushion", "description": "Bring the adventure of biking to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.", "price": "15.00", "image_url": null, "image": "sand-biker-cushion_RiB5QPU.jpg"}}, {"model": "products.product", "pk": 10, "fields": {"category": 15, "sku": "LWOL76493564", "name": "Lego Fun Guy Cushion", "description": "Bring the outdoors indoors with out Lego Fun Guy cushion. Perfect for your sofa or favourite chair. Measures 30cm width by 30cm height. Machine washable.", "price": "10.00", "image_url": null, "image": "mushroom-man-cushion_wQ5XGkg.jpg"}}, {"model": "products.product", "pk": 11, "fields": {"category": 3, "sku": "LWOL76493588", "name": "Lego Witch Canvas 1", "description": "A great little canvas featuring a witch  by the fire. This is sure to cast great spells and is part of a two part set (each sold separately). Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "witch1-small-canvas_TSxM0zC.jpg"}}, {"model": "products.product", "pk": 12, "fields": {"category": 3, "sku": "LWOL76493589", "name": "Lego Witch Canvas 2", "description": "A great little canvas featuring a witch  by the fire. This is sure to cast great spells and is part of a two part set (each sold separately). Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "witch2-small-canvas_nyuHzbn.jpg"}}, {"model": "products.product", "pk": 13, "fields": {"category": 3, "sku": "LWOL76493590", "name": "Lego Trooper Love Sunset Canvas", "description": "A great little canvas featuring a two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "troopers-hands-holding-small-canvas_4LT2yXR.jpg"}}, {"model": "products.product", "pk": 14, "fields": {"category": 15, "sku": "LWOL76493591", "name": "Lego Pest Police Canvas", "description": "A great little canvas featuring a two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Measures 7cm width by 7cm height.", "price": "1.00", "image_url": null, "image": "slug-police-small-canvas_RiT893P.jpg"}}, {"model": "products.product", "pk": 15, "fields": {"category": 3, "sku": "LWOL76493592", "name": "Lego Ski Lady Canvas", "description": "A great little canvas featuring a lady skiing down a piece of art. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "ski-person-small-canvas_bDBeBkr.jpg"}}, {"model": "products.product", "pk": 16, "fields": {"category": 3, "sku": "LWOL76493593", "name": "Lego Minecraft Canvas", "description": "A great little canvas featuring a couple of Minecraft characters sitting in the sun. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "minecraft-small-canvas_g5aYV30.jpg"}}, {"model": "products.product", "pk": 17, "fields": {"category": 3, "sku": "LWOL76493594", "name": "Lego Wedding Canvas", "description": "A great little canvas featuring the happy Lego couple. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "marriage-small-canvas_89ifq3F.jpg"}}, {"model": "products.product", "pk": 18, "fields": {"category": 3, "sku": "LWOL76493595", "name": "Lego Beach Diver Canvas", "description": "A great little canvas featuring a Lego diver at the beach. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "diver-beach-small-canvas_r5DeYHj.jpg"}}, {"model": "products.product", "pk": 19, "fields": {"category": 3, "sku": "LWOL76493596", "name": "Lego Cleaner Troops Canvas", "description": "A great little canvas featuring a pair of Lego Star Wars troops cleaning a record player head. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "cleaner-troopers-small-canvas_crDvswi.jpg"}}, {"model": "products.product", "pk": 20, "fields": {"category": 3, "sku": "LWOL76493597", "name": "Lego Beach Buddies Canvas", "description": "A great little canvas featuring a girl and her dog on the beach. Measures 7cm width by 7cm height.", "price": "2.00", "image_url": null, "image": "beach-girl-dog-small-canvas_zL7C3Cf.jpg"}}, {"model": "products.product", "pk": 21, "fields": {"category": 10, "sku": "LWOL76493759", "name": "Lego Astronaut coffee bean discovery A5 Landscape Card", "description": "Our unique designed card can be used for any occasion as the inside has been left blank. This allows you to celebrate any occasion and write what you like in this fantastic card.", "price": "2.00", "image_url": null, "image": "astronaut-card_Va0r7Wg.jpg"}}, {"model": "products.product", "pk": 22, "fields": {"category": 10, "sku": "LWOL76493760", "name": "Lego Star Wars Stunt Trooper A5 Landscape Card", "description": "Our unique designed card can be used for any occasion as the inside has been left blank. This allows you to celebrate any occasion and write what you like in this fantastic card.", "price": "2.00", "image_url": null, "image": "storm-trooper-biker-card_gUpoa1p.jpg"}}, {"model": "products.product", "pk": 23, "fields": {"category": 15, "sku": "LWOL76493761", "name": "Lego Star Wars Snow what fun A5 Landscape Card", "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to be a hit with any Lego Star Wars fan.", "price": "1.00", "image_url": null, "image": "trooper-christmas-card_D0lQ3UF.jpg"}}, {"model": "products.product", "pk": 24, "fields": {"category": 10, "sku": "LWOL76493762", "name": "Lego Wedding Congratulations A5 Landscape Card", "description": "Our unique designed card can be personalised inside as this has been left blank. This allows you to write your own words to congratulate the happy couple’s big day.", "price": "2.00", "image_url": null, "image": "wedding-congratulations-card_BzxoO3B.jpg"}}, {"model": "products.product", "pk": 25, "fields": {"category": 10, "sku": "LWOL76493763", "name": "Lego Star Wars Beach Trooper A5 Landscape Card", "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to be a hit with any Lego Star Wars fan.", "price": "2.50", "image_url": null, "image": "storm-trooper-beach-card_2TuTtuw.jpg"}}, {"model": "products.product", "pk": 26, "fields": {"category": 15, "sku": "LWOL76493764", "name": "Lego Santa Merry Christmas A5 Landscape Card", "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.", "price": "1.00", "image_url": null, "image": "santa-card_YGVzVJs.jpg"}}, {"model": "products.product", "pk": 27, "fields": {"category": 10, "sku": "LWOL76493765", "name": "Lego Obi Wan Kenobi Happy Birthday A5 Landscape Card", "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate someones big day with this fantastic card that is sure to be a hit with any Lego Star Wars fan.", "price": "2.50", "image_url": null, "image": "obi-wan-birthday-card_sISEPwn.jpg"}}, {"model": "products.product", "pk": 28, "fields": {"category": 10, "sku": "LWOL76493766", "name": "Lego Hiker A5 Landscape Card", "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.", "price": "2.00", "image_url": null, "image": "hiker-card_TC27iPO.jpg"}}, {"model": "products.product", "pk": 29, "fields": {"category": 15, "sku": "LWOL76493767", "name": "Lego The Ghould Life A5 Landscape Card", "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.", "price": "1.00", "image_url": null, "image": "halloween-beach-card_4NnCkuP.jpg"}}, {"model": "products.product", "pk": 30, "fields": {"category": 10, "sku": "LWOL76493768", "name": "Lego Beach Buddies A5 Landscape Card", "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.", "price": "2.00", "image_url": null, "image": "girl-dog-beach-card_BXk2BP9.jpg"}}, {"model": "products.product", "pk": 31, "fields": {"category": 15, "sku": "LWOL76493769", "name": "Lego Elf Merry Christmas A5 Landscape Card", "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.", "price": "1.00", "image_url": null, "image": "elf-card_KanJkRZ.jpg"}}, {"model": "products.product", "pk": 32, "fields": {"category": 11, "sku": "LWOL76493711", "name": "Lego Trooper Love Sunset Landscape Magnet", "description": "This magnet features two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.99", "image_url": null, "image": "troopers-hand-holding-fridge-magnet-small_6x9RbaF.jpg"}}, {"model": "products.product", "pk": 33, "fields": {"category": 11, "sku": "LWOL76493712", "name": "Lego Sand Surfer Landscape Magnet", "description": "This magnet features a fun Lego Sand Surfer Girl on her board. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.00", "image_url": null, "image": "surfer-girl-fridge-magnet-small_qTFt88B.jpg"}}, {"model": "products.product", "pk": 34, "fields": {"category": 11, "sku": "LWOL76493713", "name": "Lego Dark Side Bike Ride Landscape Magnet", "description": "This magnet features Lego Darth Vader leading the way with two worn out Storm Troopers trailing behind on bikes. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.99", "image_url": null, "image": "star-wars-bikes-fridge-magnet-small_1ZUP9y9.jpg"}}, {"model": "products.product", "pk": 35, "fields": {"category": 11, "sku": "LWOL76493714", "name": "Lego Segway Secret Agent Landscape Magnet", "description": "This magnet features a Lego secret agent on a Segway patrolling. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.00", "image_url": null, "image": "segway-agent-fridge-magnet-small_jkrKVMk.jpg"}}, {"model": "products.product", "pk": 36, "fields": {"category": 15, "sku": "LWOL76493715", "name": "Lego Santa Landscape Magnet", "description": "This magnet features a festive Lego Santa in the snow with his sack full of presents. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "1.00", "image_url": null, "image": "santa-fridge-magnet-small_Yg8pu3Y.jpg"}}, {"model": "products.product", "pk": 37, "fields": {"category": 11, "sku": "LWOL76493716", "name": "Lego Painter Trooper Landscape Magnet", "description": "This magnet features a Lego Star Wars Storm Trooper with a paintbrush and canvas. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.99", "image_url": null, "image": "painter-trooper-fridge-magnet-small_Qfot4n4.jpg"}}, {"model": "products.product", "pk": 38, "fields": {"category": 11, "sku": "LWOL76493717", "name": "Lego Obi Wan and Darth Maul Landscape Magnet", "description": "This magnet features a scene with Lego Obi Wan and Darth Maul battling with lightsabers. Will good win over evil? Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.99", "image_url": null, "image": "jedi-maul-fridge-magnet-small_ICUN3BA.jpg"}}, {"model": "products.product", "pk": 39, "fields": {"category": 11, "sku": "LWOL76493718", "name": "Lego Fire Fighters Landscape Magnet", "description": "This magnet features a pair of Lego firefighters looking off into the distance. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.00", "image_url": null, "image": "fire-fighters-fridge-magnet-small_kj6ZKc3.jpg"}}, {"model": "products.product", "pk": 40, "fields": {"category": 15, "sku": "LWOL76493719", "name": "Lego Elf Landscape Magnet", "description": "This magnet features a festive Lego Elf in the snow with his presents wrapped and ready to deliver. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "1.00", "image_url": null, "image": "elf-fridge-magnet-small_9WOkt93.jpg"}}, {"model": "products.product", "pk": 41, "fields": {"category": 11, "sku": "LWOL76493720", "name": "Lego Clone Trooper Landscape Magnet", "description": "This magnet features a Lego Clone Trooper on a drive with a screw driver. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.", "price": "2.99", "image_url": null, "image": "clone-trooper-hard-drive-fridge-magnet-small_l2m9Mui.jpg"}}, {"model": "products.product", "pk": 42, "fields": {"category": 8, "sku": "LWOL76493701", "name": "Lego Sand Surfer Desktop 2022 Calendar", "description": "Featuring all your female favourites: Lego Sand Surfer - January, Lisa Simpson - February, Fancy Dress Cat Costume Lady - March, Lola Bunny - April, Hermione Granger - May, Captain Carter - June, Lucy / Wyldstyle - July, Jyn Erso - August, Elsa - September, Padmé Amidala - October,  Ariel - Little Mermaid - November, and Mrs Clausse - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.", "price": "2.99", "image_url": null, "image": "sand-surfer-desktop-calendar_8sk5ddJ.jpg"}}, {"model": "products.product", "pk": 43, "fields": {"category": 8, "sku": "LWOL76493702", "name": "Lego Hiker Desktop 2022 Calendar", "description": "Featuring all your male favourites: Lego Hiker - January, Hercules - February, Emmet - March, Bugs Bunny - April, Homer Simpson - May, Spider Man - June, Grogu/ The Child - July, Clown - August, Dumbledore - September, Astronaut - October, Lego Brick Costume - November, and Santa Clause - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.", "price": "2.99", "image_url": null, "image": "hiker-desktop-calendar_j2XJhpa.jpg"}}, {"model": "products.product", "pk": 44, "fields": {"category": 8, "sku": "LWOL76493703", "name": "Lego Daisy Man Desktop 2022 Calendar", "description": "Featuring: Lego Daisy Man - January, Obi Wan Kenobi - February, The Cheetah - March, Wyle E Coyote - April, Lego Brick Costume Girl - May, Superman - June, Jane Goodall - July, Firework Costume Man - August, Ron Weasley - September, Fire Lady - October,  Olaf - November, and Anna - Frozen - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.", "price": "2.99", "image_url": null, "image": "flower-man-desktop-calendar_3vqOoLz.jpg"}}, {"model": "products.product", "pk": 45, "fields": {"category": 8, "sku": "LWOL76493704", "name": "Lego Pier Fisherman Desktop 2022 Calendar", "description": "Featuring: Lego Pier Fisherman - January, Smithers - February, Wonder Woman - March, Road Runner - April, Diver Lady - May, Pirate - June, Amelia Earhart - July, Gru - August, Ginny Weasley - September, Princess - October,  Clone Trooper - November, and Captain Phasma - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.", "price": "2.99", "image_url": null, "image": "fisher-desktop-calendar_fy0NGol.jpg"}}, {"model": "products.product", "pk": 46, "fields": {"category": 8, "sku": "LWOL76493705", "name": "Lego Keyboard CTRL Desktop 2022 Calendar", "description": "Featuring: Lego Keyboard CTRL - January, Edna Crabapple - February, Anakin Skywalker - March, Female Bunny - April, Acorn boy - May, Luna Lovegood - June, Scare Crow - July, Petunia Pig - August, Bee Keeper - September, Sally Ride - October, Snow Guardian - November, and Star Girl - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.", "price": "2.99", "image_url": null, "image": "ctrl-man-desktop-calendar_9TzHZoF.jpg"}}, {"model": "products.product", "pk": 47, "fields": {"category": 7, "sku": "LWOL76493706", "name": "Lego Star Wars Storm Troopers Wall 2022 Calendar", "description": "Featuring all your favourite Lego Characters: Lego Star Wars Storm Troopers - January, Edna Crabapple - February, Anakin Skywalker - March, Female Bunny - April, Acorn boy  - May, Luna Lovegood - June, Scare Crow - July, Petunia Pig - August, Bee Keeper - September, Sally Ride - October, Snow Guardian - November, and Star Girl - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).", "price": "3.99", "image_url": null, "image": "star-wars-wall-calendar_v3d2J30.jpg"}}, {"model": "products.product", "pk": 48, "fields": {"category": 7, "sku": "LWOL76493707", "name": "Lego Ninjago Wall 2022 Calendar", "description": "Featuring all your favourite Lego Ninjago Characters: Kai - January, Nya - February, Sensei Wu - March, P.I.X.A.L. - April, Scales - May, Skylor - June, Morrow - July, Cole - August, Harumi - September, Jay Walker - October, Zane - November, and Emperess - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).", "price": "3.99", "image_url": null, "image": "ninjago-wall-calendar_iRZ4WH1.jpg"}}, {"model": "products.product", "pk": 49, "fields": {"category": 7, "sku": "LWOL76493708", "name": "Lego Hiker Wall 2022 Calendar", "description": "Featuring all your male favourites: Lego Hiker - January, Hercules - February, Emmet - March, Bugs Bunny - April, Homer Simpson - May, Spider Man - June, Grogu/ The Child - July, Clown - August, Dumbledore - September, Astronaut - October, Lego Brick Costume - November, and Santa Clause - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).", "price": "3.99", "image_url": null, "image": "hiker-wall-calendar_ZWhFJTW.jpg"}}, {"model": "products.product", "pk": 50, "fields": {"category": 7, "sku": "LWOL76493709", "name": "Lego Pier Fisherman Wall 2022 Calendar", "description": "Featuring: Lego Pier Fisherman - January, Smithers - February, Wonder Woman - March, Road Runner - April, Diver Lady - May, Pirate - June, Amelia Earhart - July, Gru - August, Ginny Weasley - September, Princess - October,  Clone Trooper - November, and Captain Phasma - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).", "price": "3.99", "image_url": null, "image": "fishing-wall-calendar_S7E2GI7.jpg"}}, {"model": "products.product", "pk": 51, "fields": {"category": 4, "sku": "LWOL76495522", "name": "Lego Lovers A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "love-framed_prHrl1a.jpg"}}, {"model": "products.product", "pk": 52, "fields": {"category": 4, "sku": "LWOL76495523", "name": "Lego Ninja A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "lego-ninja-frame_cagtNVF.jpg"}}, {"model": "products.product", "pk": 53, "fields": {"category": 4, "sku": "LWOL76495524", "name": "Lego Fun Guy A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "fun-guy-framed_TpY389I.jpg"}}, {"model": "products.product", "pk": 54, "fields": {"category": 4, "sku": "LWOL76495525", "name": "Lego Fencing Person A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "fencing-frame_Bj4oumL.jpg"}}, {"model": "products.product", "pk": 55, "fields": {"category": 4, "sku": "LWOL76495526", "name": "Lego Flower Man A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "daisy-man-framed_eLKmiNd.jpg"}}, {"model": "products.product", "pk": 56, "fields": {"category": 4, "sku": "LWOL76495527", "name": "Lego Construction A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "construction-framed_TO7YzIM.jpg"}}, {"model": "products.product", "pk": 57, "fields": {"category": 4, "sku": "LWOL76495528", "name": "Lego Computer Key CNTRL A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "cntrl-keyboard-frame_AenIYG6.jpg"}}, {"model": "products.product", "pk": 58, "fields": {"category": 4, "sku": "LWOL76495529", "name": "Lego Clone Fixer A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "clone-trooper-fix-framed_p6Sixf3.jpg"}}, {"model": "products.product", "pk": 59, "fields": {"category": 4, "sku": "LWOL76495530", "name": "Lego Bohemian Troopers A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "bohemian-storm-troopers-framed_qBPO7h1.jpg"}}, {"model": "products.product", "pk": 60, "fields": {"category": 4, "sku": "LWOL76495530", "name": "Lego Beach Biker A3 Landscape Framed Print", "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.", "price": "14.99", "image_url": null, "image": "beach-bike-framed_OHgL2Fd.jpg"}}, {"model": "products.product", "pk": 62, "fields": {"category": 13, "sku": "LWOL76495532", "name": "Lego Storm Trooper A4 Notebook / Sketchpad", "description": "Adding to our range of existing A4 Notebooks / sketchpads we have this superb Storm Trooper covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-storm-troopers_2b7mV9c.jpg"}}, {"model": "products.product", "pk": 63, "fields": {"category": 14, "sku": "LWOL76495533", "name": "Lego Santa A4 Notebook / Sketchpad x2", "description": "This great notebook / sketch pad comes at a great price. We are giving you two for the price of one on this Santa covered notebook / sketchpad. This means that you can get one for yourself and perhaps give one as a gift if you like, or if you're feeling extra generous and in the spirit of Saint Nick, give both as gifts. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-santa_mcRkY9o.jpg"}}, {"model": "products.product", "pk": 64, "fields": {"category": 6, "sku": "LWOL76495534", "name": "Lego Sand Surfer A4 Notebook / Sketchpad", "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-sand-surfer-girl_BcbYb99.jpg"}}, {"model": "products.product", "pk": 65, "fields": {"category": 6, "sku": "LWOL76495535", "name": "Lego Rebel Troop A4 Notebook / Sketch Pad", "description": "Adding to our range of existing A4 Notebooks / sketch pads we have this superb Rebel Troop covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-rebel-troop_uMsCjke.jpg"}}, {"model": "products.product", "pk": 66, "fields": {"category": 6, "sku": "LWOL76495536", "name": "Lego Hiker A4 Notebook / Sketch Pad", "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-hiker_72JCUUf.jpg"}}, {"model": "products.product", "pk": 67, "fields": {"category": 6, "sku": "LWOL76495537", "name": "Lego Fisher A4 Notebook / Sketch Pad", "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-fishing_6HahUwk.jpg"}}, {"model": "products.product", "pk": 68, "fields": {"category": 14, "sku": "LWOL76495538", "name": "Lego Elf A4 Notebook / Sketch Pad x2", "description": "This great notebook / sketch pad comes at a great price. We are giving you two for the price of one on this Elf covered notebook / sketch pad. This means that you can get one for yourself and perhaps give one as a gift if you like, or if you're feeling extra generous and in the spirit of the friendly Elf, give both as gifts. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-elf_V63ncnw.jpg"}}, {"model": "products.product", "pk": 69, "fields": {"category": 6, "sku": "LWOL76495539", "name": "Lego Droids A4 Notebook / Sketch Pad", "description": "Adding to our range of existing A4 Notebooks / sketch pads we have this superb Droids covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-droids_ZueN0rs.jpg"}}, {"model": "products.product", "pk": 70, "fields": {"category": 6, "sku": "LWOL76495540", "name": "Lego Diver A4 Notebook / Sketch Pad", "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-diver_R1hxonD.jpg"}}, {"model": "products.product", "pk": 71, "fields": {"category": 6, "sku": "LWOL76495541", "name": "Lego Biker A4 Notebook / Sketch Pad", "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.", "price": "5.99", "image_url": null, "image": "book-cover-biker_ZOOr519.jpg"}}, {"model": "products.product", "pk": 72, "fields": {"category": 15, "sku": "LWOL76493770", "name": "Lego Christmas Scene Merry Christmas A5 Landscape Card", "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.", "price": "1.00", "image_url": null, "image": "christmas-scene-card_qJEzHmg.jpg"}}]
+[
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493555",
+        "name": "Lego Diver Cushion",
+        "description": "A great cushion that features a Lego diver making a splash. This is perfect for someone who is not only a Lego fan but who also likes diving. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "15.00",
+        "image_url": null,
+        "image": "water-diver-cushion_7VnPDkM.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493556",
+        "name": "Lego Bohemian Storm Trooper Cushion",
+        "description": "Featuring Storm Trooper helmets laid out like the famous Queen Bohemian Rhapsody video. A must for any Lego, Queen or Star Wars fan. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "24.99",
+        "image_url": null,
+        "image": "bohemian-stormtrooper-cushion_eT4kbpS.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493557",
+        "name": "Lego Santa Clause Cushion",
+        "description": "A festive favourite featuring a Lego Santa with a sack full of gifts. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "9.99",
+        "image_url": null,
+        "image": "santa-cushion-cushion_86jSphD.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493558",
+        "name": "Lego Storm Troopers Cushion",
+        "description": "Featuring the baddies of Star Wars the Storm Troopers in a sand terrain. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "24.99",
+        "image_url": null,
+        "image": "desert-troopers-cushion_fRbKCdF.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493559",
+        "name": "Lego Elf Cushion",
+        "description": "This cheeky little elf is enough to get you in the festive spirit, but you don’t have to put this away after Christmas as an elf is for life… Measures 30cm width by 30cm height. Machine washable.",
+        "price": "9.99",
+        "image_url": null,
+        "image": "elf-cushion_OAMvMFd.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493560",
+        "name": "Lego Hiker Cushion",
+        "description": "Bring the adventure of hiking and exploring to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "15.00",
+        "image_url": null,
+        "image": "hiker-cushion_aqLChnJ.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493561",
+        "name": "Lego Gandalph Cushion",
+        "description": "Relive the Lord of the Rings adventure by having your very own Gandalf cushion. Great for giving character to any sofa or chair. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "24.99",
+        "image_url": null,
+        "image": "lotr-gandalph-cushion_GM5UYvZ.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493562",
+        "name": "Lego Sand Surfer Cushion",
+        "description": "Bring the adventure of sand surfing to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "15.00",
+        "image_url": null,
+        "image": "sand-surfer-cushion_ZOiAOpy.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "category": 2,
+        "sku": "LWOL76493563",
+        "name": "Lego Sand Biker Cushion",
+        "description": "Bring the adventure of biking to your sofa or favourite chair with our Lego Hiker Cushion. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "15.00",
+        "image_url": null,
+        "image": "sand-biker-cushion_RiB5QPU.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493564",
+        "name": "Lego Fun Guy Cushion",
+        "description": "Bring the outdoors indoors with out Lego Fun Guy cushion. Perfect for your sofa or favourite chair. Measures 30cm width by 30cm height. Machine washable.",
+        "price": "10.00",
+        "image_url": null,
+        "image": "mushroom-man-cushion_wQ5XGkg.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 11,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493588",
+        "name": "Lego Witch Canvas 1",
+        "description": "A great little canvas featuring a witch  by the fire. This is sure to cast great spells and is part of a two part set (each sold separately). Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "witch1-small-canvas_TSxM0zC.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493589",
+        "name": "Lego Witch Canvas 2",
+        "description": "A great little canvas featuring a witch  by the fire. This is sure to cast great spells and is part of a two part set (each sold separately). Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "witch2-small-canvas_nyuHzbn.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 13,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493590",
+        "name": "Lego Trooper Love Sunset Canvas",
+        "description": "A great little canvas featuring a two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "troopers-hands-holding-small-canvas_4LT2yXR.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 14,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493591",
+        "name": "Lego Pest Police Canvas",
+        "description": "A great little canvas featuring a two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Measures 7cm width by 7cm height.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "slug-police-small-canvas_RiT893P.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 15,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493592",
+        "name": "Lego Ski Lady Canvas",
+        "description": "A great little canvas featuring a lady skiing down a piece of art. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "ski-person-small-canvas_bDBeBkr.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 16,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493593",
+        "name": "Lego Minecraft Canvas",
+        "description": "A great little canvas featuring a couple of Minecraft characters sitting in the sun. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "minecraft-small-canvas_g5aYV30.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 17,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493594",
+        "name": "Lego Wedding Canvas",
+        "description": "A great little canvas featuring the happy Lego couple. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "marriage-small-canvas_89ifq3F.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 18,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493595",
+        "name": "Lego Beach Diver Canvas",
+        "description": "A great little canvas featuring a Lego diver at the beach. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "diver-beach-small-canvas_r5DeYHj.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 19,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493596",
+        "name": "Lego Cleaner Troops Canvas",
+        "description": "A great little canvas featuring a pair of Lego Star Wars troops cleaning a record player head. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "cleaner-troopers-small-canvas_crDvswi.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 20,
+      "fields": {
+        "category": 3,
+        "sku": "LWOL76493597",
+        "name": "Lego Beach Buddies Canvas",
+        "description": "A great little canvas featuring a girl and her dog on the beach. Measures 7cm width by 7cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "beach-girl-dog-small-canvas_zL7C3Cf.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 21,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493759",
+        "name": "Lego Astronaut coffee bean discovery A5 Landscape Card",
+        "description": "Our unique designed card can be used for any occasion as the inside has been left blank. This allows you to celebrate any occasion and write what you like in this fantastic card.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "astronaut-card_Va0r7Wg.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 22,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493760",
+        "name": "Lego Star Wars Stunt Trooper A5 Landscape Card",
+        "description": "Our unique designed card can be used for any occasion as the inside has been left blank. This allows you to celebrate any occasion and write what you like in this fantastic card.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "storm-trooper-biker-card_gUpoa1p.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 23,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493761",
+        "name": "Lego Star Wars Snow what fun A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to be a hit with any Lego Star Wars fan.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "trooper-christmas-card_D0lQ3UF.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 24,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493762",
+        "name": "Lego Wedding Congratulations A5 Landscape Card",
+        "description": "Our unique designed card can be personalised inside as this has been left blank. This allows you to write your own words to congratulate the happy couple’s big day.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "wedding-congratulations-card_BzxoO3B.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 25,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493763",
+        "name": "Lego Star Wars Beach Trooper A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to be a hit with any Lego Star Wars fan.",
+        "price": "2.50",
+        "image_url": null,
+        "image": "storm-trooper-beach-card_2TuTtuw.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 26,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493764",
+        "name": "Lego Santa Merry Christmas A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "santa-card_YGVzVJs.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 27,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493765",
+        "name": "Lego Obi Wan Kenobi Happy Birthday A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate someones big day with this fantastic card that is sure to be a hit with any Lego Star Wars fan.",
+        "price": "2.50",
+        "image_url": null,
+        "image": "obi-wan-birthday-card_sISEPwn.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 28,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493766",
+        "name": "Lego Hiker A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "hiker-card_TC27iPO.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 29,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493767",
+        "name": "Lego The Ghould Life A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "halloween-beach-card_4NnCkuP.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 30,
+      "fields": {
+        "category": 10,
+        "sku": "LWOL76493768",
+        "name": "Lego Beach Buddies A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own greeting inside as this has been left blank. Celebrate any occasion with this fantastic card that is sure to brighten up someone’s day.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "girl-dog-beach-card_BXk2BP9.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 31,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493769",
+        "name": "Lego Elf Merry Christmas A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "elf-card_KanJkRZ.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 32,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493711",
+        "name": "Lego Trooper Love Sunset Landscape Magnet",
+        "description": "This magnet features two Lego Star Wars Storm Troopers holding hands looking on into the sunset. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "troopers-hand-holding-fridge-magnet-small_6x9RbaF.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 33,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493712",
+        "name": "Lego Sand Surfer Landscape Magnet",
+        "description": "This magnet features a fun Lego Sand Surfer Girl on her board. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "surfer-girl-fridge-magnet-small_qTFt88B.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 34,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493713",
+        "name": "Lego Dark Side Bike Ride Landscape Magnet",
+        "description": "This magnet features Lego Darth Vader leading the way with two worn out Storm Troopers trailing behind on bikes. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "star-wars-bikes-fridge-magnet-small_1ZUP9y9.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 35,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493714",
+        "name": "Lego Segway Secret Agent Landscape Magnet",
+        "description": "This magnet features a Lego secret agent on a Segway patrolling. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "segway-agent-fridge-magnet-small_jkrKVMk.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 36,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493715",
+        "name": "Lego Santa Landscape Magnet",
+        "description": "This magnet features a festive Lego Santa in the snow with his sack full of presents. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "santa-fridge-magnet-small_Yg8pu3Y.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 37,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493716",
+        "name": "Lego Painter Trooper Landscape Magnet",
+        "description": "This magnet features a Lego Star Wars Storm Trooper with a paintbrush and canvas. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "painter-trooper-fridge-magnet-small_Qfot4n4.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 38,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493717",
+        "name": "Lego Obi Wan and Darth Maul Landscape Magnet",
+        "description": "This magnet features a scene with Lego Obi Wan and Darth Maul battling with lightsabers. Will good win over evil? Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "jedi-maul-fridge-magnet-small_ICUN3BA.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 39,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493718",
+        "name": "Lego Fire Fighters Landscape Magnet",
+        "description": "This magnet features a pair of Lego firefighters looking off into the distance. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.00",
+        "image_url": null,
+        "image": "fire-fighters-fridge-magnet-small_kj6ZKc3.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 40,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493719",
+        "name": "Lego Elf Landscape Magnet",
+        "description": "This magnet features a festive Lego Elf in the snow with his presents wrapped and ready to deliver. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "elf-fridge-magnet-small_9WOkt93.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 41,
+      "fields": {
+        "category": 11,
+        "sku": "LWOL76493720",
+        "name": "Lego Clone Trooper Landscape Magnet",
+        "description": "This magnet features a Lego Clone Trooper on a drive with a screw driver. Collect our range of colourful magnets and brighten any magnetic surface. These magnets could even be put inside one of our many cards that we have on sale and could be sent as a gift or even purchased as a reward or treat for yourself. Magnet measures 14cm width by 9cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "clone-trooper-hard-drive-fridge-magnet-small_l2m9Mui.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 42,
+      "fields": {
+        "category": 8,
+        "sku": "LWOL76493701",
+        "name": "Lego Sand Surfer Desktop 2022 Calendar",
+        "description": "Featuring all your female favourites: Lego Sand Surfer - January, Lisa Simpson - February, Fancy Dress Cat Costume Lady - March, Lola Bunny - April, Hermione Granger - May, Captain Carter - June, Lucy / Wyldstyle - July, Jyn Erso - August, Elsa - September, Padmé Amidala - October,  Ariel - Little Mermaid - November, and Mrs Clausse - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "sand-surfer-desktop-calendar_8sk5ddJ.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 43,
+      "fields": {
+        "category": 8,
+        "sku": "LWOL76493702",
+        "name": "Lego Hiker Desktop 2022 Calendar",
+        "description": "Featuring all your male favourites: Lego Hiker - January, Hercules - February, Emmet - March, Bugs Bunny - April, Homer Simpson - May, Spider Man - June, Grogu/ The Child - July, Clown - August, Dumbledore - September, Astronaut - October, Lego Brick Costume - November, and Santa Clause - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "hiker-desktop-calendar_j2XJhpa.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 44,
+      "fields": {
+        "category": 8,
+        "sku": "LWOL76493703",
+        "name": "Lego Daisy Man Desktop 2022 Calendar",
+        "description": "Featuring: Lego Daisy Man - January, Obi Wan Kenobi - February, The Cheetah - March, Wyle E Coyote - April, Lego Brick Costume Girl - May, Superman - June, Jane Goodall - July, Firework Costume Man - August, Ron Weasley - September, Fire Lady - October,  Olaf - November, and Anna - Frozen - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "flower-man-desktop-calendar_3vqOoLz.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 45,
+      "fields": {
+        "category": 8,
+        "sku": "LWOL76493704",
+        "name": "Lego Pier Fisherman Desktop 2022 Calendar",
+        "description": "Featuring: Lego Pier Fisherman - January, Smithers - February, Wonder Woman - March, Road Runner - April, Diver Lady - May, Pirate - June, Amelia Earhart - July, Gru - August, Ginny Weasley - September, Princess - October,  Clone Trooper - November, and Captain Phasma - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "fisher-desktop-calendar_fy0NGol.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 46,
+      "fields": {
+        "category": 8,
+        "sku": "LWOL76493705",
+        "name": "Lego Keyboard CTRL Desktop 2022 Calendar",
+        "description": "Featuring: Lego Keyboard CTRL - January, Edna Crabapple - February, Anakin Skywalker - March, Female Bunny - April, Acorn boy - May, Luna Lovegood - June, Scare Crow - July, Petunia Pig - August, Bee Keeper - September, Sally Ride - October, Snow Guardian - November, and Star Girl - December. This great little desktop calendar will hardly take up any space on your desk, but will help you to plan ahead, allow you to add all the important dates as well as brighten up your desk with these colourful creative images. Calendar measures 15cm width by 25cm height.",
+        "price": "2.99",
+        "image_url": null,
+        "image": "ctrl-man-desktop-calendar_9TzHZoF.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 47,
+      "fields": {
+        "category": 7,
+        "sku": "LWOL76493706",
+        "name": "Lego Star Wars Storm Troopers Wall 2022 Calendar",
+        "description": "Featuring all your favourite Lego Characters: Lego Star Wars Storm Troopers - January, Edna Crabapple - February, Anakin Skywalker - March, Female Bunny - April, Acorn boy  - May, Luna Lovegood - June, Scare Crow - July, Petunia Pig - August, Bee Keeper - September, Sally Ride - October, Snow Guardian - November, and Star Girl - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).",
+        "price": "3.99",
+        "image_url": null,
+        "image": "star-wars-wall-calendar_v3d2J30.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 48,
+      "fields": {
+        "category": 7,
+        "sku": "LWOL76493707",
+        "name": "Lego Ninjago Wall 2022 Calendar",
+        "description": "Featuring all your favourite Lego Ninjago Characters: Kai - January, Nya - February, Sensei Wu - March, P.I.X.A.L. - April, Scales - May, Skylor - June, Morrow - July, Cole - August, Harumi - September, Jay Walker - October, Zane - November, and Emperess - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).",
+        "price": "3.99",
+        "image_url": null,
+        "image": "ninjago-wall-calendar_iRZ4WH1.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 49,
+      "fields": {
+        "category": 7,
+        "sku": "LWOL76493708",
+        "name": "Lego Hiker Wall 2022 Calendar",
+        "description": "Featuring all your male favourites: Lego Hiker - January, Hercules - February, Emmet - March, Bugs Bunny - April, Homer Simpson - May, Spider Man - June, Grogu/ The Child - July, Clown - August, Dumbledore - September, Astronaut - October, Lego Brick Costume - November, and Santa Clause - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).",
+        "price": "3.99",
+        "image_url": null,
+        "image": "hiker-wall-calendar_ZWhFJTW.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 50,
+      "fields": {
+        "category": 7,
+        "sku": "LWOL76493709",
+        "name": "Lego Pier Fisherman Wall 2022 Calendar",
+        "description": "Featuring: Lego Pier Fisherman - January, Smithers - February, Wonder Woman - March, Road Runner - April, Diver Lady - May, Pirate - June, Amelia Earhart - July, Gru - August, Ginny Weasley - September, Princess - October,  Clone Trooper - November, and Captain Phasma - December. This wall calendar will help you to plan ahead, allow you to add all the important dates as well as brighten up your wall with these colourful creative images. Calendar measures 30cm width by 45cm height (closed).",
+        "price": "3.99",
+        "image_url": null,
+        "image": "fishing-wall-calendar_S7E2GI7.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 51,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495522",
+        "name": "Lego Lovers A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "love-framed_prHrl1a.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 52,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495523",
+        "name": "Lego Ninja A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "lego-ninja-frame_cagtNVF.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 53,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495524",
+        "name": "Lego Fun Guy A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "fun-guy-framed_TpY389I.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 54,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495525",
+        "name": "Lego Fencing Person A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "fencing-frame_Bj4oumL.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 55,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495526",
+        "name": "Lego Flower Man A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "daisy-man-framed_eLKmiNd.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 56,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495527",
+        "name": "Lego Construction A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "construction-framed_TO7YzIM.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 57,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495528",
+        "name": "Lego Computer Key CNTRL A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "cntrl-keyboard-frame_AenIYG6.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 58,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495529",
+        "name": "Lego Clone Fixer A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "clone-trooper-fix-framed_p6Sixf3.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 59,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495530",
+        "name": "Lego Bohemian Troopers A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "bohemian-storm-troopers-framed_qBPO7h1.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 60,
+      "fields": {
+        "category": 4,
+        "sku": "LWOL76495530",
+        "name": "Lego Beach Biker A3 Landscape Framed Print",
+        "description": "This great A3 framed print is sure to liven up any space in your home or office, and even makes a thoughtful gift.",
+        "price": "14.99",
+        "image_url": null,
+        "image": "beach-bike-framed_OHgL2Fd.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 62,
+      "fields": {
+        "category": 13,
+        "sku": "LWOL76495532",
+        "name": "Lego Storm Trooper A4 Notebook / Sketchpad",
+        "description": "Adding to our range of existing A4 Notebooks / sketchpads we have this superb Storm Trooper covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-storm-troopers_2b7mV9c.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 63,
+      "fields": {
+        "category": 14,
+        "sku": "LWOL76495533",
+        "name": "Lego Santa A4 Notebook / Sketchpad x2",
+        "description": "This great notebook / sketch pad comes at a great price. We are giving you two for the price of one on this Santa covered notebook / sketchpad. This means that you can get one for yourself and perhaps give one as a gift if you like, or if you're feeling extra generous and in the spirit of Saint Nick, give both as gifts. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-santa_mcRkY9o.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 64,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495534",
+        "name": "Lego Sand Surfer A4 Notebook / Sketchpad",
+        "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-sand-surfer-girl_BcbYb99.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 65,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495535",
+        "name": "Lego Rebel Troop A4 Notebook / Sketch Pad",
+        "description": "Adding to our range of existing A4 Notebooks / sketch pads we have this superb Rebel Troop covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-rebel-troop_uMsCjke.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 66,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495536",
+        "name": "Lego Hiker A4 Notebook / Sketch Pad",
+        "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-hiker_72JCUUf.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 67,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495537",
+        "name": "Lego Fisher A4 Notebook / Sketch Pad",
+        "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-fishing_6HahUwk.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 68,
+      "fields": {
+        "category": 14,
+        "sku": "LWOL76495538",
+        "name": "Lego Elf A4 Notebook / Sketch Pad x2",
+        "description": "This great notebook / sketch pad comes at a great price. We are giving you two for the price of one on this Elf covered notebook / sketch pad. This means that you can get one for yourself and perhaps give one as a gift if you like, or if you're feeling extra generous and in the spirit of the friendly Elf, give both as gifts. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-elf_V63ncnw.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 69,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495539",
+        "name": "Lego Droids A4 Notebook / Sketch Pad",
+        "description": "Adding to our range of existing A4 Notebooks / sketch pads we have this superb Droids covered addition. Whatever you choose to use it for may the force be with you. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-droids_ZueN0rs.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 70,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495540",
+        "name": "Lego Diver A4 Notebook / Sketch Pad",
+        "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-diver_R1hxonD.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 71,
+      "fields": {
+        "category": 6,
+        "sku": "LWOL76495541",
+        "name": "Lego Biker A4 Notebook / Sketch Pad",
+        "description": "Our plain page notebook / sketchpad is ideal for getting any thoughts and ideas out of your head and onto paper. If you just like to doodle this is also perfect for this. This notebook / sketchpad is made from 100% recycled paper. This means you can relax knowing that there were no trees cut down to produce this fantastic item. That's one thought off your mind, so you are now able to write your others inside this notebook / sketchpad as you were.",
+        "price": "5.99",
+        "image_url": null,
+        "image": "book-cover-biker_ZOOr519.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 72,
+      "fields": {
+        "category": 15,
+        "sku": "LWOL76493770",
+        "name": "Lego Christmas Scene Merry Christmas A5 Landscape Card",
+        "description": "Our unique designed card can be personalised with your own festive Christmas greeting inside as this has been left blank. This card is sure to brighten anyone’s Christmas with this great Christmas scene.",
+        "price": "1.00",
+        "image_url": null,
+        "image": "christmas-scene-card_qJEzHmg.jpg"
+      }
+    }
+  ]
