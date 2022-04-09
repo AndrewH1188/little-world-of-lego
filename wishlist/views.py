@@ -1,12 +1,13 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib.auth.decorators import login_required
 from profiles.models import UserProfile
 from products.models import Product
 from .models import WishList
-from django.contrib.auth.decorators import login_required
 
 @login_required
 def wishlist(request):
     """A view to show the user their wishlist"""
+
     wishes = WishList.objects.filter(user_profile=request.user)
     context = {
         'wishes': wishes,
@@ -15,7 +16,8 @@ def wishlist(request):
 
 @login_required
 def add_to_wishlist(request, product_id):
-    user = UserProfile.objects.get()
+    """A view to add to the users wishlist"""
+    user = UserProfile.objects.get(wishes)
     product = get_object_or_404(Product, pk=product_id)
     wish = WishList.objects.create(
         user_profile=request.user,
