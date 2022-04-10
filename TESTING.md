@@ -25,7 +25,7 @@ Back to [README.md](README.md) file
 15. [Lighthouse Results](#lighthouse-results)
 16. [Validators](#validators)
 	* [HTML Validator](#html-validator)
-	* [Jigsaw CSS Validator](#jigsaw-css)
+	* [Jigsaw CSS Validator](#jigsaw-css-validator)
 	* [JSHint](#jshint)
 	* [JSONFormatter](#jsonformatter)
 	* [PEP8](#pep8)
@@ -384,24 +384,6 @@ The following Browsers were used to test this site on:
 ![Register Mobile](assets/testing/lightouse/register-mobile-lighthouse-results.jpg)
 
 
-
-
-
-
-### Wish List Lighthouse results
-![Wish List Desktop](assets/testing/lighthouse/wish-list-desktop-lighthouse-results.jpg)
-
-
-![Wish List Mobile](assets/testing/lighthouse/wish-list-mobile-lighthouse-results.jpg)
-
-
-
-
-
-
-
-
-
 ## Validators
 ### HTML Validator
 I ran the HTML of my site through the [W3 HTML Validator](https://validator.w3.org/) and this returned the following results:
@@ -438,11 +420,6 @@ I ran the HTML of my site through the [W3 HTML Validator](https://validator.w3.o
 
 ### Terms and Conditions HTML Validation
 ![Terms and Conditions](assets/testing/validators/html-validator/terms-conditions-html-results.jpg)
-
-
-
-
-
 
 
 
