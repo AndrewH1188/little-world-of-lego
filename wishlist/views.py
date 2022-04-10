@@ -4,28 +4,14 @@ from profiles.models import UserProfile
 from products.models import Product
 from .models import WishList
 
-@login_required
-def wishlist(request):
-    """A view to show the user their wishlist"""
+# Code has been used from the Code Institute Boutique Ado
+# Walkthrough project
 
-    wishes = WishList.objects.filter(user_profile=request.user)
-    context = {
-        'wishes': wishes,
-    }
-    return render(request, 'wishlist/wishlist.html', context)
+def view_wishlist(request):
 
-@login_required
-def add_to_wishlist(request, product_id):
-    """A view to add to the users wishlist"""
-    user = UserProfile.objects.get(wishes)
-    product = get_object_or_404(Product, pk=product_id)
-    wish = WishList.objects.create(
-        user_profile=request.user,
-        product=product,
-    )
+    return render(request, 'wishlist/wishlist.html')
 
-    context = {
-        'product': product,
-    }
-
-    return render(request, 'products/product_detail.html', context)
+def add_to_wishlist(request):
+    product = get_object_or_404(Product, pk=item_id)
+    request.session['view_wishlist'] = wishlist
+    return redirect(redirect_url)
