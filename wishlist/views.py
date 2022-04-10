@@ -11,7 +11,8 @@ def view_wishlist(request):
 
     return render(request, 'wishlist/wishlist.html')
 
-def add_to_wishlist(request):
+
+def add_to_wishlist(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     request.session['view_wishlist'] = wishlist
     return redirect(redirect_url)

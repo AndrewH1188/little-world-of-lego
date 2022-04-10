@@ -50,17 +50,23 @@
                 </div>
             </div>
             {% endfor %}
-            
-<!-- Add to basket Button -->  
+
+
+
+<!-- Keep shopping and add to basket buttons -->
 <div class="col-12">
-    <a href="" class="btn rounded-0 add-basket-button mb-4">
-        <span>Add to basket</span>
+    <a href="{% url 'products' %}" class="btn rounded-0 keep-shopping-button mb-4">
+        <span>Remove from Wish List</span>
     </a>
-<!-- Remove Button -->
-    <a href="" class="btn rounded-0 remove-wishlist-button mb-4">
-        <span>Remove from Wishlist</span>
-    </a>
+    <input type="submit" class="btn rounded-0 add-to-basket-button mb-4" value="Add to Basket">
 </div>
+<input type="hidden" name="redirect_url" value="{{ request.path }}">
+</div>
+</div>
+</div>
+
+            
+
 
 <div class="mt-4"></div>
 {% endblock %}
