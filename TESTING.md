@@ -13,12 +13,10 @@ Back to [README.md](README.md) file
 5. [Register page](#register)
 6. [Log In](#log-in)
 7. [Profile](#profile)
-8. [Basket](#basket)
+8. [Wish List](#wish-list)
+9. [Basket](#basket)
     * [Update Quantity](#update-quantity)
     * [Remove product from basket](#remove-from-basket)
-9. [Wish List](#wish-list)
-    * [Add product to wishlist](#add-product-to-wish-list)
-    * [Remove product to wishlist](#remove-product-to-wish-list)
 10. [Checkout](#checkout)    
 11. [Testing User Stories](#testing-user-stories)
 12. [Implementation](#implementation)
@@ -113,6 +111,10 @@ Back to [README.md](README.md) file
 * Tested to see if the user can update their details and save them to their profile.
 
 
+### Wish List
+* Tested that when the link is clicked the page is navigated to.
+
+
 ### Basket
 * Tested that when the link is clicked the page is navigated to.
 * Tested to see if items can be added to the basket.
@@ -130,15 +132,6 @@ Back to [README.md](README.md) file
 ### Remove product from basket
 * Tested the remove button under the quantity box to see if the product is removed from the basket.
 * Tested to see that the removed products have been removed and the grand total updates, as well as the free delivery threshold kicking in should the product total be below £50.
-
-
-### Wish List
-* Tested that when the link is clicked the page is navigated to.
-* Tested that a user is able to add an item from the product detail page to their wish list.
-* Tested that a user can remove items from their wish list.
-* Tested that a user can add this product to their basket.
-* Tested that a user can access their wish list by clicking on the heart icon in the main navigation menu.
-* Tested that a product is saved into the user’s wish list
 
 
 ### Checkout
