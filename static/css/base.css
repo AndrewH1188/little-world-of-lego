@@ -282,6 +282,10 @@ button.offers-shop-now.btn.rounded-0:hover {
 }
 
 
+.error-content {
+    margin-top: 45%;
+}
+
 /* ------------------------------------- Allauth Profile */
 .sign-in-button,
 .sign-up-button,
