@@ -2,10 +2,11 @@
 {% load static %}
 
 {% block content %}
-<div class="error-page-bg"></div>
+<div class="error-page-bg">
     <section class="error-content">
     <h2 class="ml-5">Sorry, we seem to have encountered an error.</h2>
     <p class="ml-5">Let's return you to a page you're more familiar with.</p>
     <a class="btn home-button rounded-0 ml-5" href="{% url 'home' %}">Home</a>
     </section> 
+</div>
 {% endblock %}
