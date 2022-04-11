@@ -22,28 +22,22 @@
         </div>
     </div>
 
-
     <div class="row">
         <div class="col-12 col-lg-6 order-lg-last mb-5">
-
             <!-- Item images-->
             {% for item in wishlist_items %}
             <div class="row">
                 <div class="col-2 mb-1">
-                    <!-- <a href="{% url 'product_detail' item.product.id %}"> -->
-                        
-                        {% if item.product.image %}
-                        <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                        {% else %}
-                        <img class="w-100" src="{{ MEDIA_URL }}no-photo.jpg" alt="{{ item.product.name }}">
-                        {% endif %}
+                    {% if item.product.image %}
+                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                    {% else %}
+                    <img class="w-100" src="{{ MEDIA_URL }}no-photo.jpg" alt="{{ item.product.name }}">
+                    {% endif %}
                     </a>
                 </div>
-
                 <!-- Item name and price -->
                 <div class="col-7">
                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-               
                 </div>
                 <div class="col-3 text-right">
                     <p class="my-0 small text-muted">£{{ item.product.price }}</p>
@@ -51,22 +45,16 @@
             </div>
             {% endfor %}
 
-
-
-<!-- Keep shopping and add to basket buttons -->
-<div class="col-12">
-    <a href="{% url 'products' %}" class="btn rounded-0 keep-shopping-button mb-4">
-        <span>Remove from Wish List</span>
-    </a>
-    <input type="submit" class="btn rounded-0 add-to-basket-button mb-4" value="Add to Basket">
-</div>
-<input type="hidden" name="redirect_url" value="{{ request.path }}">
-</div>
-</div>
-</div>
-
-            
-
+            <div class="col-12">
+                <a href="{% url 'products' %}" class="btn rounded-0 remove-wishlist-button mb-4">
+                    <span>Remove from Wish List</span>
+                </a>
+                <input type="submit" class="btn rounded-0 add-to-basket-button mb-4" value="Add to Basket">
+            </div>
+            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+        </div>
+    </div>
+    </div>
 
 <div class="mt-4"></div>
 {% endblock %}

@@ -5,7 +5,15 @@ from products.models import Product
 
 class WishList(models.Model):
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL, null=True, blank=True, related_name='wishlist')
-    product = models.ForeignKey(Product, null=True, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
 
     def __str__(self):
         return f"{self.user_profile}'s wishlist"
+
+
+class WishItem(models.Model):
+    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
+    # order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
+
+    def __str__(self):
+        return self.product.name

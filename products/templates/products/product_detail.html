@@ -74,16 +74,10 @@
                     </div>
                     <!-- Wish List button -->
                     <div class="col-12">
-                        <a href="{% url 'add_to_wishlist' %}" class="btn rounded-0 wish-list-button mb-3">
+                        <a href="{% url 'add_to_wishlist' product.id %}" class="btn rounded-0 wish-list-button mb-3">
                             <span class="wish-list-button-text">Add to wish list</span>
                             <i class="fas fa-heart wish-list-heart"></i>
                             <span class="sr-only">Heart icon</span>
-                        </a>
-                        <!-- Add Review button -->
-                        <!-- NEED TO ADD LINK --> <a href="" class="btn rounded-0 add-review-button mb-3">
-                            <span>Add a review</span>
-                            <i class="fas fa-pen"></i>
-                            <span class="sr-only">Pen icon</span>
                         </a>
                     </div>
                     <!-- Keep shopping and add to basket buttons -->
