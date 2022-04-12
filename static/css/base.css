@@ -154,27 +154,25 @@ button.offers-shop-now.btn.rounded-0:hover {
 /* ------------- Basket page */
 .keep-shopping-button,
 .add-to-basket-button,
-.secure-checkout-button {
+.secure-checkout-button,
+.all-products-button {
     background-color: #1a67d8;
     color: #fff;
+    font-size: medium;
 }
 
 .keep-shopping-button:hover,
 .add-to-basket-button:hover,
-.secure-checkout-button:hover {
+.secure-checkout-button:hover,
+.all-products-button:hover {
     border-color: #1a67d8;
     background-color: #fff;
     color: #1a67d8;
 }
 
-.add-review-button,
 .wish-list-button {
     border-color: #1a67d8;
     font-size: x-small;
-}
-
-.add-review-button:hover {
-    color: #1a67d8;
 }
 
 .wish-list-button:hover {
