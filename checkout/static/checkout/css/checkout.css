@@ -25,7 +25,6 @@
 
 /* Form boxes */
 .form-control {
-    border: 1px solid #1a67d8 !important;
     min-width: fit-content;
 }
 
