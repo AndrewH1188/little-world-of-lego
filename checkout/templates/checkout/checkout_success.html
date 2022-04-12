@@ -204,10 +204,8 @@
             </a>
             {% else %}
             <span> Check out our other great <a href="{% url 'products' %}">Products</a>, 
-                <a href="{% url 'products' %}?category=new_arrivals">New arrivals</a>, 
-                <a href="{% url 'products' %}?category=deals">Deals</a> or leave a 
-                <a href="">review</a></span>
-<!-- NEED TO ADD A LINK IN FOR THE REVIEWS SECTION ONCE LINK HAS BEEN CREATED-->
+                <a href="{% url 'products' %}?category=new_arrivals">New arrivals</a> and 
+                <a href="{% url 'products' %}?category=deals">Deals
             {% endif %}
         </div>
     </div>

@@ -6,13 +6,13 @@ from products.models import Product
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 def basket_contents(request):
 
     basket_items = []
     total = 0
     product_count = 0
     basket = request.session.get('basket', {})
-
 
     for item_id, item_data in basket.items():
         if isinstance(item_data, int):

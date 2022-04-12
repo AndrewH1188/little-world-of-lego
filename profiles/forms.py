@@ -4,6 +4,7 @@ from .models import UserProfile
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
@@ -32,5 +33,6 @@ class UserProfileForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'textinput rounded-0 profile-form-input'
+            self.fields[field].widget.attrs['class'] = (
+                'textinput rounded-0 profile-form-input')
             self.fields[field].label = False

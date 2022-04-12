@@ -10,6 +10,7 @@ from .forms import ProductForm
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -46,7 +47,8 @@ def all_products(request):
                 messages.error(request, "Please enter a product to search for")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(
+                description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -63,7 +65,7 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """ A view to individual product details """
-    
+
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
@@ -72,11 +74,13 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
+
 @login_required
 def add_product(request):
     """Add a product to the store"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only shop owners are allowed to do this')
+        messages.error(request, 
+            'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -98,11 +102,13 @@ def add_product(request):
 
     return render(request, template, context)
 
+
 @login_required
 def edit_product(request, product_id):
     """Edit a store product"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only shop owners are allowed to do this')
+        messages.error(request, 
+            'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
@@ -127,13 +133,15 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_product(request, product_id):
     """Delete a store product"""
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only shop owners are allowed to do this')
+        messages.error(request, 
+            'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product successfully deleted')
