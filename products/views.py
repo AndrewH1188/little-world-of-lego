@@ -40,7 +40,6 @@ def all_products(request):
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -79,8 +78,8 @@ def product_detail(request, product_id):
 def add_product(request):
     """Add a product to the store"""
     if not request.user.is_superuser:
-        messages.error(request, 
-            'Sorry, only shop owners are allowed to do this')
+        messages.error(request,
+                       'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -107,8 +106,8 @@ def add_product(request):
 def edit_product(request, product_id):
     """Edit a store product"""
     if not request.user.is_superuser:
-        messages.error(request, 
-            'Sorry, only shop owners are allowed to do this')
+        messages.error(request,
+                       'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
@@ -138,8 +137,8 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     """Delete a store product"""
     if not request.user.is_superuser:
-        messages.error(request, 
-            'Sorry, only shop owners are allowed to do this')
+        messages.error(request,
+                       'Sorry, only shop owners are allowed to do this')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)

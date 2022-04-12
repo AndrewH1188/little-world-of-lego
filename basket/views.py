@@ -27,12 +27,14 @@ def add_to_basket(request, item_id):
     # if the same product already exists in our basket
     if item_id in list(basket.keys()):
         basket[item_id] += quantity
-        messages.success(request,
+        messages.success(
+            request,
             f'Updated {product.name} quantity to {basket[item_id]}')
     else:
         basket[item_id] = quantity
-        messages.success(request,
-                         f'{basket[item_id]}x {product.name} was added to your basket')
+        messages.success(
+            request,
+            f'{basket[item_id]}x {product.name} was added to your basket')
 
     request.session['basket'] = basket
     return redirect(redirect_url)
@@ -44,7 +46,7 @@ def adjust_basket(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     product = None
-    basket =request.session.get('basket', {})
+    basket = request.session.get('basket', {})
 
     if quantity > 0:
         basket[item_id] = quantity

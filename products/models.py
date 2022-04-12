@@ -3,6 +3,7 @@ from django.db import models
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 class Category(models.Model):
 
     """
@@ -11,7 +12,7 @@ class Category(models.Model):
     and could confuse a user.
     """
 
-    #Category Model
+    # Category Model
     class Meta:
         verbose_name_plural = 'Categories'
 
@@ -26,7 +27,9 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category', null=True, blank=True,
+        on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()

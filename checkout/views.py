@@ -1,4 +1,7 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404,
+    HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -15,6 +18,7 @@ from basket.contexts import basket_contents
 # Walkthrough project
 import stripe
 import json
+
 
 @require_POST
 def cache_checkout_data(request):
@@ -70,7 +74,7 @@ def checkout(request):
                         order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your basket wasn't found in our database. "
+                        "One of the products in your basket wasn't found in our database."
                         "Please call us for assistance!")
                     )
                     order.delete()
@@ -84,7 +88,8 @@ def checkout(request):
     else:
         basket = request.session.get('basket', {})
         if not basket:
-            messages.error(request, "There's nothing in your basket at the moment")
+            messages.error(request,
+                           "There's nothing in your basket at the moment")
             return redirect(reverse('products'))
 
         current_basket = basket_contents(request)
@@ -142,7 +147,7 @@ def checkout_success(request, order_number):
         order.user_profile = profile
         order.save()
 
-        #Save the user's info
+        # Save the user's info
         if save_info:
             profile_data = {
                 'default_phone_number': order.phone_number,

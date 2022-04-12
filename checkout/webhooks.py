@@ -9,6 +9,7 @@ import stripe
 
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
+
 @require_POST
 @csrf_exempt
 def webhook(request):
@@ -24,7 +25,7 @@ def webhook(request):
 
     try:
         event = stripe.Webhook.construct_event(
-        payload, sig_header, wh_secret
+                payload, sig_header, wh_secret
         )
     except ValueError as e:
         # Invalid payload

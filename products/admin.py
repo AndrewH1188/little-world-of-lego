@@ -6,6 +6,7 @@ from .models import Product, Category
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -17,6 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     """Sorts products by sku"""
     ordering = ('sku',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
