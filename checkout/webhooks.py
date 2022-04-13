@@ -10,6 +10,7 @@ import stripe
 # Code has been used from the Code Institute Boutique Ado
 # Walkthrough project
 
+
 @require_POST
 @csrf_exempt
 def webhook(request):
