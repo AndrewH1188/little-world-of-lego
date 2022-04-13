@@ -28,6 +28,7 @@ Back to [README.md](README.md) file
 	* [Jigsaw CSS Validator](#jigsaw-css-validator)
 	* [JSHint](#jshint)
 	* [JSONFormatter](#jsonformatter)
+    * [Flake8](#flake8)
 	* [PEP8](#pep8)
 
 
@@ -321,7 +322,10 @@ The following Browsers were used to test this site on:
 ![Products Desktop](assets/testing/lightouse/products-desktop-lighthouse-results1.jpg)
 
 ![Products Mobile](assets/testing/lightouse/products-mobile-lighthouse-results1.jpg)
-* I'm dissapointed by the score of this page on a mobile device, but have tested it on mobile for speed and I think it does very well. I will try to see if I can improve on the score for mobile and raise this to at least between 50%.
+* I'm disappointed by the score of this page on a mobile device, but have tested it on mobile for speed and I think it does very well. I will try to see if I can improve on the score for mobile and raise this to at least between 50%.
+
+![Products Mobile 2](assets/testing/lightouse/products-mobile-lighthouse-results2.jpg)
+* When I ran Lighthouse for the products page in Google Chrome's incognito mode the All products score improved slightly. I'm disappointed this still wasn't where I would have liked this to have been.
 
 
 ### Product Details Lighthouse results
@@ -384,6 +388,12 @@ The following Browsers were used to test this site on:
 ![Register Mobile](assets/testing/lightouse/register-mobile-lighthouse-results.jpg)
 
 
+### Wish List Lighthouse results
+![Wish List Desktop](assets/testing/lightouse/wish-list-desktop-lighthouse-results.jpg)
+
+![Wish List Mobile](assets/testing/lightouse/wish-list-mobile-lighthouse-results.jpg)
+
+
 ## Validators
 ### HTML Validator
 I ran the HTML of my site through the [W3 HTML Validator](https://validator.w3.org/) and this returned the following results:
@@ -424,8 +434,6 @@ I had a look at the trying to fix the list li errors. To do this I added a ul as
 ![Nav bar](assets/testing/validators/html-validator/nav-bar-ul-added.jpg)
 
 
-
-
 ### Jigsaw CSS Validator
 I ran the CSS of my site through the [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) and this returned the following results:
 
@@ -443,12 +451,6 @@ I ran the CSS of my site through the [W3 CSS Validator](https://jigsaw.w3.org/cs
 
 ### Base CSS Validation
 ![base.css](assets/testing/validators/css-validator/base-css-results.jpg)
-
-
-
-
-
-
 
 
 ### JSHint
@@ -477,10 +479,40 @@ I ran the JSON of my site through the [JSONFormatter](https://jsonformatter.org)
 ![products.json](assets/testing/validators/json-validator/products-json-results.jpg)
 
 
-
-
-
+### Flake8
+Before running the Python files through PEP8 I used GitPod's built in Flake8 checker to check all the Python files. By typing in the terminal python3 -m flake8 I could see a list of all the Flake8 warnings. I was able to control click and open each file where the Flake8 indicated issue was and fix this. I had notifications about files with imports not being referenced as well as lines that were too long. There were some that I left as it may have broken the code that was there.
+Having completed the Flake8 amendments I moved onto the PEP8 testing. This was just to be sure that if any issues had been missed that these would be picked up and changed if required.
 
 
 ### PEP8
-I ran the Python of my site through the [PEP8](http://pep8online.com/) site and this returned the following results:
+I ran all the Python files of my site through the [PEP8](http://pep8online.com/) site and this returned the following results:
+
+#### asgi
+I have decided to leave this line as it is as I am not sure it would be wise to alter this.
+![asgi PEP8](assets/testing/validators/pep8/asgi-pep8.jpg)
+
+#### Checkout Models
+I have decided to leave this line as it is in order not to break anything.
+![Checkout Models PEP8](assets/testing/validators/pep8/checkout-models-pep8.jpg)
+
+#### Checkout Views
+Checkout views before when I this it through the PEP8 validator.
+![Checkout Views PEP8 before](assets/testing/validators/pep8/checkout-models-pep8.jpg)
+After the line lengths were altered the results were showing as All right.
+![Checkout Views PEP8 after](assets/testing/validators/pep8/checkout-views-pep8-before.jpg)
+
+#### Little World of Lego Settings
+This file returned four results, although as they are used by Allauth these were not amended and so the line too long will still display.
+![Little World of Lego Settings PEP8](assets/testing/validators/pep8/lwol-settings-pep8.jpg)
+
+#### Webhook Handler
+This file returned three results. I have left these as they are in case this affects Stripe's Webhook handler.
+![Webhook Handler PEP8 1](assets/testing/validators/pep8/webhook-handler-1-pep8.jpg)
+![Webhook Handler PEP8 2](assets/testing/validators/pep8/webhook-handler-2-pep8.jpg)
+
+#### Webhooks
+This file returned two results. I have left one of these as they are in case this affects Stripe's Webhooks.
+![Webhooks PEP8 before](assets/testing/validators/pep8/webhooks-pep8-before.jpg)
+![Webhooks PEP8 after](assets/testing/validators/pep8/webhooks-pep8-after.jpg)
+
+[Back to Table of Contents](#table-of-contents)
