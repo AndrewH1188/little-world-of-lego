@@ -389,37 +389,39 @@ The following Browsers were used to test this site on:
 I ran the HTML of my site through the [W3 HTML Validator](https://validator.w3.org/) and this returned the following results:
 
 ### Home HTML Validation
-![Home](assets/testing/validators/html-validator/home-html-results.jpg)
+![Home 1](assets/testing/validators/html-validator/home-html-results1.jpg)
 
-### Products Page HTML Validation
-![Products](assets/testing/validators/html-validator/product-html-results.jpg)
+![Home 2](assets/testing/validators/html-validator/home-html-results2.jpg)
 
-### Product Details HTML Validation
-![Product Details](assets/testing/validators/html-validator/product-details-html-results.jpg)
+![Home 3](assets/testing/validators/html-validator/home-html-results3.jpg)
 
-### Basket HTML Validation
-![Basket](assets/testing/validators/html-validator/basket-html-results.jpg)
-
-### Checkout HTML Validation
-![Checkout](assets/testing/validators/html-validator/checkout-html-results.jpg)
-
-### Checkout Success HTML Validation
-![Checkout Success](assets/testing/validators/checkout-success-validator/home-html-results.jpg)
 
 ### Profile HTML Validation
-![Profile](assets/testing/validators/html-validator/profile-html-results.jpg)
+![Profile 1](assets/testing/validators/html-validator/profile-html-results1.jpg)
 
-### Wish List HTML Validation
-![Wish List](assets/testing/validators/html-validator/wish-list-html-results.jpg)
+![Profile 2](assets/testing/validators/html-validator/profile-html-results2.jpg)
 
-### Add a product HTML Validation
-![Add a product](assets/testing/validators/html-validator/add-product-html-results.jpg)
-
-### Edit a product HTML Validation
-![Edit a product](assets/testing/validators/html-validator/edit-product-html-results.jpg)
+![Profile 3](assets/testing/validators/html-validator/profile-html-results3.jpg)
 
 ### Terms and Conditions HTML Validation
-![Terms and Conditions](assets/testing/validators/html-validator/terms-conditions-html-results.jpg)
+![Terms and Conditions 1](assets/testing/validators/html-validator/terms-conditions-html-results1.jpg)
+
+![Terms and Conditions 2](assets/testing/validators/html-validator/terms-conditions-html-results2.jpg)
+
+### Other pages
+The following pages all had the same HTML errors / warnings as the Home page.
+* Products Page HTML Validation
+* Product Details HTML Validation
+* Basket HTML Validation
+* Checkout HTML Validation
+* Checkout Success HTML Validation
+* Wish List HTML Validation
+* Add a product HTML Validation
+* Edit a product HTML Validation
+
+### Nav bar
+I had a look at the trying to fix the list li errors. To do this I added a ul as a start and end of the nav links, but this added a bullet point to the nav as shown in the image below. I decided that the list li errors would have to be left as they were so not to cause any errors or problems.
+![Nav bar](assets/testing/validators/html-validator/nav-bar-ul-added.jpg)
 
 
 
