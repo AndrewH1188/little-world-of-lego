@@ -115,6 +115,10 @@ Back to [README.md](README.md) file
 ### Wish List
 * Tested that when the link is clicked the page is navigated to.
 
+*The button appears to work and show in the url that an item has been added to the wish list as this navigates to the wishlist too, although there is nothing displayed in the wish list.
+
+Unfortunately as nothing shows up in the wish list nothing can be added to the basket or even deleted.
+
 
 ### Basket
 * Tested that when the link is clicked the page is navigated to.

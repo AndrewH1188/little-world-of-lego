@@ -8,6 +8,18 @@ This is an eCommerce store that I have designed based on products that show Lego
 ### Disclaimer
 My eCommerce site has been built for educational purposes and as great as the products and prices are, unfortunately no orders, deliveries etc can or will be able to be fulfilled. I understand that reading through my README files I have written about providing great service, products etc, but this has been written as if this were a real functioning fully operational business that is able to supply the products that are listed for sale.
 
+If you would like to test the payment side then you are able to do this, but please do not put in your actual credit/card number, instead please use the details provided below:
+#### Card Number
+* 4242 4242 4242 4242
+#### MM/YY
+* 0424
+#### CVV
+* 242
+#### Zip
+* 42424
+
+Alternatively for other test cards please refer to the Stripe Documentation [here](https://stripe.com/docs/testing)
+
 
 ## Showcase:
 ![responsive-screenshot](assets/testing/little-world-of-lego-responsiveness.jpg)
@@ -95,7 +107,6 @@ I hope that with the user in mind that they find the shopping experience a pleas
 * Update my details such as name, address, email and phone number in my profile.
 * Add and remove items to and from my wish list.
 * Add items to my basket from my wish list.
-* Leave a review for items purchased.
 
 
 #### Admin Only
@@ -108,7 +119,6 @@ I hope that with the user in mind that they find the shopping experience a pleas
 * Provide my users with a variety of Lego related items that they will want to purchase and be pleased with.
 * Provide great quality throughout, not only with products and descriptions but with user experience and site navigation/layout and ease of use.
 * Provide my users with a way to add items to a wish list so that these can be added to their basket and purchased later. This will help the user in being able to easily find the items they like, as well as save them time. This adds to a good user experience and shows the user one of the ways that we are focused on their needs.
-* Allow users to share reviews of the products purchased. This allows other users to be able to make a clear and informed choice based on other customer’s feedback.
 
 
 ## Construction Planes:
@@ -133,10 +143,10 @@ The features and main parts that are on the table for production are:
 
 The bits that I will be adding that are on the table for production are:
 * Wish list
-* Reviews
-These extra features will help users save time (using their wish list to later add items to their basket and then check out) as well as be able to engage with the site by leaving a review about the product(s) they have purchased.
+These extra features will help users save time (using their wish list to later add items to their basket and then check out).
 
 The bits that are the nice to haves, but that are not going to be produced for now are:
+* Reviews
 * Social Media Login
 * Blog
 * Subscribe to our emails
@@ -792,12 +802,12 @@ To build this fully functional cross platform responsive eCommerce store I have 
 [GitPod](https://www.gitpod.io/): The environment that was used to write my code, as well as create and style code in both HTML and CSS. I was able to add images to the folders that I created, as well as files to contain the code. In GitPod I was also able to (using python3 manage.py runserver) view my web page in the browser in a separate tab, allowing me to use the inspect section in Google Dev Tools to inspect elements and see what worked, as well as what didn’t work and amend this accordingly.
 [Git](https://git-scm.com/): Used for version control having set up the GitPod Terminal to commit and push saved changes and commits to GitHub.
 [GitHub](https://github.com/): Used to store the saved changes from my project after being pushed from Git.
-[Heroku](https://www.heroku.com/):  Used to deploy my eCommerce site and make this live for all to explore and use.
+[Heroku](https://www.heroku.com/): Used to deploy my eCommerce site and make this live for all to explore and use.
 [Balsamiq](https://balsamiq.com/): Used to create the initial [wireframes](assets/designs/wireframes)
 
 
 ## Programmes:
-* [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) was used again to enable me to create my mock up and  final design for the intended look of my site. Here I was able to select colours, import the intended font, place images and design the layouts for desktop and mobile views. I was able to export these designs out as both jpg and Adobe Acrobat files. One of the files that I downloaded from [Adobe Stock](https://stock.adobe.com/uk) was the wall calendar. I was able to add an image and give some basic styling to this, export out as jpg ready for sizing in Adobe Photoshop.
+* [Adobe InDesign](https://www.adobe.com/uk/products/indesign.html) was used again to enable me to create my mock up and final design for the intended look of my site. Here I was able to select colours, import the intended font, place images and design the layouts for desktop and mobile views. I was able to export these designs out as both jpg and Adobe Acrobat files. One of the files that I downloaded from [Adobe Stock](https://stock.adobe.com/uk) was the wall calendar. I was able to add an image and give some basic styling to this, export out as jpg ready for sizing in Adobe Photoshop.
 * [Adobe Acrobat](https://www.adobe.com/uk/acrobat.html) was used as the way of showcasing my Adobe InDesign files as a final and to send these across to my Mentor Caleb.
 * [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) was used to put together the favicon, logo and edit some of the downloads ready for products to be added in Adobe Photoshop.
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to manipulate images onto the products as well as scale images down and reduce the file sizes.
@@ -852,7 +862,7 @@ When I copied the Font Awesome I class tags from Font Awesome the icons didn’t
 * "fa fa-shopping-basket" - Changed icon name that worked.
 
 ### Magnifying Glass icon
-* "fa-solid fa-magnifying-glass" - Original from Font Awesome                             
+* "fa-solid fa-magnifying-glass" - Original from Font Awesome
 * "fas fa-search" - Changed icon name that worked
 
 ### Footer error
@@ -875,7 +885,7 @@ When an order was submitted the order didn’t show in the Django order section 
 After going through the whole of the Stripe and Webhooks process the Checkout Success page was still not showing and was erroring. Oisin helped me to get this working and the issue was that the client_secret was passing the client secret in one part, but wasn’t in another, when I added stripe_ to client_secret this allowed the checkout success page to show and I could see that my test purchase had worked.
 
 ### Allauth bugs
-I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too. 
+I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy this up, remove all unnecessary files and get the styling to work as I expected it too. 
 
 ### Profile page footer  
 Having set up my profile page I took a look to see what parts needed styling. Upon looking at this it was clear to see that the footer for some reason was behaving in a way unlike my other pages. On my other pages my footer was full width along the bottom of the page, however this was being pushed over showing extra white space to the left and adding extra space to the right of the other items on the page. I did a test where I took the last closing div tag off and this resulted in the footer having equal white space each side. This told me that it wasn’t that I had too many closing div tags, rather that I was one short. So I added in the one I removed as well as an extra one and this fixed the problem. My footer was now like the other pages and was full width across the page as it should have been.
@@ -904,7 +914,7 @@ When I created my Procfile I got the name of my project from my settings.py with
 When I placed an order I was seeing a payment_intent.succeeded 500 ERR in stripe and was not receiving the confirmation email as expected. Looking on google for this I came across the same issue that Daph had submitted [here](https://github.com/Daph1986/postfly_jouw_online_drukkerij/issues/10). This got me thinking was my folder in the wrong location the same as Daph’s. I checked against the Boutique Ado and mine and this was the case. On relocating the folder, adding, committing, pushing and testing everything worked just fine as It should do and the expected email came through to confirm my order had been placed. I would like to thank Daph for sharing the problem and solution to this as it helped me to fix this.
 
 ### Known Bugs
-At present there are no known bugs.
+The only known bug is the Wish List. The problems I faced was trying to implement this as a functional feature. I have been able to get the Wish List to be viewed by clicking the Wish List Heart icon in the main nav bar. I can also click Add to Wish List button on the product detail page, but this doesn't show a product in my Wish List. The URL shows /wishlist/add/PRODUCT NUMBER/ and this would suggest that the required product has been added into the Wish List, although there is no actual product image, title or price that I would like to see displayed in the Wish List itself. I have tried to get this working but have not had the time to implement all features to work, like the remove button as I was trying to find out how to show the added product to my Wish List.
 
 
 ## Deployment:
@@ -928,7 +938,7 @@ Steps taken to deploy my project can be found [here](DEPLOYMENT.md)
     * Spinner icon
     * Up/top icon
     * Heart icon
-* [101 Computing.net](https://www.101computing.net/html-how-to-add-a-favicon/) I reused this code from my first Milestone Project - Go Tennis System, my second Milestone Project - War Heroes Remembered  and my third Milestone Project - Talking Tinnitus where I added this code from 101 Computing.net to enable a favicon to display across my site on all pages.
+* [101 Computing.net](https://www.101computing.net/html-how-to-add-a-favicon/) I reused this code from my first Milestone Project - Go Tennis System, my second Milestone Project - War Heroes Remembered and my third Milestone Project - Talking Tinnitus where I added this code from 101 Computing.net to enable a favicon to display across my site on all pages.
 * [Adobe Stock](https://stock.adobe.com/uk/) for once again having superb images that I have been able to pay for and download to make my eCommerce store look amazing. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
 * [Pixabay](https://pixabay.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned and owners credited in both the Imagery and Media sections.
 * [PXHere](https://pxhere.com/) for providing me with the great Lego Minifigure images that I was then able to Photoshop onto the blank products to make these look real. All images and their links have been mentioned credited in both the Imagery and Media sections.
@@ -1346,7 +1356,7 @@ I would also like to thank James at Code Institute for his help when I ran into 
 
 I would like to thank Oisin at Code Institute for his help when my Checkout Success page was not showing and erroring. Oisin helped me to get this working and the issue was that the client_secret was passing the client secret in one part, but wasn’t in another, when I added stripe_ to client_secret this allowed the checkout success page to show and I could see that my test purchase had worked. Thank you Oisin for your expertise and helping so that this worked as expected, I really appreciate it.
 
-I would like to thank Franciska at Code Institute for her help when I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy  this up, remove all unnecessary files and get the styling to work as I expected it too.
+I would like to thank Franciska at Code Institute for her help when I was having issues with styling the files in the allauth folder. Somehow I managed to have two allauth folders and a load of unnecessary files in these too. Because of the allauth main files and folders being inside another allauth folder this was causing the styling to not take effect. With Help from Fanciska I was able to locate the error and tidy this up, remove all unnecessary files and get the styling to work as I expected it too.
 
 Thank you to Christine at Tutor Support for your help when I had an issue with the product image displaying in a separate tab, instead of showing the product details page. With help from Christine I was able to correct my error and see the product details page again as expected. Many thanks for your help regarding this it is much appreciated.
 
